@@ -1,0 +1,42 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "卡片浏览器外观"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (CardTemplateEditor)
++++ Current (CardTemplateBrowserAppearanceEditor)
+-a button that has text "卡片浏览器外观"
+-a button that has text "插入字段"
+-a button that has text "以 Markdown 格式复制"
++a button that has content_desc "转到上一层级"
++a textview that has text "浏览器外观"
++a button that has content_desc "恢复初始设置"
++a button that has content_desc "保存"
++a textview that has text "请输入卡牌浏览器用于显示您卡牌的模板。用此来显示更简洁的答案。
++
++一个前置模板
++“{{Country}} 的首都是：”
++可以被卡牌浏览器压缩为
++“首都：{{Country}}”"
++a textfield that has text "问题格式"
++a textfield that has text "答案格式"
++a textview that has text "保存卡牌模板时应用这些更改"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: The button "卡片浏览器外观" has led to the transition from the CardTemplateEditor to the CardTemplateBrowserAppearanceEditor screen, where new options for editing the card template appearance are available, such as "转到上一层级" and "保存".

@@ -1,0 +1,41 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "登录"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (DeckPicker)
++++ Current (MyAccount)
+-a textview that has text "登录到AnkiWeb"
+-a textview that has text "您必须登录到第三方账户以使用云同步服务。您可以在下一步创建一个账户。"
+-a button that has text "取消"
+-a button that has text "登录"
++a button that has content_desc "转到上一层级"
++a textview that has text "AnkiWeb 帐户"
++a textfield that has text "电子邮件地址"
++a password textfield that has text "密码"
++a button that has content_desc "显示密码"
++a button that has text "重置密码"
++a textview that has text "还没有AnkiWeb账户吗？它是免费的！"
++a textview that has text "注 ︰ AnkiWeb不属于AnkiDroid"
++a button that has text "注册"
++a button that has text "隐私"
++a button that has text "忘了电子邮件地址吗？"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the "登录" button, the user has navigated from the "DeckPicker" screen to the "MyAccount" screen where they can log in to their AnkiWeb account or create a new account. The screen now displays options for email and password entry, password reset, registration, and other account-related actions.

@@ -1,0 +1,47 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "Toggle navigation"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+ a button that has content_desc "牌组搜索"
+ a textview that has text "AnkiWeb"
+ a widget that has text "logo"
+-a button that has text "Toggle navigation"
++a focused button that has text "Toggle navigation"
++a textview that has text "Log In"
++a button that has content_desc "Log In"
++a textview that has text "Sign Up"
++a button that has content_desc "Sign Up"
+ a widget that has text "thumbs up"
+ a textview that has text "2"
+ a widget that has text "thumbs down"
+ a textview that has text "{{c1::Colonic Diverticular Disease (Diverticulosis)}} is a GI disorder that involves the outpouching[...]"
+ a widget that has text "0"
+ a button that has content_desc "0"
+-a widget that has text "1"
+-a button that has content_desc "1"
+ a widget that has text "{{c1::Colonic Diverticular Disease (Diverticulosis)}} is a GI disorder that involves the outpouching[...]"
+ a textview that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
+-a focused scrollable area that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
++a scrollable area that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the "Toggle navigation" button, the screen now displays additional options for logging in and signing up, along with a focused button for toggling navigation. The layout has been updated to provide more interactive elements for the user.

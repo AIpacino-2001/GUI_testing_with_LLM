@@ -1,0 +1,279 @@
+
+*** System:
+You are a helpful task planner for using an Android mobile application named AnkiDroid. You are planning for a person named "fufu" with the following profile:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu's ultimate goal is to visit as many pages as possible while trying their core functionalities. 
+
+- AnkiDroid app has following pages: [ManageSpace, Drawing, IntentHandler, DeckPicker, StudyOptions, CardBrowser, ManageNotetypes, Permissions, ModelFieldEditor, Reviewer, MyAccount, Multimedia, Preferences, FilteredDeckOptions, Info, IntentHandler2, SingleFragment, CardViewer, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, SharedDecks, Login, Introduction, DeckPickerWidgetConfig, CardAnalysisWidgetConfig, InstantNoteEditor] (Note that the pages are listed in random order)
+- Currently, fufu has visited the following pages with the following number of times: {Introduction: 1, Permissions: 2, DeckPicker: 2, SharedDecks: 33}
+- Currently, fufu is on the SharedDecks page.
+- Pages never visited yet: [Reviewer, ManageNotetypes, Multimedia, Login, InstantNoteEditor, IntentHandler, CardAnalysisWidgetConfig, Preferences, ModelFieldEditor, DeckPickerWidgetConfig, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, FilteredDeckOptions, CardViewer, CardBrowser, IntentHandler2, MyAccount, SingleFragment, ManageSpace, StudyOptions, Info, Drawing] 
+
+fufu is not familiar with the app and does not fully know how to navigate to each page and what fufu can do on each page.
+To effectively explore the app for their goal, fufu needs a new task that aligns with the following desirable properties:
+- (Realism) The task should corresponds to a realistic usage scenario of AnkiDroid app, and reflect user's intent for actually making use of the app's functionality. Do NOT plan vague tasks like "Navigate to X" or "Explore X". Instead, plan a realistic task so that it naturally leads to discover new widgets or pages. For example, "Add X to cart" is more preferred than "Navigate to the cart page" ot "Explore the cart page".
+- (Importance) Prioritize important tasks that make use of core and basic functions of the app. Do not stay on the same page for too long while having unvisited pages. After visiting all the pages, plan more advanced tasks based on fufu's own preferences.
+- (Diversity) You need to plan diverse tasks that are different from the tasks that fufu has performed before. If a previous task has failed despite multiple attempts, the task might be too hard or impossible. Postpone the task and plan a different task. Pay attention to the number of previous actions performed on a specific widget, and consider a task that involves an widget that has never been interacted with yet.
+- (Difficulty) The task should not be too hard since fufu may not have learned enough knowledge about the app to complete it yet. Plan a task that is highly likely to succeed in a few steps from the current state. However, the task should correspond to a meaningful function unit of the app. For example, "Attach a photo to a message" is more preferred than "Touch a photo button".
+
+*** User:
+Plan fufu's next task based on the following information.
+
+fufu's prior knowledge and history of previous tasks so far (listed in chronological order):
+===
+2024-12-10 18:08:55: [INITIAL_KNOWLEDGE] fufu owns an existing account on AnkiWeb
+2024-12-10 18:08:55: [INITIAL_KNOWLEDGE] fufu started the AnkiDroid app
+2024-12-10 18:12:14: [TASK_RESULT] fufu explored the AnkiDroid app by visiting the Introduction, Permissions, DeckPicker, and SharedDecks pages, gaining insights into features like deck management and shared deck options.
+2024-12-10 18:15:59: [TASK_RESULT] fufu explored the SharedDecks page extensively, focusing on specific decks like "USUHS SOM Anatomy" and "USUHS SOM Pre-Clerkship," interacting with various buttons and content related to shared decks.
+2024-12-10 18:19:30: [TASK_RESULT] fufu explored the SharedDecks page extensively, interacting with various buttons and content related to AnkiWeb and download options.
+===
+
+fufu's learnt knowledge from previous tasks (which may be relevant to the current context):
+===
+- Exploring the SharedDecks page provided fufu with information on accessing shared decks and available study materials.
+- Interacting with buttons and text views enhanced fufu's familiarity with the app's interface and functionalities.
+- fufu effectively navigated through different shared decks and interacted with various buttons and content to explore detailed information.
+- Exploring the ModelFieldEditor page can provide insights into customizing card fields for a more personalized AnkiDroid experience.
+- Engaging with specific buttons and content can reveal more about the app's capabilities and offerings.
+===
+
+Current page (organized in a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: 收起,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 14,
+      widget_type: AutoCompleteTextView,
+      text: 使用牌组名称搜索,
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 2
+    },
+    {
+      ID: 16,
+      widget_type: Button,
+      content_description: 主页,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 6,
+      widget_role_inference: The widget transitions the screen to a page displaying language options, search fields, and navigation buttons related to shared decks on AnkiWeb.
+    },
+    {
+      ID: 18,
+      widget_type: WebView,
+      text: Anki - powerful, intelligent flashcards,
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          widget_type: TextView,
+          text: Ive been using Anki for two years now, and I just wanted to thank you personally for contributing [...]
+        },
+        {
+          widget_type: TextView,
+          text: — Keldin, via email
+        },
+        {
+          widget_type: TextView,
+          text: Download Anki,
+          children: [
+            {
+              widget_type: TextView,
+              text: Download Anki
+            }
+          ]
+        },
+        {
+          ID: 85,
+          widget_type: View,
+          content_description: Windows,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Windows
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 88,
+          widget_type: View,
+          content_description: Mac,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 90,
+          widget_type: View,
+          content_description: Linux,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Linux
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 93,
+          widget_type: View,
+          content_description: iPhone/Android,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            iPhone/Android
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 96,
+          widget_type: View,
+          content_description: Development,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Development
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: Downloads
+        },
+        {
+          ID: 102,
+          widget_type: View,
+          content_description: Download Anki for glibc 2.28+ (24.11),
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Download Anki for glibc 2.28+ (24.11)
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 105,
+          widget_type: View,
+          content_description: Installation & troubleshooting guide,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Installation & troubleshooting guide
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 108,
+          widget_type: View,
+          content_description: Change notes & older releases,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Change notes & older releases
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          ID: 113,
+          widget_type: View,
+          content_description: Alternate download site,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Alternate download site
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          ID: 117,
+          widget_type: View,
+          content_description: Alternate changes site,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Alternate changes site
+          ],
+          num_prev_actions: 0
+        }
+      ]
+    }
+  ]
+}
+```
+Note that `num_prev_actions` means the number of times the widget has been interacted with during the previous tasks. If `num_prev_actions` property is not included in the widget dictionary, fufu has never performed any action on the widget yet.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+
+I am going to provide a template for your output to reason about your next task step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: <1~2 sentences in one line. Use the aforementioned four properties: realism, importance, diversity and difficulty to reason about the next task>
+fufu's next task: <1 sentence, start with a verb>
+End condition of fufu's next task: <1 sentence, start with "The task is known to be completed when">
+Reasoning of the first action of the fufu's next task: <reasoning and description of the first action initiating the task>
+Rough plan for the task in fufu's perspective: <1 sentence, start with "I plan to"; pretend that you are fufu>
+
+*** Assistant:
+Reasoning about fufu's new task: The task should be realistic and important, introducing fufu to a new page while ensuring diversity and manageable difficulty for exploration.
+
+fufu's next task: Explore the ModelFieldEditor page to customize card fields.
+
+End condition of fufu's next task: The task is known to be completed when fufu successfully accesses the ModelFieldEditor page and interacts with the customizable card fields.
+
+Reasoning of the first action of fufu's next task: Initiating the task by touching on the "ModelFieldEditor" button from the SharedDecks page will smoothly transition fufu to a new customization feature, aligning with their goal of exploring different functionalities.
+
+Rough plan for the task in fufu's perspective: I plan to touch on the "ModelFieldEditor" button on the SharedDecks page to access and customize card fields for a more personalized AnkiDroid experience.
+
+*** User:
+Good. Now, based on your previous answer, execute the first action (by calling a function) to start the task. Pay attention to the possible action types specified in the target widget.
+
+*** Assistant:
+{'id': 'call_Tjk0qsV9xNPyEBQBbenNbXDD', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":16}'}}

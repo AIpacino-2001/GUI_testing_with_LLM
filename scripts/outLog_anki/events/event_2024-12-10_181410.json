@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_181410",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 78,
+      "view_str": "9f5e5378fed9fb390d3e13a9cea87cbc",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "Download",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          21,
+          2315
+        ],
+        [
+          267,
+          2339
+        ]
+      ]
+    }
+  },
+  "start_state": "86d3e4805d316a816410f3b46d8fe1fa",
+  "stop_state": "86d3e4805d316a816410f3b46d8fe1fa",
+  "event_str": "TouchEvent(state=86d3e4805d316a816410f3b46d8fe1fa, view=9f5e5378fed9fb390d3e13a9cea87cbc(SharedDecksActivity/Button-Download))",
+  "task": "Explore the AnkiDroid app's ModelFieldEditor page.",
+  "view_image_dir": "./outLog\\views/view_9f5e5378fed9fb390d3e13a9cea87cbc.png"
+}

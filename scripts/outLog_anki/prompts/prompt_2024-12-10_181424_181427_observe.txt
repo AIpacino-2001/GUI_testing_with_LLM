@@ -1,0 +1,88 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "2,  other item(s)"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+ a textview that has text "AnkiWeb"
+ a widget that has text "logo"
+ a button that has text "Toggle navigation"
+-a widget that has text "thumbs up"
+-a textview that has text "61"
+-a widget that has text "thumbs down"
+-a textview that has text "3"
+-a textview that has text "Rate This"
+-a button that has content_desc "Rate This"
++a textview that has text "Items shared by author"
++a widget that has text "• "
+ a textview that has text "USUHS (including anatomy)"
+-a textview that has text "167.56MB. 0 audio & 3541 images. Updated 2017-08-16."
+-a textview that has text "The author has shared "
+-a textview that has text "2"
+-a textview that has text " other item(s)"
+-a button that has content_desc "2 other item(s)"
+-a textview that has text "."
+-a textview that has text "Description"
+-a textview that has text "This deck contains flash cards from First Aid (BROS Deck), Pathoma (BROS Deck), USUHS lectures, and [...]"
+-a textview that has text "Sample (from 16031 notes)"
+-a widget that has text "Text"
+-a widget that has text "Which cancer is associated with Arsenic?{{c1::Squamous cell carcinoma of the skin; Lung cancer; Angi[...]"
+-a widget that has text "Extra"
+-a widget that has text "Arsenic is present in cigarette smoke."
+-a widget that has text "Tags"
+-a widget that has text "carcinogenesis carcinogens neoplasia pathology"
+-a widget that has text "Text"
+-a widget that has text "What are the 2 most common sites of spread for prostate cancer?{{c1::Lumbar spine & pelvis}}"
+-a widget that has text "Extra"
+-a widget that has text "Tags"
+-a widget that has text "pathology prostate reproductive"
+-a widget that has text "Text"
+-a widget that has text "{{c1::Marcus-Gunn Pupil}} is a pathological pupil that occurs due to optic nerve damage or a severe [...]"
+-a widget that has text "Extra"
+-a textview that has text "Tested with the "swinging flashlight test"Decreased bilateral pupillary constriction when light is s[...]"
+-a widget that has text "0"
+-a button that has content_desc "0"
+-a widget that has text "Tested with the "swinging flashlight test"Decreased bilateral pupillary constriction when light is s[...]"
+-a widget that has text "Tags"
+-a widget that has text "Physiology anatomy neurology"
+-a button that has text "Download"
++a button that has content_desc "USUHS (including anatomy)"
++a widget that has text "• "
++a textview that has text "USUHS SOM Anatomy"
++a button that has content_desc "USUHS SOM Anatomy"
++a widget that has text "• "
++a textview that has text "USUHS SOM Pre-Clerkship"
++a button that has content_desc "USUHS SOM Pre-Clerkship"
++a textview that has text "Apps"
++a button that has content_desc "Apps"
++a textview that has text "About"
++a button that has content_desc "About"
++a textview that has text "Support"
++a button that has content_desc "Support"
++a textview that has text "Terms"
++a button that has content_desc "Terms"
++a textview that has text "Privacy"
++a button that has content_desc "Privacy"
+ a textview that has text "USUHS (including anatomy) - AnkiWeb"
+-a focused scrollable area that has text "USUHS (including anatomy) - AnkiWeb"
++a focused widget that has text "USUHS (including anatomy) - AnkiWeb"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the button with the text "2, other item(s)", the screen now displays additional shared decks related to USUHS, including Anatomy and Pre-Clerkship, along with options for Apps, About, Support, Terms, and Privacy.

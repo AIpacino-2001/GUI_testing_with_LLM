@@ -1,0 +1,38 @@
+{
+  "tag": "2024-12-12_164830",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 16,
+      "view_str": "60db3ee09ad88113332a4d0aa6c01924",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "\u7535\u5b50\u90ae\u4ef6\u5730\u5740",
+      "resource_id": "username",
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          60,
+          930
+        ],
+        [
+          1020,
+          1083
+        ]
+      ]
+    },
+    "text": "2797195863@qq.com"
+  },
+  "start_state": "0b05c3298301d0a5978df87d6ab06291",
+  "stop_state": "2e8e5b558c5482362fe912ae2b6e2da1",
+  "event_str": "SetTextEvent(state=0b05c3298301d0a5978df87d6ab06291, view=60db3ee09ad88113332a4d0aa6c01924(MyAccount/EditText-\u7535\u5b50\u90ae\u4ef6\u5730\u5740), text=2797195863@qq.com)",
+  "task": "Open the AnkiDroid app's ManageSpace page.",
+  "view_image_dir": "./outLog\\views/view_60db3ee09ad88113332a4d0aa6c01924.png"
+}

@@ -1,0 +1,36 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has resource_id "switch_widget"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (Permissions)
++++ Current (Spa)
+-a textview that has text "AnkiDroid 需要一些权限才能工作"
++a textview that has text "AnkiDroid"
++a textview that has text "2.20.0"
++a button that has text "授予管理所有文件的权限"
++a textview that has text "允许此应用读取、修改和删除此设备或任何已连接存储卷上的所有文件。如果您授予该权限，应用无需明确通知您即可访问文件。"
++a button
+ a textview that has text "所有文件访问权限"
+-a textview that has text "将牌组集合保存在一个即使卸载了应用也不会被删除的安全所在"
+-a button that has resource_id "switch_widget"
+-a button that has resource_id "all_files_permission"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: The button with resource_id "switch_widget" has disappeared from the screen, and new textviews and buttons related to the Spa feature have been added.

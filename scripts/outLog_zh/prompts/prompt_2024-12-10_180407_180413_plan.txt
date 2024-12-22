@@ -1,0 +1,165 @@
+
+*** System:
+You are a helpful task planner for using an Android mobile application named 知乎. You are planning for a person named "fufu" with the following profile:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu's ultimate goal is to visit as many pages as possible while trying their core functionalities. 
+
+- 知乎 app has following pages: [RouterPortal, PushJumpBoard, Launcher, Main, Portal, DbEditorHost, DbMatisse, RxHost, DbWebDetailProfile, Search, SearchLiteResult, KMHomeMain, KMBookListDetailMain, ContinuousConsumption, Content, TransHost, ContentMixProfile, CreatorCenterHost, PanelAttach, PanelAnimation, PublishFeedBack, PublishFeedLoading, VideoEntityHost, VideoEntitySerialHost, VideoEntityAdjustPan, VideoEntityTransHost, ZVideoCollectionTransparent, OgvHost, VideoBlackProfile, VideoBlackPluginProfile, DbEditorHost, RxHost, DbMatisse, ExplorePanelAnimation, EduLiveRoom, EduLiveTransHost, VideoCourse, EduDetail, EduDetailNew, EduVideoDetail, EduLiveNew, ShortContainerHost, RectNativeBottomSheet, MixShortContainer, VipOpenHost, VipPurchaseHost, KMDetailTrans, KMDetail, LiveRoom, EBookHost, EBookFullScreen, NewEBookHost, KVipSkuDetailTrans, KVipSkuDetail, Kvip, KMPlayer, SkuAudioPlayer, KVipVideoDetail, KvipSimpleVideo, KmVideoDetail, KMSimple, MarketRatingShare, KmHost, KmAdjustNothingHost, KMTrans, KmSingleFragment, CommentList, CommentEditor, Topic, ProfileOauth, VideoXHost, VideoXBridge, VideoXMiniFollow, InfinityHost, AdAlphaVideo, StyleDebugList, AdTransparentHost, LaunchAd, DeepLinkTrick, QDFace, QDAliPay, QDHint, MorphDebug, ChaosDebug, MorphStyleDebugEntrance, MCNHost, Consult, PodcastAudioPlayer, Trampoline, WalletTrans, Wallet, DraftHost, FeedbackHost, Growth, PrivacyProtocol, PrivacyExplain, GrowthInterestAnimation, Teenager, WebOnlyShare, EditorHost, RxHost, RxMatisse, RxCamera, RxImageEdit, Shadow, VClipeMain, ZVideoPublishHost, PublishAdjustPan, MediaToolHost, MediaStudio, NewCaptureHost, VEssayHost, VEssayOutlineHost, VEssayInputHost, Media, FullScreenHost, MediaHost, MediaForcePortraitHost, PlayerCoverStyle, Greenify, BackgroundFree, PushJumpBoard, PushTest, WXEntry, WXEntry, Matisse, AccountAction, Auth, AutoAuth, AutoAuthHost, ShareHost, VideoCoverEdit, TextEdit, ActionPortal, ShareToFeed, ShareToMessage, WebToPosterLoading, ShareHost, CollectionHost, CollectionTransparent, CollectionRedirect, StageOneSafeBoot, StageTwoSafeBoot, ReStartApp, Scanner, ShareCore, WebRender, CommentShare, DialogShare, ImageDecor, CardShare, ShareSheet, WebRenderShare, PermissionRequest, DetectNetwork, Trans, DealLogin, ConfirmDialog, SocialOauth, LeLinkLauncher, GaiaXFastPreview, DebugShadow, TelecomLogin, MobileLogin, UnicomLogin, RedPacket, WXPayEntry, WXPayEntry, WXPayEntry, MockThird, ReportShow, ReactHost, PRNDebug, PushEmpty, MiPush, OppoPush, GetuiProcessCare, Agent, Host, ImagesViewer, ImageClip, ImageEditor, ImageEditorNew, ImageClipper, AlbumPreview, MatisseNew, AlbumPreview, Matisse, AdxTest] (Note that the pages are listed in random order)
+- Currently, fufu has visited the following pages with the following number of times: {Main: 1}
+- Currently, fufu is on the Main page.
+- Pages never visited yet: [VClipeMain, WebRender, ShareSheet, MorphStyleDebugEntrance, MatisseNew, DbEditorHost, KvipSimpleVideo, PlayerCoverStyle, SocialOauth, Teenager, ZVideoCollectionTransparent, AdTransparentHost, OgvHost, WXPayEntry, ImageClip, ChaosDebug, RxHost, KVipVideoDetail, QDAliPay, MCNHost, EduLiveTransHost, VEssayHost, PushTest, ContentMixProfile, RouterPortal, VEssayOutlineHost, LiveRoom, Media, ImageClipper, RectNativeBottomSheet, Growth, AutoAuthHost, DeepLinkTrick, ShareHost, ContinuousConsumption, ActionPortal, EduLiveNew, KMHomeMain, MediaForcePortraitHost, VideoEntityTransHost, VipOpenHost, VideoEntitySerialHost, FullScreenHost, RxMatisse, KMSimple, InfinityHost, PRNDebug, GaiaXFastPreview, KVipSkuDetail, ReportShow, PublishAdjustPan, VideoXMiniFollow, Portal, Launcher, BackgroundFree, MediaStudio, StyleDebugList, FeedbackHost, ShareToFeed, ReactHost, QDHint, DetectNetwork, PanelAnimation, Wallet, WebToPosterLoading, WXEntry, CommentShare, VEssayInputHost, VideoBlackPluginProfile, Shadow, MockThird, VideoXBridge, VipPurchaseHost, RxCamera, WebRenderShare, ImageEditorNew, ExplorePanelAnimation, LeLinkLauncher, EduLiveRoom, RxImageEdit, UnicomLogin, Trampoline, TextEdit, EBookHost, Matisse, PublishFeedBack, DealLogin, MobileLogin, ZVideoPublishHost, DialogShare, ReStartApp, DbMatisse, PodcastAudioPlayer, LaunchAd, QDFace, PrivacyProtocol, AdxTest, StageOneSafeBoot, Trans, KmAdjustNothingHost, Host, DraftHost, KMPlayer, WalletTrans, VideoCoverEdit, Agent, PrivacyExplain, ShareToMessage, MiPush, EBookFullScreen, Search, VideoXHost, AccountAction, ImageDecor, TelecomLogin, MediaToolHost, SkuAudioPlayer, PanelAttach, Kvip, EditorHost, CreatorCenterHost, ProfileOauth, Auth, KmSingleFragment, Topic, PushJumpBoard, RedPacket, VideoEntityHost, VideoCourse, DbWebDetailProfile, SearchLiteResult, WebOnlyShare, KMDetail, EduVideoDetail, AutoAuth, StageTwoSafeBoot, AlbumPreview, CollectionHost, MixShortContainer, TransHost, ConfirmDialog, ShareCore, KMDetailTrans, Scanner, VideoBlackProfile, Greenify, GetuiProcessCare, KMBookListDetailMain, KmHost, KVipSkuDetailTrans, DebugShadow, PushEmpty, MorphDebug, GrowthInterestAnimation, CollectionRedirect, KMTrans, ImageEditor, MediaHost, KmVideoDetail, PublishFeedLoading, ImagesViewer, CommentEditor, NewCaptureHost, CollectionTransparent, VideoEntityAdjustPan, ShortContainerHost, AdAlphaVideo, CardShare, EduDetailNew, Content, Consult, PermissionRequest, MarketRatingShare, EduDetail, NewEBookHost, CommentList, OppoPush] 
+
+fufu is not familiar with the app and does not fully know how to navigate to each page and what fufu can do on each page.
+To effectively explore the app for their goal, fufu needs a new task that aligns with the following desirable properties:
+- (Realism) The task should corresponds to a realistic usage scenario of 知乎 app, and reflect user's intent for actually making use of the app's functionality. Do NOT plan vague tasks like "Navigate to X" or "Explore X". Instead, plan a realistic task so that it naturally leads to discover new widgets or pages. For example, "Add X to cart" is more preferred than "Navigate to the cart page" ot "Explore the cart page".
+- (Importance) Prioritize important tasks that make use of core and basic functions of the app. Do not stay on the same page for too long while having unvisited pages. After visiting all the pages, plan more advanced tasks based on fufu's own preferences.
+- (Diversity) You need to plan diverse tasks that are different from the tasks that fufu has performed before. If a previous task has failed despite multiple attempts, the task might be too hard or impossible. Postpone the task and plan a different task. Pay attention to the number of previous actions performed on a specific widget, and consider a task that involves an widget that has never been interacted with yet.
+- (Difficulty) The task should not be too hard since fufu may not have learned enough knowledge about the app to complete it yet. Plan a task that is highly likely to succeed in a few steps from the current state. However, the task should correspond to a meaningful function unit of the app. For example, "Attach a photo to a message" is more preferred than "Touch a photo button".
+
+*** User:
+Plan fufu's next task based on the following information.
+
+fufu's prior knowledge and history of previous tasks so far (listed in chronological order):
+===
+2024-12-10 18:04:04: [INITIAL_KNOWLEDGE] fufu started the 知乎 app
+===
+
+fufu's learnt knowledge from previous tasks (which may be relevant to the current context):
+===
+
+===
+
+Current page (organized in a hierarchical structure):
+```json
+{
+  page_name: Main,
+  children: [
+    {
+      ID: 18,
+      widget_type: ViewGroup,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 22,
+      widget_type: LinearLayout,
+      text: 关注,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: 推荐,
+      state: [
+        selected
+      ]
+    },
+    {
+      ID: 29,
+      widget_type: LinearLayout,
+      text: 热榜,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 32,
+      widget_type: LinearLayout,
+      text: 故事,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 36,
+      widget_type: ViewGroup,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 39,
+      widget_type: ViewPager,
+      resource_id: view_pager,
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          ID: 40,
+          widget_type: RecyclerView,
+          possible_action_types: [
+            scroll
+          ],
+          num_prev_actions: 0,
+          children: [
+            {
+              ID: 47,
+              widget_type: HorizontalScrollView,
+              resource_id: feed_tab,
+              possible_action_types: [
+                scroll
+              ],
+              num_prev_actions: 0
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+Note that `num_prev_actions` means the number of times the widget has been interacted with during the previous tasks. If `num_prev_actions` property is not included in the widget dictionary, fufu has never performed any action on the widget yet.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+
+I am going to provide a template for your output to reason about your next task step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: <1~2 sentences in one line. Use the aforementioned four properties: realism, importance, diversity and difficulty to reason about the next task>
+fufu's next task: <1 sentence, start with a verb>
+End condition of fufu's next task: <1 sentence, start with "The task is known to be completed when">
+Reasoning of the first action of the fufu's next task: <reasoning and description of the first action initiating the task>
+Rough plan for the task in fufu's perspective: <1 sentence, start with "I plan to"; pretend that you are fufu>
+
+*** Assistant:
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: The next task should focus on exploring the "热榜" (Hot List) section to discover popular and trending content, which aligns with fufu's goal of visiting various pages and core functionalities, ensuring realism, importance, diversity, and moderate difficulty.
+fufu's next task: Explore the "热榜" section to view popular content.
+End condition of fufu's next task: The task is known to be completed when fufu has scrolled through the list of hot topics and engaged with at least one of the trending topics.
+Reasoning of the first action of the fufu's next task: Initiating the task by scrolling down the "热榜" section allows fufu to explore the various trending topics available, providing a broad view of popular content.
+Rough plan for the task in fufu's perspective: I plan to start by scrolling through the "热榜" section to discover what topics are currently trending on the platform.
+
+*** User:
+Good. Now, based on your previous answer, execute the first action (by calling a function) to start the task. Pay attention to the possible action types specified in the target widget.
+
+*** Assistant:
+{'id': 'call_Mo5QrSUfqJjPcxzm2jFP3IlE', 'type': 'function', 'function': {'name': 'scroll', 'arguments': '{"direction":"DOWN","target_widget_ID":29}'}}
+
+*** User:
+{'tool_call_id': 'call_Mo5QrSUfqJjPcxzm2jFP3IlE', 'name': 'scroll', 'return_value': '{"error_message": "The widget with ID 29 does not support \\"scroll\\" action type. Please select other scrollable widget or other possible action type on the widget."}'}
+
+*** Assistant:
+{'id': 'call_Ofa1Yb0N1KryZ0U7P54AtTYF', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":29}'}}

@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_181517",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 35,
+      "view_str": "4a3f1f1ee36a1c41878814d118e217d1",
+      "widget_type": "View",
+      "class": "android.view.View",
+      "content_description": "USUHS SOM Pre-Clerkship",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          84,
+          582
+        ],
+        [
+          459,
+          622
+        ]
+      ]
+    }
+  },
+  "start_state": "c5ae44d48fc9e4d535a30d1ffb6ad41c",
+  "stop_state": "4acd37cc1eb4c6d19e6b26918d36e2bd",
+  "event_str": "TouchEvent(state=c5ae44d48fc9e4d535a30d1ffb6ad41c, view=4a3f1f1ee36a1c41878814d118e217d1(SharedDecksActivity/View-))",
+  "task": "Explore the AnkiDroid app's ModelFieldEditor page.",
+  "view_image_dir": "./outLog\\views/view_4a3f1f1ee36a1c41878814d118e217d1.png"
+}

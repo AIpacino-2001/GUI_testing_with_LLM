@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_182108",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 12,
+      "view_str": "7f68a6e2e4f03d7d744eefba5fffbdc8",
+      "widget_type": "LinearLayout",
+      "class": "android.widget.LinearLayout",
+      "text": "\u7b14\u8bb0\u7c7b\u578b",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          555,
+          336
+        ],
+        [
+          1070,
+          462
+        ]
+      ]
+    }
+  },
+  "start_state": "8beb10a02e1a2fbdf4d25f0a36dc11a1",
+  "stop_state": "9d9734089a22b030f30800379a329511",
+  "event_str": "TouchEvent(state=8beb10a02e1a2fbdf4d25f0a36dc11a1, view=7f68a6e2e4f03d7d744eefba5fffbdc8(DeckPicker/LinearLayout-\u7b14\u8bb0\u7c7b\u578b))",
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "view_image_dir": "./outLog\\views/view_7f68a6e2e4f03d7d744eefba5fffbdc8.png"
+}

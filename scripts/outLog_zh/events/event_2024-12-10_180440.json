@@ -1,0 +1,13 @@
+{
+  "tag": "2024-12-10_180440",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "name": "BACK"
+  },
+  "start_state": "228a356ee7323fa6f3b3ff8b1ccdbafd",
+  "stop_state": "ee124bc72b4d55c181b87505a47499be",
+  "event_str": "KeyEvent(state=228a356ee7323fa6f3b3ff8b1ccdbafd, name=BACK)",
+  "task": "Explore the \"\u70ed\u699c\" section to view popular content.",
+  "view_image_dir": null
+}

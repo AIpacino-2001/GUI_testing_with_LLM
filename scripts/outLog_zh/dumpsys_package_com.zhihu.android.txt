@@ -1,0 +1,1155 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/*:
+        22e929c com.zhihu.android/.app.ui.activity.share.ShareToFeedActivity filter f2824a5
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        be0107a com.zhihu.android/.app.ui.activity.share.ShareToMessageActivity filter bc8602b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Wild MIME Types:
+      text:
+        22e929c com.zhihu.android/.app.ui.activity.share.ShareToFeedActivity filter f2824a5
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        be0107a com.zhihu.android/.app.ui.activity.share.ShareToMessageActivity filter bc8602b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+  Schemes:
+      tbopen:
+        f5316be com.zhihu.android/com.alibaba.alibclinkpartner.smartlink.ALPEntranceActivity filter c42c31f
+          Action: "com.alibaba.intent.action.GETWAY"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "tbopen"
+          Authority: "linkpartner": -1
+          Path: "PatternMatcher{PREFIX: /entrance}"
+      tencent101118708:
+        fa5e0ca com.zhihu.android/com.tencent.tauth.AuthActivity filter a5a723b
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "tencent101118708"
+      http:
+        bb337c2 com.zhihu.android/.app.ui.activity.RouterPortalActivity filter 3670c09
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "ms.zhihu.com": -1
+          Authority: "oia.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "promotion.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "ms.zhihu.com": -1
+          Authority: "oia.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "promotion.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /question/.*}"
+          Path: "PatternMatcher{GLOB: /question/.*/answer/.*}"
+          Path: "PatternMatcher{GLOB: /answer/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{GLOB: /people/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /roundtable/.*}"
+          Path: "PatternMatcher{GLOB: /lives/.*}"
+          Path: "PatternMatcher{GLOB: /org/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /publications/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pub}"
+          Path: "PatternMatcher{GLOB: /pub/zhihu}"
+          Path: "PatternMatcher{GLOB: /pub/collection/.*}"
+          Path: "PatternMatcher{GLOB: /pub/book/.*}"
+          Path: "PatternMatcher{GLOB: /pin/.*}"
+          Path: "PatternMatcher{GLOB: /links/.*}"
+          Path: "PatternMatcher{GLOB: /coupon/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /question/.*}"
+          Path: "PatternMatcher{GLOB: /question/.*/answer/.*}"
+          Path: "PatternMatcher{GLOB: /answer/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{GLOB: /people/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /roundtable/.*}"
+          Path: "PatternMatcher{GLOB: /lives/.*}"
+          Path: "PatternMatcher{GLOB: /org/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /publications/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pub}"
+          Path: "PatternMatcher{GLOB: /pub/zhihu}"
+          Path: "PatternMatcher{GLOB: /pub/collection/.*}"
+          Path: "PatternMatcher{GLOB: /pub/book/.*}"
+          Path: "PatternMatcher{GLOB: /pin/.*}"
+          Path: "PatternMatcher{GLOB: /links/.*}"
+          Path: "PatternMatcher{GLOB: /coupon/.*}"
+          Path: "PatternMatcher{GLOB: /remix/albums/.*}"
+          AutoVerify=true
+      qdunionloan:
+        49c20d4 com.zhihu.android/.app.ui.activity.QDFaceActivity filter 72c27d
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qdunionloan"
+          Authority: "faceplus": -1
+        1cd1572 com.zhihu.android/.app.ui.activity.QDAliPayActivity filter 9070dc3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "qdunionloan"
+          Authority: "alipay": -1
+      https:
+        bb337c2 com.zhihu.android/.app.ui.activity.RouterPortalActivity filter 85809d3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "zhihu"
+          Authority: "activity.zhihu.com": -1
+          Authority: "activity": -1
+          Authority: "activity": -1
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+        bb337c2 com.zhihu.android/.app.ui.activity.RouterPortalActivity filter 3670c09
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Authority: "ms.zhihu.com": -1
+          Authority: "oia.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "promotion.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "ms.zhihu.com": -1
+          Authority: "oia.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "zhuanlan.zhihu.com": -1
+          Authority: "promotion.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Authority: "www.zhihu.com": -1
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /question/.*}"
+          Path: "PatternMatcher{GLOB: /question/.*/answer/.*}"
+          Path: "PatternMatcher{GLOB: /answer/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{GLOB: /people/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /roundtable/.*}"
+          Path: "PatternMatcher{GLOB: /lives/.*}"
+          Path: "PatternMatcher{GLOB: /org/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /publications/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pub}"
+          Path: "PatternMatcher{GLOB: /pub/zhihu}"
+          Path: "PatternMatcher{GLOB: /pub/collection/.*}"
+          Path: "PatternMatcher{GLOB: /pub/book/.*}"
+          Path: "PatternMatcher{GLOB: /pin/.*}"
+          Path: "PatternMatcher{GLOB: /links/.*}"
+          Path: "PatternMatcher{GLOB: /coupon/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /question/.*}"
+          Path: "PatternMatcher{GLOB: /question/.*/answer/.*}"
+          Path: "PatternMatcher{GLOB: /answer/.*}"
+          Path: "PatternMatcher{GLOB: /collection/.*}"
+          Path: "PatternMatcher{GLOB: /people/.*}"
+          Path: "PatternMatcher{GLOB: /topic/.*}"
+          Path: "PatternMatcher{GLOB: /roundtable/.*}"
+          Path: "PatternMatcher{GLOB: /lives/.*}"
+          Path: "PatternMatcher{GLOB: /org/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /p/.*}"
+          Path: "PatternMatcher{GLOB: /publications/.*/.*}"
+          Path: "PatternMatcher{GLOB: /pub}"
+          Path: "PatternMatcher{GLOB: /pub/zhihu}"
+          Path: "PatternMatcher{GLOB: /pub/collection/.*}"
+          Path: "PatternMatcher{GLOB: /pub/book/.*}"
+          Path: "PatternMatcher{GLOB: /pin/.*}"
+          Path: "PatternMatcher{GLOB: /links/.*}"
+          Path: "PatternMatcher{GLOB: /coupon/.*}"
+          Path: "PatternMatcher{GLOB: /remix/albums/.*}"
+          AutoVerify=true
+      zhihu:
+        bb337c2 com.zhihu.android/.app.ui.activity.RouterPortalActivity filter 85809d3
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "https"
+          Scheme: "zhihu"
+          Authority: "activity.zhihu.com": -1
+          Authority: "activity": -1
+          Authority: "activity": -1
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+          Path: "PatternMatcher{GLOB: /.*}"
+          Path: "PatternMatcher{GLOB: /.*/.*}"
+        bb337c2 com.zhihu.android/.app.ui.activity.RouterPortalActivity filter caca910
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "zhihu"
+        9748a28 com.zhihu.android/.app.ui.activity.PortalActivity filter ba73341
+          Action: "android.intent.action.SENDTO"
+          Category: "android.intent.category.DEFAULT"
+          Scheme: "zhihu"
+          Authority: "share.to": -1
+      zhihuoauth2:
+        c73f717 com.zhihu.android/.app.ui.activity.AuthActivity filter 5736704
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "zhihuoauth2"
+          Authority: "authorize": -1
+      zhihupush:
+        810e0e com.zhihu.android/.push.PushJumpBoardActivity filter c1b463c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "zhihupush"
+          Authority: "com.zhihu.android": -1
+          Path: "PatternMatcher{LITERAL: /push_jump_board}"
+
+  Non-Data Actions:
+      com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323:
+        6047640 com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity filter 16e0979
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+        da03cff com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ExtContainerActivity filter c09dacc
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+      COM_TAOBAO_TAE_SDK_TRADE_WEB_VIEW_ACTION:
+        6a7435d com.zhihu.android/com.alibaba.baichuan.android.trade.ui.AlibcWebViewActivity filter 2ac34d2
+          Action: "COM_TAOBAO_TAE_SDK_TRADE_WEB_VIEW_ACTION"
+          Category: "android.intent.category.DEFAULT"
+      com.zhihu.android.app.ui.activity.MainActivity:
+        56b5fc5 com.zhihu.android/.app.ui.activity.LauncherActivity filter 92ce04b
+          Action: "com.zhihu.android.app.ui.activity.MainActivity"
+          Category: "android.intent.category.DEFAULT"
+      com.getui.sdk.action:
+        7d6a9a3 com.zhihu.android/com.igexin.sdk.GetuiActivity filter 52814a0
+          Action: "com.getui.sdk.action"
+      com.umeng.message.action.notify:
+        c19b859 com.zhihu.android/com.umeng.message.UMessageNotifyActivity filter af4cc1e
+          Action: "com.umeng.message.action.notify"
+      android.intent.action.MAIN:
+        56b5fc5 com.zhihu.android/.app.ui.activity.LauncherActivity filter d43fd1a
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "miui.intent.category.SYSAPP_RECOMMEND"
+        e36edb3 com.zhihu.android/.app.ui.activity.ActionPortalActivity filter 4a742e9
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.NOTIFICATION_PREFERENCES"
+      android.intent.action.VIEW:
+        c9e44ed com.zhihu.android/.app.ui.activity.AutoAuthActivity filter 4b1bf22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      zhihu.intent.action.PUSH_SERVICE:
+        810e0e com.zhihu.android/.push.PushJumpBoardActivity filter 60f702f
+          Action: "zhihu.intent.action.PUSH_SERVICE"
+          Category: "android.intent.category.DEFAULT"
+      zhihu.intent.action.mipush.EMPTY_ACTIVITY:
+        16ad407 com.zhihu.android/.push.mipush.PushEmptyActivity filter b809934
+          Action: "zhihu.intent.action.mipush.EMPTY_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      ad.activity.action.trick:
+        d14d0e6 com.zhihu.android/.app.ui.activity.DeepLinkTrickActivity filter 1673627
+          Action: "ad.activity.action.trick"
+          Category: "ad.activity.category.trick"
+          Category: "android.intent.category.DEFAULT"
+      com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323:
+        6047640 com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity filter 16e0979
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+        da03cff com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ExtContainerActivity filter c09dacc
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+      com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323:
+        6047640 com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ContainerActivity filter 16e0979
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+        da03cff com.zhihu.android/com.alibaba.wireless.security.open.middletier.fc.ui.ExtContainerActivity filter c09dacc
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentCreate4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentResult4323"
+          Action: "com.alibaba.wireless.security.open.middletier.fc.ui.BXIntentLog4323"
+          Category: "android.intent.category.DEFAULT"
+      com.zhihu.intent.action.SETPASSWORD:
+        bf2cd58 com.zhihu.android/.app.ui.activity.AccountActionActivity filter ba93f96
+          Action: "com.zhihu.intent.action.SETPASSWORD"
+      com.zhihu.intent.action.GUIDE:
+        bf2cd58 com.zhihu.android/.app.ui.activity.AccountActionActivity filter b026eb1
+          Action: "com.zhihu.intent.action.GUIDE"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY:
+        de03c88 com.zhihu.android/com.sina.weibo.sdk.share.ShareResultActivity filter 74eba46
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_STORY"
+          Category: "android.intent.category.DEFAULT"
+      com.zhihu.intent.action.FRAGMENT:
+        e36edb3 com.zhihu.android/.app.ui.activity.ActionPortalActivity filter 541ef70
+          Action: "com.zhihu.intent.action.FRAGMENT"
+      com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY:
+        de03c88 com.zhihu.android/com.sina.weibo.sdk.share.ShareResultActivity filter 41b6621
+          Action: "com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"
+          Category: "android.intent.category.DEFAULT"
+      com.oasisfeng.greenify.intent.action.REQUEST_LIMITED_BACKGROUND:
+        8dab66c com.zhihu.android/.push.backgroundfree.GreenifyActivity filter c3cc435
+          Action: "com.oasisfeng.greenify.intent.action.REQUEST_LIMITED_BACKGROUND"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.WEB_SEARCH:
+        e36edb3 com.zhihu.android/.app.ui.activity.ActionPortalActivity filter ad0ab6e
+          Action: "android.intent.action.WEB_SEARCH"
+          Category: "android.intent.category.DEFAULT"
+      android.intent.action.SEARCH:
+        e36edb3 com.zhihu.android/.app.ui.activity.ActionPortalActivity filter 428b20f
+          Action: "android.intent.action.SEARCH"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        22e929c com.zhihu.android/.app.ui.activity.share.ShareToFeedActivity filter f2824a5
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+        be0107a com.zhihu.android/.app.ui.activity.share.ShareToMessageActivity filter bc8602b
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          StaticType: "text"
+          mPriority=0, mOrder=0, mHasStaticPartialTypes=true, mHasDynamicPartialTypes=false
+
+Receiver Resolver Table:
+  Non-Data Actions:
+      com.xiaomi.mipush.MESSAGE_ARRIVED:
+        3ba6300 com.zhihu.android/.push.mipush.MiMessageReceiver filter dcb17e
+          Action: "com.xiaomi.mipush.MESSAGE_ARRIVED"
+      notification_error_cancelled:
+        6a48115 com.zhihu.android/.app.ui.widget.download.ApkNotificationUtils$NotificationBroadcastReceiver filter e9d8c2a
+          Action: "notification_error_cancelled"
+          Action: "notification_progress_clicked"
+          Action: "notification_progress_cancelled"
+          Action: "notification_error_clicked"
+      com.xiaomi.mipush.ERROR:
+        3ba6300 com.zhihu.android/.push.mipush.MiMessageReceiver filter 18026df
+          Action: "com.xiaomi.mipush.ERROR"
+      com.huawei.android.push.intent.REGISTRATION:
+        f48c194 com.zhihu.android/com.huawei.hms.support.api.push.PushReceiver filter 96db43d
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      NOTIFY_LOGIN_CANCEL:
+        b619218 com.zhihu.android/com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver filter 99eb471
+          Action: "NOTIFY_LOGIN_CANCEL"
+          Action: "NOTIFY_LOGIN_FAILED"
+          Action: "NOTIFY_LOGIN_SUCCESS"
+          Action: "NOTIFY_LOGOUT"
+      notification_progress_clicked:
+        6a48115 com.zhihu.android/.app.ui.widget.download.ApkNotificationUtils$NotificationBroadcastReceiver filter e9d8c2a
+          Action: "notification_error_cancelled"
+          Action: "notification_progress_clicked"
+          Action: "notification_progress_cancelled"
+          Action: "notification_error_clicked"
+      NOTIFY_LOGIN_FAILED:
+        b619218 com.zhihu.android/com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver filter 99eb471
+          Action: "NOTIFY_LOGIN_CANCEL"
+          Action: "NOTIFY_LOGIN_FAILED"
+          Action: "NOTIFY_LOGIN_SUCCESS"
+          Action: "NOTIFY_LOGOUT"
+      notification_progress_cancelled:
+        6a48115 com.zhihu.android/.app.ui.widget.download.ApkNotificationUtils$NotificationBroadcastReceiver filter e9d8c2a
+          Action: "notification_error_cancelled"
+          Action: "notification_progress_clicked"
+          Action: "notification_progress_cancelled"
+          Action: "notification_error_clicked"
+      com.zhihu.android.EVENT:
+        3f37256 com.zhihu.android/.base.receiver.CommunicationReceiver filter 212d7
+          Action: "com.zhihu.android.EVENT"
+          Category: "com.zhihu.android.EVENT_CAT"
+      com.zhihu.android.clean:
+        e4863ef com.zhihu.android/.patch.debug.DebugPatchReceiver filter d1f8efc
+          Action: "com.zhihu.android.clean"
+          Action: "com.zhihu.android.patch"
+          Action: "com.zhihu.android.install"
+          Action: "com.zhihu.android.info"
+      com.huawei.intent.action.PUSH_DELAY_NOTIFY:
+        3f8d3a6 com.zhihu.android/com.huawei.hms.support.api.push.PushMsgReceiver filter 9d2e1e7
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+      com.zhihu.android.patch:
+        e4863ef com.zhihu.android/.patch.debug.DebugPatchReceiver filter d1f8efc
+          Action: "com.zhihu.android.clean"
+          Action: "com.zhihu.android.patch"
+          Action: "com.zhihu.android.install"
+          Action: "com.zhihu.android.info"
+      NOTIFY_LOGIN_SUCCESS:
+        b619218 com.zhihu.android/com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver filter 99eb471
+          Action: "NOTIFY_LOGIN_CANCEL"
+          Action: "NOTIFY_LOGIN_FAILED"
+          Action: "NOTIFY_LOGIN_SUCCESS"
+          Action: "NOTIFY_LOGOUT"
+      com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK:
+        e0e678a com.zhihu.android/.push.meizu.MeiZuPushReceiver filter e6a51fb
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Category: "com.zhihu.android"
+      com.meizu.flyme.push.intent.PUSH_SYSTEM:
+        14c5de2 com.zhihu.android/com.meizu.cloud.pushsdk.MzPushSystemReceiver filter eb0573
+          Action: "com.meizu.flyme.push.intent.PUSH_SYSTEM"
+      notification_error_clicked:
+        6a48115 com.zhihu.android/.app.ui.widget.download.ApkNotificationUtils$NotificationBroadcastReceiver filter e9d8c2a
+          Action: "notification_error_cancelled"
+          Action: "notification_progress_clicked"
+          Action: "notification_progress_cancelled"
+          Action: "notification_error_clicked"
+      com.hpplay.source.service.close:
+        be9b7c4 com.zhihu.android/com.hpplay.sdk.source.process.LelinkReceiver filter e1926ad
+          Action: "com.hpplay.source.service.close"
+      com.huawei.android.push.intent.RECEIVE:
+        f48c194 com.zhihu.android/com.huawei.hms.support.api.push.PushReceiver filter 96db43d
+          Action: "com.huawei.android.push.intent.REGISTRATION"
+          Action: "com.huawei.android.push.intent.RECEIVE"
+      com.meizu.c2dm.intent.RECEIVE:
+        e0e678a com.zhihu.android/.push.meizu.MeiZuPushReceiver filter e6a51fb
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Category: "com.zhihu.android"
+      com.vivo.pushclient.action.RECEIVE:
+        ee2af2c com.zhihu.android/.push.vivo.VivoPushMessageReceiver filter fec2df5
+          Action: "com.vivo.pushclient.action.RECEIVE"
+      com.meizu.flyme.push.intent.MESSAGE:
+        e0e678a com.zhihu.android/.push.meizu.MeiZuPushReceiver filter e6a51fb
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Category: "com.zhihu.android"
+      com.zhihu.android.appwidget.ACTION_ADD:
+        68c69c9 com.zhihu.android/.app.appwidget.receiver.AppWidgetReceiver filter c7a78ce
+          Action: "com.zhihu.android.appwidget.ACTION_ADD"
+      com.meizu.c2dm.intent.REGISTRATION:
+        e0e678a com.zhihu.android/.push.meizu.MeiZuPushReceiver filter e6a51fb
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Category: "com.zhihu.android"
+      com.taobao.accs.intent.action.START_FROM_AGOO:
+        c61500b com.zhihu.android/com.taobao.accs.ServiceReceiver filter ee28901
+          Action: "com.taobao.accs.intent.action.START_FROM_AGOO"
+      miui.appwidget.action.APPWIDGET_UPDATE:
+        ee4bdcd com.zhihu.android/.app.appwidget.HotAppWidgetProvider filter 2c77682
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.zhihu.android.PlayerAction:
+        fd91991 com.zhihu.android/.app.market.receiver.MarketAudioReceiver filter c6040f6
+          Action: "com.zhihu.android.PlayerAction"
+        d0accf7 com.zhihu.android/.app.nextlive.room.LiveRoomPlayerReceiver filter 616b764
+          Action: "com.zhihu.android.PlayerAction"
+      com.xiaomi.push.PING_TIMER:
+        4ce8432 com.zhihu.android/com.xiaomi.push.service.receivers.PingReceiver filter 8e1b583
+          Action: "com.xiaomi.push.PING_TIMER"
+      com.xiaomi.mipush.RECEIVE_MESSAGE:
+        3ba6300 com.zhihu.android/.push.mipush.MiMessageReceiver filter 2865739
+          Action: "com.xiaomi.mipush.RECEIVE_MESSAGE"
+      com.wosdk.mybroad:
+        6e8d985 com.zhihu.android/com.sdk.mobile.manager.login.cucc.ConnectionChangeReceiver filter 54953da
+          Action: "com.wosdk.mybroad"
+      com.zhihu.android.install:
+        e4863ef com.zhihu.android/.patch.debug.DebugPatchReceiver filter d1f8efc
+          Action: "com.zhihu.android.clean"
+          Action: "com.zhihu.android.patch"
+          Action: "com.zhihu.android.install"
+          Action: "com.zhihu.android.info"
+      NOTIFY_LOGOUT:
+        b619218 com.zhihu.android/com.alibaba.baichuan.trade.biz.login.LoginBroadcastReceiver filter 99eb471
+          Action: "NOTIFY_LOGIN_CANCEL"
+          Action: "NOTIFY_LOGIN_FAILED"
+          Action: "NOTIFY_LOGIN_SUCCESS"
+          Action: "NOTIFY_LOGOUT"
+      com.meizu.flyme.push.intent.REGISTER.FEEDBACK:
+        e0e678a com.zhihu.android/.push.meizu.MeiZuPushReceiver filter e6a51fb
+          Action: "com.meizu.flyme.push.intent.UNREGISTER.FEEDBACK"
+          Action: "com.meizu.c2dm.intent.RECEIVE"
+          Action: "com.meizu.flyme.push.intent.MESSAGE"
+          Action: "com.meizu.c2dm.intent.REGISTRATION"
+          Action: "com.meizu.flyme.push.intent.REGISTER.FEEDBACK"
+          Category: "com.zhihu.android"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        c45aa1b com.zhihu.android/.app.appwidget.SearchAppWidgetProvider filter f5fd7b8
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        ee4bdcd com.zhihu.android/.app.appwidget.HotAppWidgetProvider filter 2c77682
+          Action: "miui.appwidget.action.APPWIDGET_UPDATE"
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        f954193 com.zhihu.android/.app.appwidget.HonorWidgetProvider filter 739e5d0
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      com.zhihu.android.info:
+        e4863ef com.zhihu.android/.patch.debug.DebugPatchReceiver filter d1f8efc
+          Action: "com.zhihu.android.clean"
+          Action: "com.zhihu.android.patch"
+          Action: "com.zhihu.android.install"
+          Action: "com.zhihu.android.info"
+      com.taobao.accs.intent.action.COMMAND:
+        c61500b com.zhihu.android/com.taobao.accs.ServiceReceiver filter f549ee8
+          Action: "com.taobao.accs.intent.action.COMMAND"
+      com.huawei.intent.action.PUSH:
+        3f8d3a6 com.zhihu.android/com.huawei.hms.support.api.push.PushMsgReceiver filter 9d2e1e7
+          Action: "com.huawei.intent.action.PUSH_DELAY_NOTIFY"
+          Action: "com.huawei.intent.action.PUSH"
+
+Service Resolver Table:
+  Non-Data Actions:
+      com.getui.sdk.action:
+        ea03163 com.zhihu.android/com.igexin.sdk.GService filter ed36160
+          Action: "com.getui.sdk.action"
+      com.umeng.message.action:
+        6cbcad5 com.zhihu.android/com.umeng.message.component.UmengMessageHandlerService filter 25072ea permission android.permission.BIND_JOB_SERVICE
+          Action: "com.umeng.message.action"
+      com.getui.gtc.sdk.service.action:
+        e51c8b7 com.zhihu.android/com.getui.gtc.GtcService filter 8846824
+          Action: "com.getui.gtc.sdk.service.action"
+      com.huawei.push.msg.NOTIFY_MSG:
+        a8b3f51 com.zhihu.android/com.huawei.hms.support.api.push.service.HmsMsgService filter 43ad3b6
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.ss.android.socialbase.downloader.remote:
+        7f37f8d com.zhihu.android/com.ss.android.socialbase.downloader.downloader.IndependentProcessDownloadService filter 7987542
+          Action: "com.ss.android.socialbase.downloader.remote"
+      org.agoo.android.intent.action.RECEIVE:
+        7ebe619 com.zhihu.android/com.umeng.message.component.UmengIntentService filter fe2c6de
+          Action: "org.agoo.android.intent.action.RECEIVE"
+      com.heytap.mcs.action.RECEIVE_MCS_MESSAGE:
+        5975fc7 com.zhihu.android/.push.oppo.OppoPushService filter b8c99f4 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.taobao.accs.intent.action.START_SERVICE:
+        9ac8c30 com.zhihu.android/com.taobao.accs.ChannelService filter e4e80a9
+          Action: "com.taobao.accs.intent.action.START_SERVICE"
+      org.android.agoo.client.MessageReceiverService:
+        9da80bf com.zhihu.android/com.umeng.message.component.UmengMessageReceiverService filter 7fd338c
+          Action: "org.android.agoo.client.MessageReceiverService"
+      com.heytap.msp.push.RECEIVE_MCS_MESSAGE:
+        5975fc7 com.zhihu.android/.push.oppo.OppoPushService filter b8c99f4 permission com.heytap.mcs.permission.SEND_PUSH_MESSAGE
+          Action: "com.heytap.mcs.action.RECEIVE_MCS_MESSAGE"
+          Action: "com.heytap.msp.push.RECEIVE_MCS_MESSAGE"
+      com.coloros.mcs.action.RECEIVE_MCS_MESSAGE:
+        349be1 com.zhihu.android/.push.oppo.CompatibleOppoPushService filter eeb1d06 permission com.coloros.mcs.permission.SEND_MCS_MESSAGE
+          Action: "com.coloros.mcs.action.RECEIVE_MCS_MESSAGE"
+      com.hpplay.sdk.source.LelinkSdkService.ACTION:
+        a4069db com.zhihu.android/com.hpplay.sdk.source.process.LelinkSdkService filter 80ffc78
+          Action: "com.hpplay.sdk.source.LelinkSdkService.ACTION"
+      com.huawei.push.msg.PASSBY_MSG:
+        a8b3f51 com.zhihu.android/com.huawei.hms.support.api.push.service.HmsMsgService filter 43ad3b6
+          Action: "com.huawei.push.msg.NOTIFY_MSG"
+          Action: "com.huawei.push.msg.PASSBY_MSG"
+      com.hihonor.push.action.MESSAGING_EVENT:
+        87e151d com.zhihu.android/.push.hipush.HiPushService filter 98c0392
+          Action: "com.hihonor.push.action.MESSAGING_EVENT"
+      com.taobao.accs.intent.action.ELECTION:
+        9ac8c30 com.zhihu.android/com.taobao.accs.ChannelService filter e56762e
+          Action: "com.taobao.accs.intent.action.ELECTION"
+      com.huawei.push.action.MESSAGING_EVENT:
+        66fafeb com.zhihu.android/.push.hwpush.HuaweiMessageService filter fe9b148
+          Action: "com.huawei.push.action.MESSAGING_EVENT"
+      com.taobao.accs.intent.action.RECEIVE:
+        86685cf com.zhihu.android/com.taobao.accs.data.MsgDistributeService filter d863b5c
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+        d657e65 com.zhihu.android/org.android.agoo.accs.AgooService filter 7d7c73a
+          Action: "com.taobao.accs.intent.action.RECEIVE"
+
+Domain verification status:
+  com.zhihu.android:
+    ID: c4b292c3-baca-44d8-901e-448966056a78
+    Signatures: [BD:84:50:55:7C:B3:96:5C:05:1F:16:11:D4:28:6A:5F:02:9B:90:9C:AE:3D:E7:57:EC:15:2D:05:63:C3:F7:FA]
+    Domain verification state:
+      www.zhihu.com: legacy_failure
+      promotion.zhihu.com: legacy_failure
+      oia.zhihu.com: legacy_failure
+      zhuanlan.zhihu.com: legacy_failure
+      ms.zhihu.com: legacy_failure
+    User all:
+      Verification link handling allowed: true
+      Selection state:
+        Disabled:
+          activity.zhihu.com
+          www.zhihu.com
+          promotion.zhihu.com
+          oia.zhihu.com
+          zhuanlan.zhihu.com
+          ms.zhihu.com
+
+Permissions:
+  Permission [com.zhihu.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (199bb4e):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{5729825 com.zhihu.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.permission.MIPUSH_RECEIVE] (1dab46f):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{ccbfab com.zhihu.android.permission.MIPUSH_RECEIVE}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.permission.PUSH_WRITE_PROVIDER] (9f2d57c):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{35991a1 com.zhihu.android.permission.PUSH_WRITE_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.permission.PUSH_PROVIDER] (358de05):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{f15ab87 com.zhihu.android.permission.PUSH_PROVIDER}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.permission.C2D_MESSAGE] (d5a3e5a):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{65ca6dd com.zhihu.android.permission.C2D_MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.ReceivePlayerInfo] (208288b):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e177923 com.zhihu.android.ReceivePlayerInfo}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.push.permission.MESSAGE] (55cd68):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{881d3d9 com.zhihu.android.push.permission.MESSAGE}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.account.oauth.PROVIDER_ACCESS_WRITE] (f8e5581):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{bde847f com.zhihu.android.account.oauth.PROVIDER_ACCESS_WRITE}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.account.oauth.PROVIDER_ACCESS_READ] (6de626):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{432d495 com.zhihu.android.account.oauth.PROVIDER_ACCESS_READ}
+    flags=0x0
+
+Permissions:
+  Permission [getui.permission.GetuiService.com.zhihu.android] (24ec267):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{e0e99b getui.permission.GetuiService.com.zhihu.android}
+    flags=0x0
+
+Permissions:
+  Permission [com.zhihu.android.permission.PROCESS_PUSH_MSG] (d6e5814):
+    sourcePackage=com.zhihu.android
+    uid=10216 gids=[] type=0 prot=signature
+    perm=PermissionInfo{6b92511 com.zhihu.android.permission.PROCESS_PUSH_MSG}
+    flags=0x0
+
+Registered ContentProviders:
+  com.zhihu.android/.app.provider.AccountOauthProvider:
+    Provider{2462676 com.zhihu.android/.app.provider.AccountOauthProvider}
+  com.zhihu.android/com.huawei.hms.aaid.InitProvider:
+    Provider{cda8477 com.zhihu.android/com.huawei.hms.aaid.InitProvider}
+  com.zhihu.android/.apm.lifecycle_provider.ApmLifecycleProvider:
+    Provider{870d8e4 com.zhihu.android/.apm.lifecycle_provider.ApmLifecycleProvider}
+  com.zhihu.android/com.liulishuo.okdownload.OkDownloadProvider:
+    Provider{e7a014d com.zhihu.android/com.liulishuo.okdownload.OkDownloadProvider}
+  com.zhihu.android/.zhplayerbase.provider.AppProvider:
+    Provider{4e63402 com.zhihu.android/.zhplayerbase.provider.AppProvider}
+  com.zhihu.android/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider:
+    Provider{568f113 com.zhihu.android/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+  com.zhihu.android/.za.ZaProvider:
+    Provider{ed49f50 com.zhihu.android/.za.ZaProvider}
+  com.zhihu.android/androidx.startup.InitializationProvider:
+    Provider{f26549 com.zhihu.android/androidx.startup.InitializationProvider}
+  com.zhihu.android/io.sentry.android.core.SentryPerformanceProvider:
+    Provider{1878e4e com.zhihu.android/io.sentry.android.core.SentryPerformanceProvider}
+  com.zhihu.android/.appcloudsdk.AppCloudProvider:
+    Provider{2678b6f com.zhihu.android/.appcloudsdk.AppCloudProvider}
+  com.zhihu.android/.floatview.provider.FloatViewProvider:
+    Provider{96c607c com.zhihu.android/.floatview.provider.FloatViewProvider}
+  com.zhihu.android/.module.InnerContextProvider:
+    Provider{4730d05 com.zhihu.android/.module.InnerContextProvider}
+  com.zhihu.android/.abcenter.AbCenterProvider:
+    Provider{9d2415a com.zhihu.android/.abcenter.AbCenterProvider}
+  com.zhihu.android/com.getui.gtc.base.GtcProvider:
+    Provider{40b6f8b com.zhihu.android/com.getui.gtc.base.GtcProvider}
+  com.zhihu.android/com.huawei.agconnect.core.provider.AGConnectInitializeProvider:
+    Provider{55d0868 com.zhihu.android/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+  com.zhihu.android/com.reactnativecommunity.webview.RNCWebViewFileProvider:
+    Provider{99c7481 com.zhihu.android/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+  com.zhihu.android/.face_off.PreLoadContentProvider:
+    Provider{fe31926 com.zhihu.android/.face_off.PreLoadContentProvider}
+  com.zhihu.android/.cloudid.CloudIdProvider:
+    Provider{ebf7967 com.zhihu.android/.cloudid.CloudIdProvider}
+  com.zhihu.android/.memory_saver.leak.LeakWatcherInstaller:
+    Provider{b2e4314 com.zhihu.android/.memory_saver.leak.LeakWatcherInstaller}
+  com.zhihu.android/androidx.core.content.FileProvider:
+    Provider{9ad7bd com.zhihu.android/androidx.core.content.FileProvider}
+  com.zhihu.android/com.umeng.message.component.UmengMessageProvider:
+    Provider{8d7a1b2 com.zhihu.android/com.umeng.message.component.UmengMessageProvider}
+  com.zhihu.android/cn.fly.verify.FlyVerifyProvider:
+    Provider{8c04503 com.zhihu.android/cn.fly.verify.FlyVerifyProvider}
+  com.zhihu.android/com.huawei.hms.support.api.push.PushProvider:
+    Provider{2367c80 com.zhihu.android/com.huawei.hms.support.api.push.PushProvider}
+
+ContentProvider Authorities:
+  [com.zhihu.android.SentryPerformanceProvider]:
+    Provider{1878e4e com.zhihu.android/io.sentry.android.core.SentryPerformanceProvider}
+      applicationInfo=ApplicationInfo{a49c8bd com.zhihu.android}
+  [com.zhihu.android.WsChannelMultiProcessSharedProvider]:
+    Provider{568f113 com.zhihu.android/com.bytedance.common.wschannel.WsChannelMultiProcessSharedProvider}
+      applicationInfo=ApplicationInfo{bc23eb2 com.zhihu.android}
+  [com.zhihu.android.ZaCenterProvider]:
+    Provider{ed49f50 com.zhihu.android/.za.ZaProvider}
+      applicationInfo=ApplicationInfo{7b1e03 com.zhihu.android}
+  [com.zhihu.android.AudioProvider]:
+    Provider{96c607c com.zhihu.android/.floatview.provider.FloatViewProvider}
+      applicationInfo=ApplicationInfo{e2e180 com.zhihu.android}
+  [com.zhihu.android.umeng.message]:
+    Provider{8d7a1b2 com.zhihu.android/com.umeng.message.component.UmengMessageProvider}
+      applicationInfo=ApplicationInfo{a4f33b9 com.zhihu.android}
+  [com.zhihu.android.appcloudsdk]:
+    Provider{2678b6f com.zhihu.android/.appcloudsdk.AppCloudProvider}
+      applicationInfo=ApplicationInfo{f9193fe com.zhihu.android}
+  [com.zhihu.android.face_off]:
+    Provider{fe31926 com.zhihu.android/.face_off.PreLoadContentProvider}
+      applicationInfo=ApplicationInfo{87975f com.zhihu.android}
+  [com.zhihu.android.fileprovider]:
+    Provider{99c7481 com.zhihu.android/com.reactnativecommunity.webview.RNCWebViewFileProvider}
+      applicationInfo=ApplicationInfo{c5495ac com.zhihu.android}
+  [com.zhihu.android.aaidinitprovider]:
+    Provider{cda8477 com.zhihu.android/com.huawei.hms.aaid.InitProvider}
+      applicationInfo=ApplicationInfo{4a65275 com.zhihu.android}
+  [com.zhihu.android.fly.verify.FlyVerifyProvider]:
+    Provider{8c04503 com.zhihu.android/cn.fly.verify.FlyVerifyProvider}
+      applicationInfo=ApplicationInfo{36ef20a com.zhihu.android}
+  [com.zhihu.android.androidx-startup]:
+    Provider{f26549 com.zhihu.android/androidx.startup.InitializationProvider}
+      applicationInfo=ApplicationInfo{1b84a7b com.zhihu.android}
+  [com.zhihu.android.base.AppProvider]:
+    Provider{4e63402 com.zhihu.android/.zhplayerbase.provider.AppProvider}
+      applicationInfo=ApplicationInfo{84b6098 com.zhihu.android}
+  [com.zhihu.android.cloud.id]:
+    Provider{ebf7967 com.zhihu.android/.cloudid.CloudIdProvider}
+      applicationInfo=ApplicationInfo{d16a0f1 com.zhihu.android}
+  [com.zhihu.android.account.auth.provider]:
+    Provider{2462676 com.zhihu.android/.app.provider.AccountOauthProvider}
+      applicationInfo=ApplicationInfo{31224d6 com.zhihu.android}
+  [com.zhihu.android.getui.gtc.provider]:
+    Provider{40b6f8b com.zhihu.android/com.getui.gtc.base.GtcProvider}
+      applicationInfo=ApplicationInfo{9771357 com.zhihu.android}
+  [com.zhihu.android.abcenter]:
+    Provider{9d2415a com.zhihu.android/.abcenter.AbCenterProvider}
+      applicationInfo=ApplicationInfo{be1ee44 com.zhihu.android}
+  [com.zhihu.android.AGCInitializeProvider]:
+    Provider{55d0868 com.zhihu.android/com.huawei.agconnect.core.provider.AGConnectInitializeProvider}
+      applicationInfo=ApplicationInfo{2635b2d com.zhihu.android}
+  [com.zhihu.android.com.liulishuo.okdownload]:
+    Provider{e7a014d com.zhihu.android/com.liulishuo.okdownload.OkDownloadProvider}
+      applicationInfo=ApplicationInfo{be3b862 com.zhihu.android}
+  [com.zhihu.android]:
+    Provider{9ad7bd com.zhihu.android/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{fef8df3 com.zhihu.android}
+  [com.zhihu.android_memory_saver_leak_watcher]:
+    Provider{b2e4314 com.zhihu.android/.memory_saver.leak.LeakWatcherInstaller}
+      applicationInfo=ApplicationInfo{331aab0 com.zhihu.android}
+  [com.zhihu.android.monitor]:
+    Provider{870d8e4 com.zhihu.android/.apm.lifecycle_provider.ApmLifecycleProvider}
+      applicationInfo=ApplicationInfo{2477d29 com.zhihu.android}
+  [com.zhihu.android.huawei.push.provider]:
+    Provider{2367c80 com.zhihu.android/com.huawei.hms.support.api.push.PushProvider}
+      applicationInfo=ApplicationInfo{748f8ae com.zhihu.android}
+  [com.zhihu.android.inner.useless]:
+    Provider{4730d05 com.zhihu.android/.module.InnerContextProvider}
+      applicationInfo=ApplicationInfo{a6b164f com.zhihu.android}
+
+Key Set Manager:
+  [com.zhihu.android]
+      Signing KeySets: 69
+
+Packages:
+  Package [com.zhihu.android] (2fa98f8):
+    appId=10216
+    pkg=Package{f4a4761 com.zhihu.android}
+    codePath=/data/app/~~Tcfj39lEKMuOIJ4zF1OzAA==/com.zhihu.android-flAvj3QaFTxsSnm7U41yyQ==
+    resourcePath=/data/app/~~Tcfj39lEKMuOIJ4zF1OzAA==/com.zhihu.android-flAvj3QaFTxsSnm7U41yyQ==
+    legacyNativeLibraryDir=/data/app/~~Tcfj39lEKMuOIJ4zF1OzAA==/com.zhihu.android-flAvj3QaFTxsSnm7U41yyQ==/lib
+    extractNativeLibs=true
+    primaryCpuAbi=arm64-v8a
+    secondaryCpuAbi=null
+    cpuAbiOverride=null
+    versionCode=23225 minSdk=21 targetSdk=34
+    minExtensionVersions=[]
+    versionName=10.32.5
+    hiddenApiEnforcementPolicy=2
+    usesNonSdkApi=false
+    splits=[base]
+    apkSigningVersion=2
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    hasPreserveLegacyExternalStorage=true
+    forceQueryable=false
+    queriesPackages=[com.tencent.mm, com.tencent.wework, com.tencent.mobileqq, com.ss.android.ugc.aweme, com.smile.gifmaker, com.sina.weibo, com.xunmeng.pinduoduo, com.UCMobile, com.taobao.taobao, com.zhihu.vip.android, com.eg.android.AlipayGphone, cn.cyberIdentity.certification, com.android.creator, com.mdid.msa, com.samsung.android.deviceidservice, com.coolpad.deviceidsupport, com.heytap.openid, com.eg.android.AlipayGphoneRC, hk.alipay.wallet]
+    queriesIntents=[Intent { act=android.intent.action.MAIN }, Intent { act=com.hihonor.push.action.BIND_PUSH_SERVICE }, Intent { act=com.getui.sdk.action }, Intent { act=com.umeng.message.action.notify }, Intent { act=* dat=tbopen:/... }, Intent { act=com.huawei.hms.core.aidlservice }, Intent { act=com.huawei.hms.core }]
+    scannedAsStoppedSystemApp=false
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesLibraries:
+      android.test.base
+      android.test.mock
+      android.test.runner
+    usesOptionalLibraries:
+      org.apache.http.legacy
+    usesLibraryFiles:
+      /system/framework/android.test.base.jar
+      /system/framework/android.test.mock.jar
+      /system/framework/android.test.runner.jar
+      /system/framework/org.apache.http.legacy.jar
+    timeStamp=2024-12-10 10:02:38
+    lastUpdateTime=2024-12-10 10:02:41
+    installerPackageName=null
+    installerPackageUid=-1
+    initiatingPackageName=com.android.shell
+    originatingPackageName=null
+    packageSource=1
+    appMetadataFilePath=null
+    appMetadataSource=0
+    signatures=PackageSignatures{a662286 version:2, signatures:[f495fb0a], past signatures:[]}
+    installPermissionsFixed=false
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA LARGE_HEAP ]
+    privatePkgFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE_VIA_SDK_VERSION ALLOW_AUDIO_PLAYBACK_CAPTURE PRIVATE_FLAG_REQUEST_LEGACY_EXTERNAL_STORAGE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    apexModuleName=null
+    declared permissions:
+      com.zhihu.android.ReceivePlayerInfo: prot=signature
+      com.zhihu.android.account.oauth.PROVIDER_ACCESS_READ: prot=signature
+      com.zhihu.android.account.oauth.PROVIDER_ACCESS_WRITE: prot=signature
+      com.zhihu.android.permission.MIPUSH_RECEIVE: prot=signature
+      com.zhihu.android.push.permission.MESSAGE: prot=signature
+      com.zhihu.android.permission.C2D_MESSAGE: prot=signature
+      com.zhihu.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature
+      getui.permission.GetuiService.com.zhihu.android: prot=signature
+      com.zhihu.android.permission.PROCESS_PUSH_MSG: prot=signature
+      com.zhihu.android.permission.PUSH_PROVIDER: prot=signature
+      com.zhihu.android.permission.PUSH_WRITE_PROVIDER: prot=signature
+    requested permissions:
+      android.permission.WRITE_SETTINGS
+      com.coloros.mcs.permission.RECIEVE_MCS_MESSAGE
+      android.permission.READ_CALENDAR
+      android.permission.POST_NOTIFICATIONS
+      com.zhihu.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.ACCESS_FINE_LOCATION
+      android.permission.MODIFY_AUDIO_SETTINGS
+      freemme.permission.msa
+      android.Manifest.permission.DEVICE_POWER
+      com.zhihu.android.permission.MIPUSH_RECEIVE
+      android.permission.SYSTEM_ALERT_WINDOW
+      com.zhihu.android.permission.PUSH_PROVIDER
+      android.permission.CHANGE_NETWORK_STATE
+      android.permission.FOREGROUND_SERVICE
+      android.permission.READ_MEDIA_VISUAL_USER_SELECTED
+      android.permission.RECEIVE_BOOT_COMPLETED
+      com.hihonor.security.permission.ACCESS_THREAT_DETECTION
+      com.asus.msa.SupplementaryDID.ACCESS
+      android.permission.BLUETOOTH
+      android.permission.CHANGE_WIFI_MULTICAST_STATE
+      android.permission.WRITE_MEDIA_STORAGE
+      android.permission.GET_TASKS
+      android.permission.INTERNET
+      com.huawei.appmarket.service.commondata.permission.GET_COMMON_DATA
+      com.meizu.flyme.push.permission.RECEIVE
+      android.permission.REORDER_TASKS
+      android.permission.BLUETOOTH_ADMIN
+      android.permission.RECEIVE_USER_PRESENT
+      com.vivo.notification.permission.BADGE_ICON
+      android.permission.READ_EXTERNAL_STORAGE
+      com.heytap.mcs.permission.RECIEVE_MCS_MESSAGE
+      com.zhihu.android.push.oppo.permission.RECIEVE_MCS_MESSAGE
+      android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+      com.zhihu.android.permission.C2D_MESSAGE
+      android.permission.ACCESS_COARSE_LOCATION
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+      com.zhihu.android.ReceivePlayerInfo
+      android.permission.READ_MEDIA_IMAGES
+      android.permission.CHANGE_WIFI_STATE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.FLASHLIGHT
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.CAMERA
+      android.permission.CHANGE_CONFIGURATION
+      android.permission.READ_LOGS
+      com.zhihu.android.push.permission.MESSAGE
+      android.permission.WRITE_CALENDAR
+      android.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+      android.permission.READ_MEDIA_AUDIO
+      android.permission.READ_MEDIA_VIDEO
+      android.permission.SCHEDULE_EXACT_ALARM
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      Manifest.permission.BROADCAST_CLOSE_SYSTEM_DIALOGS
+      com.huawei.android.launcher.permission.CHANGE_BADGE
+      com.meizu.flyme.permission.PUSH
+      android.permission.ACCESS_WIFI_STATE
+      com.hihonor.android.launcher.permission.CHANGE_BADGE
+      android.permission.INSTALL_SHORTCUT
+      android.permission.REQUEST_INSTALL_PACKAGES
+      android.permission.MODIFY_PHONE_STATE
+      com.android.launcher.permission.INSTALL_SHORTCUT
+      android.permission.QUERY_ALL_PACKAGES
+      android.permission.RECORD_AUDIO
+      com.hihonor.push.permission.READ_PUSH_NOTIFICATION_INFO
+      com.google.android.gms.permission.AD_ID
+      com.meizu.c2dm.permission.RECEIVE
+      getui.permission.GetuiService.com.zhihu.android
+      android.permission.WAKE_LOCK
+      android.permission.READ_CONTACTS
+      android.Manifest.permission.READ_PHONE_STATE
+      android.permission.ACCESS_BACKGROUND_LOCATION
+      android.permission.ACCESS_MEDIA_LOCATION
+      com.zhihu.android.permission.PROCESS_PUSH_MSG
+    install permissions:
+      com.zhihu.android.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.MODIFY_AUDIO_SETTINGS: granted=true
+      com.zhihu.android.permission.MIPUSH_RECEIVE: granted=true
+      android.permission.SYSTEM_ALERT_WINDOW: granted=true
+      com.zhihu.android.permission.PUSH_PROVIDER: granted=true
+      android.permission.CHANGE_NETWORK_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.BLUETOOTH: granted=true
+      android.permission.CHANGE_WIFI_MULTICAST_STATE: granted=true
+      android.permission.GET_TASKS: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.REORDER_TASKS: granted=true
+      android.permission.BLUETOOTH_ADMIN: granted=true
+      com.zhihu.android.permission.C2D_MESSAGE: granted=true
+      android.permission.ACCESS_LOCATION_EXTRA_COMMANDS: granted=true
+      com.zhihu.android.ReceivePlayerInfo: granted=true
+      android.permission.CHANGE_WIFI_STATE: granted=true
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC: granted=true
+      android.permission.FLASHLIGHT: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      android.permission.CHANGE_CONFIGURATION: granted=true
+      android.permission.READ_LOGS: granted=true
+      com.zhihu.android.push.permission.MESSAGE: granted=true
+      android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.ACCESS_WIFI_STATE: granted=true
+      com.android.launcher.permission.INSTALL_SHORTCUT: granted=true
+      android.permission.QUERY_ALL_PACKAGES: granted=true
+      com.google.android.gms.permission.AD_ID: granted=true
+      getui.permission.GetuiService.com.zhihu.android: granted=true
+      android.permission.WAKE_LOCK: granted=true
+      com.zhihu.android.permission.PROCESS_PUSH_MSG: granted=true
+    User 0: ceDataInode=362196 deDataInode=65742 installed=true hidden=false suspended=false distractionFlags=0 stopped=false notLaunched=false enabled=0 instant=false virtual=false quarantined=false
+      installReason=0
+      dataDir=/data/user/0/com.zhihu.android
+      firstInstallTime=2024-12-10 10:02:41
+      uninstallReason=0
+      overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+        /data/resource-cache/com.android.systemui-neutral-eTLF.frro
+        /data/resource-cache/com.android.systemui-accent-LQ0e.frro
+        /data/resource-cache/com.android.systemui-dynamic-yXyy.frro
+      legacy overlay paths:
+        /product/overlay/NavigationBarModeGestural/NavigationBarModeGesturalOverlay.apk
+      gids=[3002, 3003, 3001, 1007]
+      runtime permissions:
+        android.permission.READ_CALENDAR: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.POST_NOTIFICATIONS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_FINE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VISUAL_USER_SELECTED: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_COARSE_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_IMAGES: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.CAMERA: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_CALENDAR: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_AUDIO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_MEDIA_VIDEO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.WRITE_EXTERNAL_STORAGE: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.RECORD_AUDIO: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.READ_CONTACTS: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+        android.permission.ACCESS_BACKGROUND_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED|RESTRICTION_INSTALLER_EXEMPT]
+        android.permission.ACCESS_MEDIA_LOCATION: granted=true, flags=[ USER_SENSITIVE_WHEN_GRANTED|USER_SENSITIVE_WHEN_DENIED]
+
+Queries:
+  system apps queryable: false
+  queries via forceQueryable:
+  queries via package name:
+  queries via component:
+    com.google.android.as:
+      com.zhihu.android
+    com.google.android.settings.intelligence:
+      com.zhihu.android
+    com.google.android.apps.messaging:
+      com.zhihu.android
+    com.google.android.contacts:
+      com.zhihu.android
+    com.google.android.apps.maps:
+      com.zhihu.android
+    com.google.android.apps.photos:
+      com.zhihu.android
+    com.google.android.apps.youtube.music:
+      com.zhihu.android
+    com.google.android.youtube:
+      com.zhihu.android
+    com.google.android.gm:
+      com.zhihu.android
+    com.android.wallpaper:
+      com.zhihu.android
+    com.zhihu.android:
+      com.google.android.documentsui
+      com.google.android.projection.gearhead
+      com.android.imsserviceentitlement
+      com.google.android.as
+      com.google.android.apps.restore
+      com.google.android.dialer
+      com.google.android.apps.safetyhub
+      com.google.android.settings.intelligence
+      com.google.android.apps.messaging
+      com.google.android.googlequicksearchbox
+      com.android.chrome
+      com.android.camera2
+      com.google.android.contacts
+      com.google.android.calendar
+      com.google.android.apps.docs
+      com.google.android.inputmethod.latin
+      com.google.android.deskclock
+      com.google.android.apps.maps
+      com.google.android.apps.photos
+      com.google.android.apps.youtube.music
+      com.google.android.youtube
+      com.google.android.gm
+      com.google.android.apps.nexuslauncher
+      com.android.wallpaper
+      com.google.android.apps.wallpaper
+      com.google.android.healthconnect.controller
+      com.google.android.cellbroadcastreceiver
+      com.google.android.devicelockcontroller
+      io.github.ylimit.droidbotapp
+  queryable via interaction:
+    User 0:
+  queryable via uses-library:
+
+Dexopt state:
+  [com.zhihu.android]
+    path: /data/app/~~Tcfj39lEKMuOIJ4zF1OzAA==/com.zhihu.android-flAvj3QaFTxsSnm7U41yyQ==/base.apk
+      x86_64: [status=verify] [reason=install] [primary-abi]
+        [location is /data/app/~~Tcfj39lEKMuOIJ4zF1OzAA==/com.zhihu.android-flAvj3QaFTxsSnm7U41yyQ==/oat/x86_64/base.odex]
+
+Compiler stats:
+  [com.zhihu.android]
+     base.apk - 19283

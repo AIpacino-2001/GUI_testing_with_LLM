@@ -1,0 +1,12 @@
+{
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "task_end_condition": "The task is known to be completed when fufu successfully accesses the ModelFieldEditor page and interacts with the customizable card fields.",
+  "working_memory": [
+    {
+      "description": "Touch on a button that has content_desc \"\u4e3b\u9875\"",
+      "type": "ACTION",
+      "timestamp": "18:19:34",
+      "page": "SharedDecks"
+    }
+  ]
+}

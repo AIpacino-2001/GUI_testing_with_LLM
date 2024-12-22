@@ -1,0 +1,83 @@
+{
+  "app_activities": [
+    "ManageSpace",
+    "Drawing",
+    "IntentHandler",
+    "DeckPicker",
+    "StudyOptions",
+    "CardBrowser",
+    "ManageNotetypes",
+    "Permissions",
+    "ModelFieldEditor",
+    "Reviewer",
+    "MyAccount",
+    "Multimedia",
+    "Preferences",
+    "FilteredDeckOptions",
+    "Info",
+    "IntentHandler2",
+    "SingleFragment",
+    "CardViewer",
+    "CardTemplateEditor",
+    "CardTemplateBrowserAppearanceEditor",
+    "SharedDecks",
+    "Login",
+    "Introduction",
+    "DeckPickerWidgetConfig",
+    "CardAnalysisWidgetConfig",
+    "InstantNoteEditor"
+  ],
+  "visited_activities": {
+    "Introduction": 1,
+    "DeckPicker": 5,
+    "MyAccount": 3
+  },
+  "task_results": {},
+  "API_usage": {
+    "gpt-3.5-turbo-0125": {
+      "prompt_tokens": 46824,
+      "completion_tokens": 2473,
+      "total_tokens": 49297
+    }
+  },
+  "API_response_time": {
+    "gpt-3.5-turbo-0125": [
+      3.597637414932251,
+      1.046046495437622,
+      1.298119068145752,
+      1.8249938488006592,
+      0.9501979351043701,
+      1.353334903717041,
+      1.9671623706817627,
+      1.2197849750518799,
+      1.3481757640838623,
+      2.629185914993286,
+      1.4040393829345703,
+      1.1744067668914795,
+      1.447380542755127,
+      1.735485315322876,
+      1.5161426067352295,
+      1.4771275520324707,
+      2.348677396774292,
+      4.359589338302612,
+      1.8330647945404053,
+      1.349165439605713,
+      0.909334659576416,
+      1.743762493133545,
+      2.1357483863830566,
+      1.859015941619873,
+      1.148838758468628,
+      1.2967710494995117,
+      1.2756338119506836,
+      2.527158737182617,
+      1.6732072830200195,
+      0.9963362216949463,
+      1.048025131225586,
+      1.1362569332122803,
+      1.0668768882751465,
+      3.394598960876465,
+      2.582000255584717,
+      1.6994755268096924
+    ]
+  }
+}

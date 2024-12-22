@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-12_165003",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 30,
+      "view_str": "98346f4f971197d87cee611bce42002e",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "\u767b\u5f55",
+      "resource_id": "login_button",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          277,
+          1379
+        ],
+        [
+          802,
+          1505
+        ]
+      ]
+    }
+  },
+  "start_state": "03810dae06d014161510ce7aa69718cd",
+  "stop_state": "0c78f8fe806ed56e801a5e092171de3e",
+  "event_str": "TouchEvent(state=03810dae06d014161510ce7aa69718cd, view=98346f4f971197d87cee611bce42002e(MyAccount/Button-\u767b\u5f55))",
+  "task": "Open the AnkiDroid app's ManageSpace page.",
+  "view_image_dir": "./outLog\\views/view_98346f4f971197d87cee611bce42002e.png"
+}

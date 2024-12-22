@@ -1,0 +1,13 @@
+{
+  "tag": "2024-12-12_164604",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "intent": "am start com.ichi2.anki/com.ichi2.anki.IntentHandler"
+  },
+  "start_state": "3a984bde5b24773d7afda19671ad93d5",
+  "stop_state": "66d89e6b37f56c3ee1b4cc641a1a044b",
+  "event_str": "IntentEvent(intent='am start com.ichi2.anki/com.ichi2.anki.IntentHandler')",
+  "task": null,
+  "view_image_dir": null
+}

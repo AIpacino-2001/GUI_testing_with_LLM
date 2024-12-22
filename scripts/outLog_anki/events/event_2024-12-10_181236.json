@@ -1,0 +1,13 @@
+{
+  "tag": "2024-12-10_181236",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "name": "BACK"
+  },
+  "start_state": "f08e6e48962a98d4f1e710a7c165aec8",
+  "stop_state": "35d24b98ff5bdbdf4a0feb4ed9a90a7d",
+  "event_str": "KeyEvent(state=f08e6e48962a98d4f1e710a7c165aec8, name=BACK)",
+  "task": "Explore the AnkiDroid app's ModelFieldEditor page.",
+  "view_image_dir": null
+}

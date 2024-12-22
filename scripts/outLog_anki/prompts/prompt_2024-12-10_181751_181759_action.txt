@@ -1,0 +1,283 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Explore the "ModelFieldEditor" page to customize card fields for a personalized AnkiDroid experience. (The task is known to be completed when fufu successfully accesses the ModelFieldEditor page)
+
+I'm currently on the SharedDecks page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "Toggle navigation"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Log In"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Apps"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Docs"
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "The actions taken so far have not directly led fufu to the ModelFieldEditor page for customizing card fields. fufu needs to explore the "Deck options" or "Settings" to find the path leading to the ModelFieldEditor page." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "主页"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Apps"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "牌组搜索"
+
+*** User:
+I performed the action, and as a result, by touching the button with content_desc "牌组搜索," the button "转到上一层级" is replaced with a new button "收起" in the SharedDecks screen. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: 收起,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 14,
+      widget_type: AutoCompleteTextView,
+      text: 使用牌组名称搜索,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 16,
+      widget_type: Button,
+      content_description: 主页,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 4,
+      widget_role_inference: The widget serves as a button that transitions the screen from the SharedDecks page to a page displaying various language options, search fields, and navigation buttons related to shared decks on AnkiWeb.
+    },
+    {
+      ID: 18,
+      widget_type: WebView,
+      text: Anki - powerful, intelligent flashcards,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          ID: 21,
+          widget_type: View,
+          content_description: Home,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Home
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 24,
+          widget_type: View,
+          content_description: Docs,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Docs
+          ],
+          num_prev_actions: 2,
+          widget_role_inference: The widget Docs serves as a navigation button that, when touched, becomes the currently selected option on the screen.
+        },
+        {
+          ID: 27,
+          widget_type: View,
+          content_description: AnkiWeb,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            AnkiWeb
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: Powerful, intelligent flash cards.[NEWLINE]
+        },
+        {
+          ID: 33,
+          widget_type: View,
+          content_description: Download,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Download
+          ],
+          num_prev_actions: 2,
+          widget_role_inference: The widget initiates the download process for Anki across various platforms and provides additional information on testimonials and alternate download sites.
+        },
+        {
+          widget_type: TextView,
+          text: About Anki
+        },
+        {
+          widget_type: TextView,
+          text: Anki is a program which makes remembering things easy. Because its a lot more efficient than tradit[...]
+        },
+        {
+          widget_type: TextView,
+          text: Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-a[...]
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Learning a language
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Studying for medical and law exams
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Memorizing peoples names and faces
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Brushing up on geography
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Mastering long poems
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Even practicing guitar chords!
+        },
+        {
+          widget_type: TextView,
+          text: Features
+        },
+        {
+          widget_type: TextView,
+          text: Synchronization[NEWLINE]Use the free AnkiWeb synchronization service to keep your cards in sync across multi[...]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Explore the "ModelFieldEditor" page to customize card fields for a personalized AnkiDroid experience.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+1. Summary of my previous interactions for the task: I have navigated through different pages on AnkiDroid but haven't reached the ModelFieldEditor page yet.
+
+2. Description of the current app state: The current page is SharedDecks with options to search for decks and navigate to different sections like Home, Docs, AnkiWeb, and Download.
+
+3. Inference on the remaining steps needed to complete the task: To reach the ModelFieldEditor page, I may need to explore the "Deck options" or "Settings" sections to find the path leading to customizing card fields.
+
+4. Reasoning for the next action: Touch on a button that has text "Deck options" to explore the customization options for card fields and potentially find the path to the ModelFieldEditor page.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'call_dhkEWBrOCdhJIOcHlxlk8wgg', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":14}'}}

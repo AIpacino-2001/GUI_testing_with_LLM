@@ -1,0 +1,222 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Open the AnkiDroid app's ManageSpace page. (The task is known to be completed when fufu successfully navigates to the ManageSpace page)
+
+I'm currently on the NexusLauncher page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "电话"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "开始"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Open the app again because the previous action led to closing the app
+
+*** User:
+I performed the action you suggested. The page changed from Introduction to DeckPicker. What should be the next action?
+
+*** Assistant:
+Touch on a button
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has resource_id "button"
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "<1~2 sentences in one line, say "okay" if everything seems fine.>. <Start with "fufu needs to", and describe in one line. Say just "none" if fufu is doing well and no workaround is needed.>." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Touch on a button that has text "登录"
+
+*** User:
+I performed the action you suggested. The page changed from DeckPicker to MyAccount. What should be the next action?
+
+*** Assistant:
+Fill a textfield that has text "电子邮件地址" with "2797195863@qq.com"
+
+*** User:
+I performed the action, and as a result, the textfield with the text "电子邮件地址" has been successfully filled with the email "2797195863@qq.com," and a "清除文字" button has appeared to clear the text if needed. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: MyAccount,
+  children: [
+    {
+      ID: 8,
+      widget_type: ImageButton,
+      content_description: 转到上一层级,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: AnkiWeb 帐户
+    },
+    {
+      ID: 16,
+      widget_type: EditText,
+      text: 2797195863@qq.com,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 2,
+      widget_role_inference: The widget is a textfield for entering an email address, with the ability to clear the text using the 清除文字 button.
+    },
+    {
+      ID: 19,
+      widget_type: ImageButton,
+      content_description: 清除文字,
+      resource_id: text_input_end_icon,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 24,
+      widget_type: EditText,
+      text: 密码,
+      is_password: true,
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 27,
+      widget_type: ImageButton,
+      content_description: 显示密码,
+      resource_id: text_input_end_icon,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 31,
+      widget_type: Button,
+      text: 重置密码,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: 还没有AnkiWeb账户吗？它是免费的！
+    },
+    {
+      widget_type: TextView,
+      text: 注 ︰ AnkiWeb不属于AnkiDroid
+    },
+    {
+      ID: 34,
+      widget_type: Button,
+      text: 注册,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 35,
+      widget_type: Button,
+      text: 隐私,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 36,
+      widget_type: Button,
+      text: 忘了电子邮件地址吗？,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Open the AnkiDroid app's ManageSpace page.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+1. I have successfully filled in the email address textfield with "2797195863@qq.com" on the MyAccount page.
+2. The current page, MyAccount, displays options for resetting password, registering, and managing AnkiWeb account details.
+3. To proceed with opening the ManageSpace page, fufu needs to enter the password in the password textfield and possibly log in to access further functionalities.
+4. The next action should be to fill in the password textfield with the password "20080808" to continue the login process.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'call_mVaWJbapRtq1NVQ23dI7DVpH', 'type': 'function', 'function': {'name': 'set_text', 'arguments': '{"target_widget_ID":24}'}}
+
+*** User:
+{'tool_call_id': 'call_mVaWJbapRtq1NVQ23dI7DVpH', 'name': 'set_text', 'return_value': '{"follow_up_question": "Good. From now on, act as you are fufu and provide the text to be inputted in the selected textfield (Widget ID: 24). \\n\\nThe properties and children (if any) of the selected textfield are as follows:\\n{\\n  \\"ID\\": 24,\\n  \\"widget_type\\": \\"EditText\\",\\n  \\"text\\": \\"\\u5bc6\\u7801\\",\\n  \\"is_password\\": true,\\n  \\"possible_action_types\\": [\\n    \\"touch\\",\\n    \\"long_touch\\",\\n    \\"set_text\\"\\n  ]\\n}\\n\\nYou need to generate concrete text content to be filled in the textfield by inferring the content based on my profile.\\n\\nI am going to provide a template for your output step by step.\\n=== Below is the template for your answer ===\\nRole of the textfield: <1~2 sentences>\\nReasoning for generating fufu\'s text: <1~2 sentences>\\nText: <generated text content>\\n\\n=== Below is the example of a valid answer format ===\\nRole of the textfield: The textfield is for inputting the user\'s full name.\\nReasoning for generating proper text: fufu should input their own name in the textfield.\\nText: fufu"}'}
+
+*** Assistant:
+Role of the textfield: The textfield is for entering the password.
+Reasoning for generating fufu's text: fufu's password is "20080808."
+Text: 20080808

@@ -1,0 +1,39 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "Anatomy"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+ a button that has content_desc "Spanish"
+ a textview that has text "Art, sciences and trivia"
+ a textview that has text "Anatomy"
+-a button that has content_desc "Anatomy"
++a focused button that has content_desc "Anatomy"
+ a textview that has text ", "
+ a textview that has text "Biology"
+ a button that has content_desc "Biology"
+ a button that has content_desc "Terms"
+ a textview that has text "Privacy"
+ a button that has content_desc "Privacy"
+-a focused widget that has text "Shared Decks - AnkiWeb"
++a widget that has text "Shared Decks - AnkiWeb"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the "Anatomy" button, it became the focused button on the current screen in the SharedDecks section, replacing the previously focused "Anatomy" button.

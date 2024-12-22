@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_180937",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 16,
+      "view_str": "c16a81128278d75acf40510ea7420cd9",
+      "widget_type": "Switch",
+      "class": "android.widget.Switch",
+      "resource_id": "switch_widget",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          859,
+          487
+        ],
+        [
+          1038,
+          613
+        ]
+      ]
+    }
+  },
+  "start_state": "3a984bde5b24773d7afda19671ad93d5",
+  "stop_state": "96781c1d131c084a68c5d8c82f1b3975",
+  "event_str": "TouchEvent(state=3a984bde5b24773d7afda19671ad93d5, view=c16a81128278d75acf40510ea7420cd9(PermissionsActivity/Switch-))",
+  "task": "Explore the AnkiDroid page to understand its features.",
+  "view_image_dir": "./outLog\\views/view_c16a81128278d75acf40510ea7420cd9.png"
+}

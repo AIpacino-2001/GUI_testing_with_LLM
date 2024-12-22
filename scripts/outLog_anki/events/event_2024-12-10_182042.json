@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_182042",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 9,
+      "view_str": "fcf0b44516686479beda20d4c6d84224",
+      "widget_type": "ImageButton",
+      "class": "android.widget.ImageButton",
+      "content_description": "\u8f6c\u5230\u4e0a\u4e00\u5c42\u7ea7",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          0,
+          73
+        ],
+        [
+          147,
+          220
+        ]
+      ]
+    }
+  },
+  "start_state": "d66b520ff74d1f074bf8f0b275dd6a06",
+  "stop_state": "0c78f8fe806ed56e801a5e092171de3e",
+  "event_str": "TouchEvent(state=d66b520ff74d1f074bf8f0b275dd6a06, view=fcf0b44516686479beda20d4c6d84224(SharedDecksActivity/ImageButton-))",
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "view_image_dir": "./outLog\\views/view_fcf0b44516686479beda20d4c6d84224.png"
+}

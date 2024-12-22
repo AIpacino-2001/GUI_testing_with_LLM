@@ -1,0 +1,13 @@
+{
+  "tag": "2024-12-10_182026",
+  "event": {
+    "event_type": "key",
+    "log_lines": null,
+    "name": "BACK"
+  },
+  "start_state": "283c6314ea738eeb1c318b4c7b68aa6e",
+  "stop_state": "d66b520ff74d1f074bf8f0b275dd6a06",
+  "event_str": "KeyEvent(state=283c6314ea738eeb1c318b4c7b68aa6e, name=BACK)",
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "view_image_dir": null
+}

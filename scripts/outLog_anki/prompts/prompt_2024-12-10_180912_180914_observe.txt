@@ -1,0 +1,47 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "AnkiDroid"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (NexusLauncher)
++++ Current (Introduction)
+-a button that has text "12月10日周二"
+-a button that has resource_id "base_template_card_with_date"
+-a widget that has content_desc "资讯一览"
+-a button that has text "Play 商店"
+-a button that has text "Gmail"
+-a button that has text "相册"
+-a button that has text "YouTube"
+-a scrollable area that has resource_id "workspace"
+-a button that has text "电话"
+-a button that has text "信息"
+-a button that has text "Chrome"
+-a button that has text "AnkiDroid"
+-a button that has content_desc "Google 应用"
+-a button that has content_desc "语音搜索"
+-a button that has content_desc "Google 智能镜头"
+-a button that has content_desc "Google 搜索"
++a textview that has text "学得更少"
++a textview that has text "记得更多"
++a textview that has text "Anki 的卡片调度器通过增强你最薄弱的记忆和保存你最强大的记忆来节省时间"
++a button that has text "开始"
++a button that has text "从 AnkiWeb 同步"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the button labeled "AnkiDroid," the screen has changed to an Introduction page with new text views explaining Anki's features and options to start or sync with AnkiWeb.

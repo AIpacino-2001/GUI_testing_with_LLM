@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-10_180926",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 14,
+      "view_str": "31e9b03977319f85314ee148deaf3838",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "\u5f00\u59cb",
+      "resource_id": "get_started",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          278,
+          1890
+        ],
+        [
+          803,
+          2016
+        ]
+      ]
+    }
+  },
+  "start_state": "094e5b13a35c4e3d71861a9bf27ff197",
+  "stop_state": "3a984bde5b24773d7afda19671ad93d5",
+  "event_str": "TouchEvent(state=094e5b13a35c4e3d71861a9bf27ff197, view=31e9b03977319f85314ee148deaf3838(IntroductionActivity/Button-\u5f00\u59cb))",
+  "task": "Explore the AnkiDroid page to understand its features.",
+  "view_image_dir": "./outLog\\views/view_31e9b03977319f85314ee148deaf3838.png"
+}

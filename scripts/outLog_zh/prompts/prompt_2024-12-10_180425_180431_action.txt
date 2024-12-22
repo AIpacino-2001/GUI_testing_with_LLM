@@ -1,0 +1,105 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named 知乎.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named 知乎 to accomplish the following task: 
+* Task: Explore the "热榜" section to view popular content. (The task is known to be completed when fufu has scrolled through the list of hot topics and engaged with at least one of the trending topics)
+
+I'm currently on the Main page. I plan to start by scrolling through the "热榜" section to discover what topics are currently trending on the platform. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "热榜"
+
+*** User:
+I performed the action, and as a result, by touching the button with the text "热榜," the main screen now displays information related to personal data protection guidelines and user rights on the platform, along with options to read detailed policies and make decisions. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: Main,
+  children: [
+    {
+      widget_type: TextView,
+      text: 个人信息保护指引
+    },
+    {
+      widget_type: TextView,
+      text: 感谢您使用知乎！我们将依据《个人信息保护指引》和《知乎协议》来帮助您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。
+    },
+    {
+      widget_type: TextView,
+      text: 1、您可以通过查看《知乎个人信息保护指引摘要》 来简便快捷地了解我们可能收集、使用的您的个人信息情况；
+    },
+    {
+      widget_type: TextView,
+      text: 2、基于您的明示授权，我们可能调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权；具体权限获取情况详见《知乎协议》；
+    },
+    {
+      widget_type: TextView,
+      text: 3、我们会采取业界先进的安全措施保护您的信息安全；
+    },
+    {
+      widget_type: TextView,
+      text: 4、您可以查询、更正、删除、撤回授权您的个人信息，我们也提供账户注销的渠道。
+    },
+    {
+      widget_type: TextView,
+      text: 阅读《个人信息保护指引》、《个人信息保护指引摘要》和《知乎协议》
+    },
+    {
+      widget_type: TextView,
+      text: 不同意
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Explore the "热榜" section to view popular content.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: I touched the "热榜" button which led to the display of personal data protection guidelines and user rights information.
+2. Description of the current app state: The current page displays information about personal data protection guidelines, user rights, and options to read detailed policies.
+3. Inference on the remaining steps needed to complete the task: Since the current page is not related to the "热榜" section, I need to navigate back to the main page to access the "热榜" section.
+4. Reasoning for the next action: The most logical action is to navigate back to the main page to explore the "热榜" section and view popular content.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'call_EKmyzVvVDlfap1iNxLwLAoYt', 'type': 'function', 'function': {'name': 'go_back', 'arguments': '{}'}}

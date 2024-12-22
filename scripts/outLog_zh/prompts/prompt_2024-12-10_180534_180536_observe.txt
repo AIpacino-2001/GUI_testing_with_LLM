@@ -1,0 +1,33 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has content_desc "科学"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (Launcher)
++++ Current (Launcher)
++a button that has text "跳过2"
++a textview that has text "翻转手机"
++a textview that has text "前往淘宝双12狂欢节"
++a textview that has text "Tanx"
++a textview that has text "广告"
++a button that has resource_id "launch_ad_layout"
++a button that has resource_id "launch_layout"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the button with content description "科学," new widgets like a button with text "跳过2" and textviews with various texts have appeared on the screen.

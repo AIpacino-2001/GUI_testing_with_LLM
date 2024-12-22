@@ -1,0 +1,37 @@
+{
+  "tag": "2024-12-10_182445",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 20,
+      "view_str": "f6dca5b04f2116a52df616266810b898",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "\u7b54\u6848\u683c\u5f0f",
+      "resource_id": "answer_format",
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          21,
+          976
+        ],
+        [
+          1059,
+          1221
+        ]
+      ]
+    }
+  },
+  "start_state": "65ce249b3ba3efb0f8f45193f47c80f7",
+  "stop_state": "65ce249b3ba3efb0f8f45193f47c80f7",
+  "event_str": "TouchEvent(state=65ce249b3ba3efb0f8f45193f47c80f7, view=f6dca5b04f2116a52df616266810b898(CardTemplateBrowserAppearanceEditor/EditText-\u7b54\u6848\u683c\u5f0f))",
+  "task": "Explore the ManageNotetypes page to learn about managing note types.",
+  "view_image_dir": "./outLog\\views/view_f6dca5b04f2116a52df616266810b898.png"
+}

@@ -1,0 +1,40 @@
+{
+  "tag": "2024-12-10_181808",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 14,
+      "view_str": "1905582cfa3fd4eed8caf36bc329d80d",
+      "widget_type": "AutoCompleteTextView",
+      "class": "android.widget.AutoCompleteTextView",
+      "text": "\u4f7f\u7528\u724c\u7ec4\u540d\u79f0\u641c\u7d22",
+      "resource_id": "search_src_text",
+      "state": [
+        "focused"
+      ],
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          168,
+          99
+        ],
+        [
+          932,
+          194
+        ]
+      ]
+    }
+  },
+  "start_state": "491f237f45752695c7e5c6e63f7ebbbf",
+  "stop_state": "491f237f45752695c7e5c6e63f7ebbbf",
+  "event_str": "TouchEvent(state=491f237f45752695c7e5c6e63f7ebbbf, view=1905582cfa3fd4eed8caf36bc329d80d(SharedDecksActivity/AutoCompleteTextView-\u4f7f\u7528\u724c\u7ec4\u540d\u79f0\u641c\u7d22))",
+  "task": "Explore the \"ModelFieldEditor\" page to customize card fields for a personalized AnkiDroid experience.",
+  "view_image_dir": "./outLog\\views/view_1905582cfa3fd4eed8caf36bc329d80d.png"
+}

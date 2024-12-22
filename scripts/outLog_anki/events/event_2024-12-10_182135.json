@@ -1,0 +1,38 @@
+{
+  "tag": "2024-12-10_182135",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 28,
+      "view_str": "14f9e2a5473e5773c0ba6b4072cb3a87",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "{{#\u6807\u9898}}<div>{{\u6807\u9898}}</div>{{/\u6807\u9898}}\n<div style=\"display: none\">{{cloze:\u906e\u76d6}}</div>\n<div id=\"err\"></div>\n<[...]",
+      "resource_id": "editor_editText",
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          13,
+          482
+        ],
+        [
+          1067,
+          2114
+        ]
+      ]
+    },
+    "text": "{{#\u6807\u9898}}<div>{{\u6807\u9898}}</div>{{/\u6807\u9898}}[NEWLINE]<div style=\"display: none\">{{cloze:\u906e\u76d6}}</div>[NEWLINE]<div id=\"err\"></div>[NEWLINE]<div>Hi, I'm fufu, a 25-year-old graduate student studying computer science.</div>"
+  },
+  "start_state": "e48d6809da486f43dc1bb01c82fe31ef",
+  "stop_state": "e48d6809da486f43dc1bb01c82fe31ef",
+  "event_str": "SetTextEvent(state=e48d6809da486f43dc1bb01c82fe31ef, view=14f9e2a5473e5773c0ba6b4072cb3a87(CardTemplateEditor/EditText-{{#\u6807\u9898}}<di), text={{#\u6807\u9898}}<div>{{\u6807\u9898}}</div>{{/\u6807\u9898}}[NEWLINE]<div style=\"display: none\">{{cloze:\u906e\u76d6}}</div>[NEWLINE]<div id=\"err\"></div>[NEWLINE]<div>Hi, I'm fufu, a 25-year-old graduate student studying computer science.</div>)",
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "view_image_dir": "./outLog\\views/view_14f9e2a5473e5773c0ba6b4072cb3a87.png"
+}

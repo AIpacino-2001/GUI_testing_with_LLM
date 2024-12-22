@@ -1,0 +1,18 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a button that has text "Apps"
+
+Past interactions on the widget:
+- result of touch: By touching the "Apps" button, the screen has been updated to include new options such as "Home," "Docs," and additional information about Anki and its features.
+- result of touch: By touching the "Apps" button, the screen has transitioned to the "SharedDecks" page, where new options such as "Home," "Docs," and "Download" are now visible, offering additional functionalities to explore.
+- result of touch: By touching the "Apps" button, the screen has transitioned to a new page within the app, displaying information about Anki and its features, along with options for downloading and learning more about the program.
+- result of touch: By touching the button with the text "Apps," the screen has transitioned from the "SharedDecks" page to the "SharedDecks" page with additional information about AnkiWeb, powerful flashcards, and download options.
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget "Apps" transitions to different pages within the app, providing access to various options, information, and functionalities related to Anki and its features.

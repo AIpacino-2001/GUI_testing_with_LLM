@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-10_182234",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 31,
+      "view_str": "2f9d0b58d3683023d6a2247bbed562cd",
+      "widget_type": "FrameLayout",
+      "class": "android.widget.FrameLayout",
+      "content_description": "\u6b63\u9762",
+      "resource_id": "front_edit",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          0,
+          2127
+        ],
+        [
+          360,
+          2337
+        ]
+      ]
+    }
+  },
+  "start_state": "e00cd92b41de40ade894e4ff66002c50",
+  "stop_state": "e48d6809da486f43dc1bb01c82fe31ef",
+  "event_str": "TouchEvent(state=e00cd92b41de40ade894e4ff66002c50, view=2f9d0b58d3683023d6a2247bbed562cd(CardTemplateEditor/FrameLayout-))",
+  "task": "Explore the ModelFieldEditor page to customize card fields.",
+  "view_image_dir": "./outLog\\views/view_2f9d0b58d3683023d6a2247bbed562cd.png"
+}

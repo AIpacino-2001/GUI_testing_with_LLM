@@ -1,0 +1,16 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a focused textfield that has text "#image-occlusion-canvas {
+    --inactive-shape-col[...]"
+
+Past interactions on the widget:
+- result of set_text {{#标题}}<div>{{标题}}</div>{{/标题}}[NEWLINE]<div style="display: none">{{cloze:遮盖}}</div>[NEWLINE]<div id="err"></div>[NEWLINE]<div>Hi, I'm fufu, a 25-year-old graduate student studying computer science.</div>: The textfield content has been expanded to include a new line with additional text, and the textfield is now focused with the updated content visible for editing.
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget allows users to edit and focus on text content, with the ability to expand and update the textfield content for editing.

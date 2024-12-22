@@ -1,0 +1,42 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has content_desc "搜索"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (ManageNotetypes)
++++ Current (ManageNotetypes)
+-a button that has content_desc "转到上一层级"
+-a textview that has text "笔记类型"
+-a textview that has text "6个笔记类型可用"
+-a button that has content_desc "搜索"
++a button that has content_desc "收起"
++a focused button that has text "搜索…"
+ a textview that has text "图片遮盖"
+ a textview that has text "0笔记"
+ a button that has text "编辑卡片"
+ a button that has text "重命名"
+ a button that has text "删除"
+ a button
+-a textview that has text "问答题（附翻转卡片）"
+-a button
+ a scrollable area that has resource_id "note_types_list"
+ a button that has content_desc "添加新的笔记类型"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the "搜索" button, the button with content_desc "搜索" was replaced with a button labeled "收起" and a focused button for searching.

@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-10_182323",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 22,
+      "view_str": "5572fc0e7f6c354bfcc2933b5f30de2e",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "\u7f16\u8f91\u5361\u7247",
+      "resource_id": "note_edit_cards",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          21,
+          489
+        ],
+        [
+          252,
+          615
+        ]
+      ]
+    }
+  },
+  "start_state": "8ffbc7106b609ed278ce30b6950aab4c",
+  "stop_state": "e48d6809da486f43dc1bb01c82fe31ef",
+  "event_str": "TouchEvent(state=8ffbc7106b609ed278ce30b6950aab4c, view=5572fc0e7f6c354bfcc2933b5f30de2e(ManageNotetypes/Button-\u7f16\u8f91\u5361\u7247))",
+  "task": "Explore the ManageNotetypes page to learn about managing note types.",
+  "view_image_dir": "./outLog\\views/view_5572fc0e7f6c354bfcc2933b5f30de2e.png"
+}

@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_181532",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 37,
+      "view_str": "65e649279e9e345689ee887c6cf302ec",
+      "widget_type": "View",
+      "class": "android.view.View",
+      "content_description": "2 other item(s)",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          301,
+          569
+        ],
+        [
+          488,
+          606
+        ]
+      ]
+    }
+  },
+  "start_state": "4acd37cc1eb4c6d19e6b26918d36e2bd",
+  "stop_state": "7b8d7ecb5d8ac646d9759a829c2c98e7",
+  "event_str": "TouchEvent(state=4acd37cc1eb4c6d19e6b26918d36e2bd, view=65e649279e9e345689ee887c6cf302ec(SharedDecksActivity/View-))",
+  "task": "Explore the AnkiDroid app's ModelFieldEditor page.",
+  "view_image_dir": "./outLog\\views/view_65e649279e9e345689ee887c6cf302ec.png"
+}

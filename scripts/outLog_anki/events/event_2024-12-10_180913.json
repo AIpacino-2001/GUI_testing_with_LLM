@@ -1,0 +1,36 @@
+{
+  "tag": "2024-12-10_180913",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 27,
+      "view_str": "41d9034cde12611c8bbf01422cbb48ea",
+      "widget_type": "TextView",
+      "class": "android.widget.TextView",
+      "text": "AnkiDroid",
+      "content_description": "\u9884\u6d4b\u7684\u5e94\u7528\uff1aAnkiDroid",
+      "possible_action_types": [
+        "touch",
+        "long_touch"
+      ],
+      "bounds": [
+        [
+          824,
+          1873
+        ],
+        [
+          997,
+          2068
+        ]
+      ]
+    }
+  },
+  "start_state": "2aabf8c082158223a971b4a647238284",
+  "stop_state": "094e5b13a35c4e3d71861a9bf27ff197",
+  "event_str": "TouchEvent(state=2aabf8c082158223a971b4a647238284, view=41d9034cde12611c8bbf01422cbb48ea(NexusLauncherActivity/TextView-AnkiDroid))",
+  "task": "Explore the AnkiDroid page to understand its features.",
+  "view_image_dir": "./outLog\\views/view_41d9034cde12611c8bbf01422cbb48ea.png"
+}

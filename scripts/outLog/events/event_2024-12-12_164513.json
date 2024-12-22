@@ -1,0 +1,36 @@
+{
+  "tag": "2024-12-12_164513",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 24,
+      "view_str": "5deff5a4354ec151311f12935e22d14f",
+      "widget_type": "TextView",
+      "class": "android.widget.TextView",
+      "text": "\u7535\u8bdd",
+      "content_description": "\u7535\u8bdd",
+      "possible_action_types": [
+        "touch",
+        "long_touch"
+      ],
+      "bounds": [
+        [
+          83,
+          1873
+        ],
+        [
+          256,
+          2068
+        ]
+      ]
+    }
+  },
+  "start_state": "b3e81814d5ca0cef0e16b3819c0e4cce",
+  "stop_state": "094e5b13a35c4e3d71861a9bf27ff197",
+  "event_str": "TouchEvent(state=b3e81814d5ca0cef0e16b3819c0e4cce, view=5deff5a4354ec151311f12935e22d14f(NexusLauncherActivity/TextView-\u7535\u8bdd))",
+  "task": "Open the AnkiDroid app's ManageSpace page.",
+  "view_image_dir": "./outLog\\views/view_5deff5a4354ec151311f12935e22d14f.png"
+}

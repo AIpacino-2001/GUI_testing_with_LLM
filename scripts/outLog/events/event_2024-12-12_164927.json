@@ -1,0 +1,39 @@
+{
+  "tag": "2024-12-12_164927",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 24,
+      "view_str": "a95e4632a96573819d1a40e8f49d0b43",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "\u5bc6\u7801",
+      "resource_id": "password",
+      "is_password": true,
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          60,
+          1151
+        ],
+        [
+          1020,
+          1304
+        ]
+      ]
+    },
+    "text": "20080808"
+  },
+  "start_state": "2e8e5b558c5482362fe912ae2b6e2da1",
+  "stop_state": "03810dae06d014161510ce7aa69718cd",
+  "event_str": "SetTextEvent(state=2e8e5b558c5482362fe912ae2b6e2da1, view=a95e4632a96573819d1a40e8f49d0b43(MyAccount/EditText-\u5bc6\u7801), text=20080808)",
+  "task": "Open the AnkiDroid app's ManageSpace page.",
+  "view_image_dir": "./outLog\\views/view_a95e4632a96573819d1a40e8f49d0b43.png"
+}

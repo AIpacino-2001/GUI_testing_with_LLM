@@ -1,0 +1,15 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a focused scrollable area that has text "Anki - powerful, intelligent flashcards, Home, Docs[...and more]"
+
+Past interactions on the widget:
+- result of scroll DOWN: The scroll reveals additional information about the flexibility, media-rich features, optimization, extensibility, and open-source nature of Anki, along with testimonials from Michael A. Nielsen and K. M. Lawson.
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget provides a scrollable area that presents detailed information and testimonials about Anki flashcard software.

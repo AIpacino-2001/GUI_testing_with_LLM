@@ -1,0 +1,16 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a button that has content_desc "主页"
+
+Past interactions on the widget:
+- result of touch: By touching the button with content description "主页," the screen has transitioned from the "SharedDecks" page to a page displaying various language options, search fields, and navigation buttons related to shared decks on AnkiWeb.
+- result of touch: By touching the button with the content description "主页," the screen transitioned from the "SharedDecks" page to the "SharedDecks" page with additional popup messages appearing briefly and disappearing.
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget "主页" serves as a button that transitions the user from the "SharedDecks" page to a page displaying language options, search fields, and navigation buttons related to shared decks on AnkiWeb.

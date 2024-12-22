@@ -1,0 +1,231 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Open the AnkiDroid app's ManageSpace page. (The task is known to be completed when fufu successfully navigates to the ManageSpace page)
+
+I'm currently on the NexusLauncher page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "电话"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "开始"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Open the app again because the previous action led to closing the app
+
+*** User:
+I performed the action you suggested. The page changed from Introduction to DeckPicker. What should be the next action?
+
+*** Assistant:
+Touch on a button
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has resource_id "button"
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "<1~2 sentences in one line, say "okay" if everything seems fine.>. <Start with "fufu needs to", and describe in one line. Say just "none" if fufu is doing well and no workaround is needed.>." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Touch on a button that has text "登录"
+
+*** User:
+I performed the action you suggested. The page changed from DeckPicker to MyAccount. What should be the next action?
+
+*** Assistant:
+Fill a textfield that has text "电子邮件地址" with "2797195863@qq.com"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Fill a password textfield that has text "密码" with "20080808"
+
+*** User:
+I performed the action, and as a result, the user has successfully filled in the password field with a new password "20080808" in the MyAccount screen. The password textfield is now focused and contains the updated password. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: MyAccount,
+  children: [
+    {
+      ID: 8,
+      widget_type: ImageButton,
+      content_description: 转到上一层级,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: AnkiWeb 帐户
+    },
+    {
+      ID: 16,
+      widget_type: EditText,
+      text: 2797195863@qq.com,
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 2,
+      widget_role_inference: The widget is a textfield that allows users to input and display email addresses, with a clear text button for easy removal.
+    },
+    {
+      ID: 19,
+      widget_type: ImageButton,
+      content_description: 清除文字,
+      resource_id: text_input_end_icon,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 24,
+      widget_type: EditText,
+      text: 20080808,
+      is_password: true,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 2,
+      widget_role_inference: The widget is a password textfield in the MyAccount screen that allows the user to securely input and update their password, currently displaying 20080808.
+    },
+    {
+      ID: 27,
+      widget_type: ImageButton,
+      content_description: 显示密码,
+      resource_id: text_input_end_icon,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 30,
+      widget_type: Button,
+      text: 登录,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 31,
+      widget_type: Button,
+      text: 重置密码,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: 还没有AnkiWeb账户吗？它是免费的！
+    },
+    {
+      widget_type: TextView,
+      text: 注 ︰ AnkiWeb不属于AnkiDroid
+    },
+    {
+      ID: 34,
+      widget_type: Button,
+      text: 注册,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 35,
+      widget_type: Button,
+      text: 隐私,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 36,
+      widget_type: Button,
+      text: 忘了电子邮件地址吗？,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Open the AnkiDroid app's ManageSpace page.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: fufu has successfully filled in the email and password fields in the MyAccount screen.
+2. Description of the current app state: The MyAccount page contains widgets for email and password textfields, along with login, reset password, registration, privacy, and forgot email address buttons.
+3. Inference on the remaining steps needed to complete the task: fufu needs to log in using the provided email and password to proceed to the ManageSpace page.
+4. Reasoning for the next action: The most logical action is to touch on the "登录" button to log in and progress towards the ManageSpace page.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'call_YnvTO0dUFtgjChaP0HVRDutk', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":30}'}}

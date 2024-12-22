@@ -1,0 +1,235 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Explore the "ModelFieldEditor" page to customize card fields for a personalized AnkiDroid experience. (The task is known to be completed when fufu successfully accesses the ModelFieldEditor page)
+
+I'm currently on the SharedDecks page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "Toggle navigation"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Log In"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Apps"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Docs"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "主页"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Apps"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "牌组搜索"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a focused button that has text "使用牌组名称搜索"
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "<1~2 sentences in one line, say "okay" if everything seems fine.>. <Start with "fufu needs to", and describe in one line. Say just "none" if fufu is doing well and no workaround is needed.>." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Scroll down on a focused scrollable area that has text "Anki - powerful, intelligent flashcards, Home, Docs[...and more]"
+
+*** User:
+I performed the action, and as a result, the scroll reveals additional information about the flexibility, media-rich features, optimization, extensibility, and open-source nature of Anki, along with testimonials from Michael A. Nielsen and K. M. Lawson. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: 收起,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 14,
+      widget_type: AutoCompleteTextView,
+      text: 使用牌组名称搜索,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 2
+    },
+    {
+      ID: 16,
+      widget_type: Button,
+      content_description: 主页,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 4,
+      widget_role_inference: The widget 主页 serves as a button that transitions the screen to a page displaying various language options, search fields, and navigation buttons related to shared decks on AnkiWeb.
+    },
+    {
+      ID: 18,
+      widget_type: WebView,
+      text: Anki - powerful, intelligent flashcards,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          widget_type: TextView,
+          text: Flexibility[NEWLINE]From card layout to review timing, Anki has a wealth of options for you to customize.
+        },
+        {
+          widget_type: TextView,
+          text: Media-Rich[NEWLINE]Embed audio clips, images, videos and scientific markup on your cards, with precise contr[...]
+        },
+        {
+          widget_type: TextView,
+          text: Optimized[NEWLINE]Anki will handle decks of 100,000+ cards with no problems.
+        },
+        {
+          widget_type: TextView,
+          text: Fully Extensible[NEWLINE]There are a large number of add-ons available.
+        },
+        {
+          widget_type: TextView,
+          text: Open Source[NEWLINE]Because the code and storage format is open, your important data is safe.
+        },
+        {
+          widget_type: TextView,
+          text: The single biggest change that Anki brings about is that it means memory is no longer a haphazard e[...]
+        },
+        {
+          widget_type: TextView,
+          text: — 
+        },
+        {
+          ID: 68,
+          widget_type: View,
+          content_description: Michael A. Nielsen, Augmenting Long-term Memory,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Michael A. Nielsen, Augmenting Long-term Memory
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: No other application [...] comes remotely close to Anki in terms of the number and power of feature[...]
+        },
+        {
+          widget_type: TextView,
+          text: — 
+        },
+        {
+          ID: 74,
+          widget_type: View,
+          content_description: K. M. Lawson, Anki All the Way,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            K. M. Lawson, Anki All the Way
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: Ive been using Anki for two years now, and I just wanted to thank you personally for contributing [...]
+        }
+      ]
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Explore the "ModelFieldEditor" page to customize card fields for a personalized AnkiDroid experience.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: I have navigated through different pages and scrolled to reveal information about Anki's features and testimonials.
+2. Description of the current app state: The current page displays information about Anki's features like flexibility, media-rich content, optimization, extensibility, and open-source nature, along with testimonials from Michael A. Nielsen and K. M. Lawson.
+3. Inference on the remaining steps needed to complete the task: To explore the "ModelFieldEditor" page, fufu needs to navigate to the settings or customization section where card fields can be edited.
+4. Reasoning for the next action: The next logical action is to look for a button or option related to settings or customization to access the "ModelFieldEditor" page for editing card fields.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'call_BWPF4XNBX4p4fhN9eeL6ID3r', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":16}'}}

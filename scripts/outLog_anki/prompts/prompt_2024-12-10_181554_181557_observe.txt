@@ -1,0 +1,85 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "USUHS SOM Pre-Clerkship"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+ a textview that has text "AnkiWeb"
+ a widget that has text "logo"
+ a button that has text "Toggle navigation"
+-a textview that has text "Items shared by author"
+-a widget that has text "• "
+-a textview that has text "USUHS (including anatomy)"
+-a button that has content_desc "USUHS (including anatomy)"
+-a widget that has text "• "
+-a textview that has text "USUHS SOM Anatomy"
+-a button that has content_desc "USUHS SOM Anatomy"
+-a widget that has text "• "
++a widget that has text "thumbs up"
++a textview that has text "2"
++a widget that has text "thumbs down"
++a textview that has text "0"
++a textview that has text "Rate This"
++a button that has content_desc "Rate This"
+ a textview that has text "USUHS SOM Pre-Clerkship"
+-a button that has content_desc "USUHS SOM Pre-Clerkship"
+-a textview that has text "Apps"
+-a button that has content_desc "Apps"
+-a textview that has text "About"
+-a button that has content_desc "About"
+-a textview that has text "Support"
+-a button that has content_desc "Support"
+-a textview that has text "Terms"
+-a button that has content_desc "Terms"
+-a textview that has text "Privacy"
+-a button that has content_desc "Privacy"
++a textview that has text "94.71MB. 0 audio & 2601 images. Updated 2018-06-11."
++a textview that has text "The author has shared "
++a textview that has text "2"
++a textview that has text " other item(s)"
++a button that has content_desc "2 other item(s)"
++a textview that has text "."
++a textview that has text "Description"
++a textview that has text "USUHS School of Medicine decks broken up by module and split between pre-midterm and post-midterm.  [...]"
++a textview that has text "Sample (from 16094 notes)"
++a widget that has text "Text"
++a widget that has text "{{c1::Loop diuretics}} and {{c2::thiazide diuretics}} are 2 types of diuretics that cause alkalosis [...]"
++a widget that has text "Extra"
++a widget that has text "Also, in low K states, H is exchanged for Na in the collecting duct instead of K."
++a widget that has text "Tags"
++a widget that has text "Pharmacology renal"
++a widget that has text "Text"
++a widget that has text "Which serum electrolyte deficiency is associated with tetany, seizures and prolonged QT interval?{{c[...]"
++a widget that has text "Extra"
++a widget that has text "Tags"
++a widget that has text "physiology renal"
++a widget that has text "Text"
++a textview that has text "{{c1::Colonic Diverticular Disease (Diverticulosis)}} is a GI disorder that involves the outpouching[...]"
++a widget that has text "0"
++a button that has content_desc "0"
++a widget that has text "1"
++a button that has content_desc "1"
++a widget that has text "{{c1::Colonic Diverticular Disease (Diverticulosis)}} is a GI disorder that involves the outpouching[...]"
+ a textview that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
+-a focused widget that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
++a focused scrollable area that has text "USUHS SOM Pre-Clerkship - AnkiWeb"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching on the "USUHS SOM Pre-Clerkship" button, the screen now displays additional information about the deck, such as ratings, file size, and a description, along with sample notes and tags. The focus has shifted to a scrollable area showing detailed content related to the selected deck.

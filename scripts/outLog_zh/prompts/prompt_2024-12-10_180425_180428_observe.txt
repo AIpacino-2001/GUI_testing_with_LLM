@@ -1,0 +1,43 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "热榜"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (Main)
++++ Current (Main)
+-a button
+-a button that has text "关注"
+-a selected textview that has text "推荐"
+-a button that has text "热榜"
+-a button that has text "故事"
+-a button
+-a scrollable area that has resource_id "feed_tab"
+-a scrollable area
+-a scrollable area that has resource_id "view_pager"
++a textview that has text "个人信息保护指引"
++a textview that has text "感谢您使用知乎！我们将依据《个人信息保护指引》和《知乎协议》来帮助您了解我们在收集、使用、存储和共享您个人信息的情况以及您享有的相关权利。"
++a textview that has text "1、您可以通过查看《知乎个人信息保护指引摘要》 来简便快捷地了解我们可能收集、使用的您的个人信息情况；"
++a textview that has text "2、基于您的明示授权，我们可能调用您的重要设备权限。我们将在首次调用时逐项询问您是否允许使用该权限，您有权拒绝或取消授权；具体权限获取情况详见《知乎协议》；"
++a textview that has text "3、我们会采取业界先进的安全措施保护您的信息安全；"
++a textview that has text "4、您可以查询、更正、删除、撤回授权您的个人信息，我们也提供账户注销的渠道。"
++a textview that has text "阅读《个人信息保护指引》、《个人信息保护指引摘要》和《知乎协议》"
++a textview that has text "不同意"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the button with the text "热榜," the main screen now displays information related to personal data protection guidelines and user rights on the platform, along with options to read detailed policies and make decisions.

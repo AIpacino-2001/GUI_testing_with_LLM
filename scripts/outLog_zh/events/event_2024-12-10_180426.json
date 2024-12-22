@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-10_180426",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 29,
+      "view_str": "03387919ee411d895bb46c927573b94e",
+      "widget_type": "LinearLayout",
+      "class": "android.widget.LinearLayout",
+      "text": "\u70ed\u699c",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          540,
+          121
+        ],
+        [
+          682,
+          226
+        ]
+      ]
+    }
+  },
+  "start_state": "95f3b2cde327aaa3d8a4aacdeda78057",
+  "stop_state": "228a356ee7323fa6f3b3ff8b1ccdbafd",
+  "event_str": "TouchEvent(state=95f3b2cde327aaa3d8a4aacdeda78057, view=03387919ee411d895bb46c927573b94e(MainActivity/LinearLayout-\u70ed\u699c))",
+  "task": "Explore the \"\u70ed\u699c\" section to view popular content.",
+  "view_image_dir": "./outLog\\views/view_03387919ee411d895bb46c927573b94e.png"
+}

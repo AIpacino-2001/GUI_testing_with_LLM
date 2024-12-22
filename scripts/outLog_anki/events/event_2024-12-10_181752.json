@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-10_181752",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 13,
+      "view_str": "2c0d6fd81194bd73ff7b3db2ef808bf6",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "content_description": "\u724c\u7ec4\u641c\u7d22",
+      "resource_id": "search",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          953,
+          83
+        ],
+        [
+          1080,
+          209
+        ]
+      ]
+    }
+  },
+  "start_state": "f0864b084f03c5d639727df3df4deedf",
+  "stop_state": "491f237f45752695c7e5c6e63f7ebbbf",
+  "event_str": "TouchEvent(state=f0864b084f03c5d639727df3df4deedf, view=2c0d6fd81194bd73ff7b3db2ef808bf6(SharedDecksActivity/Button-))",
+  "task": "Explore the \"ModelFieldEditor\" page to customize card fields for a personalized AnkiDroid experience.",
+  "view_image_dir": "./outLog\\views/view_2c0d6fd81194bd73ff7b3db2ef808bf6.png"
+}

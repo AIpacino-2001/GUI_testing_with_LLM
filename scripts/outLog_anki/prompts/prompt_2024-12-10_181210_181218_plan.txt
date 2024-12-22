@@ -1,0 +1,248 @@
+
+*** System:
+You are a helpful task planner for using an Android mobile application named AnkiDroid. You are planning for a person named "fufu" with the following profile:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu's ultimate goal is to visit as many pages as possible while trying their core functionalities. 
+
+- AnkiDroid app has following pages: [ManageSpace, Drawing, IntentHandler, DeckPicker, StudyOptions, CardBrowser, ManageNotetypes, Permissions, ModelFieldEditor, Reviewer, MyAccount, Multimedia, Preferences, FilteredDeckOptions, Info, IntentHandler2, SingleFragment, CardViewer, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, SharedDecks, Login, Introduction, DeckPickerWidgetConfig, CardAnalysisWidgetConfig, InstantNoteEditor] (Note that the pages are listed in random order)
+- Currently, fufu has visited the following pages with the following number of times: {Introduction: 1, Permissions: 2, DeckPicker: 2, SharedDecks: 7}
+- Currently, fufu is on the SharedDecks page.
+- Pages never visited yet: [Reviewer, ManageNotetypes, Multimedia, Login, InstantNoteEditor, IntentHandler, CardAnalysisWidgetConfig, Preferences, ModelFieldEditor, DeckPickerWidgetConfig, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, FilteredDeckOptions, CardViewer, CardBrowser, IntentHandler2, MyAccount, SingleFragment, ManageSpace, StudyOptions, Info, Drawing] 
+
+fufu is not familiar with the app and does not fully know how to navigate to each page and what fufu can do on each page.
+To effectively explore the app for their goal, fufu needs a new task that aligns with the following desirable properties:
+- (Realism) The task should corresponds to a realistic usage scenario of AnkiDroid app, and reflect user's intent for actually making use of the app's functionality. Do NOT plan vague tasks like "Navigate to X" or "Explore X". Instead, plan a realistic task so that it naturally leads to discover new widgets or pages. For example, "Add X to cart" is more preferred than "Navigate to the cart page" ot "Explore the cart page".
+- (Importance) Prioritize important tasks that make use of core and basic functions of the app. Do not stay on the same page for too long while having unvisited pages. After visiting all the pages, plan more advanced tasks based on fufu's own preferences.
+- (Diversity) You need to plan diverse tasks that are different from the tasks that fufu has performed before. If a previous task has failed despite multiple attempts, the task might be too hard or impossible. Postpone the task and plan a different task. Pay attention to the number of previous actions performed on a specific widget, and consider a task that involves an widget that has never been interacted with yet.
+- (Difficulty) The task should not be too hard since fufu may not have learned enough knowledge about the app to complete it yet. Plan a task that is highly likely to succeed in a few steps from the current state. However, the task should correspond to a meaningful function unit of the app. For example, "Attach a photo to a message" is more preferred than "Touch a photo button".
+
+*** User:
+Plan fufu's next task based on the following information.
+
+fufu's prior knowledge and history of previous tasks so far (listed in chronological order):
+===
+2024-12-10 18:08:55: [INITIAL_KNOWLEDGE] fufu owns an existing account on AnkiWeb
+2024-12-10 18:08:55: [INITIAL_KNOWLEDGE] fufu started the AnkiDroid app
+2024-12-10 18:12:14: [TASK_RESULT] fufu explored the AnkiDroid app by visiting the Introduction, Permissions, DeckPicker, and SharedDecks pages, gaining insights into features like deck management and shared deck options.
+===
+
+fufu's learnt knowledge from previous tasks (which may be relevant to the current context):
+===
+- Transitioning through different pages helped fufu understand the app's navigation flow.
+- Exploring the SharedDecks page provided fufu with information on accessing shared decks and available study materials.
+- Interacting with buttons and text views enhanced fufu's familiarity with the app's interface and functionalities.
+===
+
+Current page (organized in a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: 转到上一层级,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      widget_type: TextView,
+      text: 下载牌组
+    },
+    {
+      ID: 12,
+      widget_type: Button,
+      content_description: 主页,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 2,
+      widget_role_inference: The widget serves as a button that transitions the user from the SharedDecks page to a page displaying language options, search fields, and navigation buttons related to shared decks on AnkiWeb.
+    },
+    {
+      ID: 13,
+      widget_type: Button,
+      content_description: 牌组搜索,
+      resource_id: search,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 15,
+      widget_type: WebView,
+      text: Anki - powerful, intelligent flashcards,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          ID: 18,
+          widget_type: View,
+          content_description: Home,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Home
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 21,
+          widget_type: View,
+          content_description: Docs,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Docs
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 24,
+          widget_type: View,
+          content_description: AnkiWeb,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            AnkiWeb
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: Powerful, intelligent flash cards.[NEWLINE]
+        },
+        {
+          ID: 30,
+          widget_type: View,
+          content_description: Download,
+          possible_action_types: [
+            touch
+          ],
+          text: [
+            Download
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: TextView,
+          text: About Anki
+        },
+        {
+          widget_type: TextView,
+          text: Anki is a program which makes remembering things easy. Because its a lot more efficient than tradit[...]
+        },
+        {
+          widget_type: TextView,
+          text: Anyone who needs to remember things in their daily life can benefit from Anki. Since it is content-a[...]
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Learning a language
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Studying for medical and law exams
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Memorizing peoples names and faces
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Brushing up on geography
+        },
+        {
+          widget_type: View,
+          text: • 
+        },
+        {
+          widget_type: TextView,
+          text: Mastering long poems
+        },
+        {
+          widget_type: TextView,
+          text: Features,
+          children: [
+            {
+              widget_type: TextView,
+              text: Features
+            }
+          ]
+        },
+        {
+          widget_type: TextView,
+          text: Synchronization[NEWLINE]Use the free AnkiWeb synchronization service to keep your cards in sync across multi[...]
+        }
+      ]
+    }
+  ]
+}
+```
+Note that `num_prev_actions` means the number of times the widget has been interacted with during the previous tasks. If `num_prev_actions` property is not included in the widget dictionary, fufu has never performed any action on the widget yet.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+
+I am going to provide a template for your output to reason about your next task step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: <1~2 sentences in one line. Use the aforementioned four properties: realism, importance, diversity and difficulty to reason about the next task>
+fufu's next task: <1 sentence, start with a verb>
+End condition of fufu's next task: <1 sentence, start with "The task is known to be completed when">
+Reasoning of the first action of the fufu's next task: <reasoning and description of the first action initiating the task>
+Rough plan for the task in fufu's perspective: <1 sentence, start with "I plan to"; pretend that you are fufu>
+
+*** Assistant:
+Reasoning about fufu's new task: The task should be realistic and important, introducing fufu to new functionalities while ensuring diversity and manageable difficulty.
+fufu's next task: Explore the AnkiDroid app's ModelFieldEditor page.
+End condition of fufu's next task: The task is known to be completed when fufu successfully accesses and navigates the ModelFieldEditor page.
+Reasoning of the first action of the fufu's next task: Initiating the exploration of the ModelFieldEditor page will introduce fufu to customizing field types for flashcards, a crucial aspect of deck creation and card organization.
+Rough plan for the task in fufu's perspective: I plan to start by touching on the ModelFieldEditor widget to delve into customizing card fields for better study organization.
+
+*** User:
+Good. Now, based on your previous answer, execute the first action (by calling a function) to start the task. Pay attention to the possible action types specified in the target widget.
+
+*** Assistant:
+{'id': 'call_SIx6d4xNpJUVvyIwyTGrDgJm', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":30}'}}

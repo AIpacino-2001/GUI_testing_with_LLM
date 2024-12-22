@@ -1,0 +1,56 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "0"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+ a textview that has text "下载牌组"
+ a button that has content_desc "主页"
+ a button that has content_desc "牌组搜索"
+-a textview that has text "AnkiWeb"
+-a widget that has text "logo"
+-a button that has text "Toggle navigation"
+-a widget that has text "thumbs up"
+-a textview that has text "20"
+-a widget that has text "thumbs down"
+-a textview that has text "0"
+-a textview that has text "Contact Author"
+-a button that has content_desc "Contact Author"
+-a textview that has text "Rate This"
+-a button that has content_desc "Rate This"
+-a textview that has text "Neuroanatomy Netter Flash Cards - Part1"
+-a textview that has text "38.91MB. 0 audio & 1135 images. Updated 2020-12-23."
+-a textview that has text "Description"
+-a textview that has text "For all medical students (as I am)(neurology rotations), residents, neurologists, and neurosurgeons [...]"
+-a textview that has text "https://www.buymeacoffee.com/helpmebuylaptop"
+-a button that has content_desc "https://www.buymeacoffee.com/helpmebuylaptop"
+-a textview that has text " )(or for more support contact me: ankifortoddler@gmail.com ) because after that I can turn all othe[...]"
+-a textview that has text "Sample (from 1139 notes)"
+-a widget that has text "heading"
+-a widget that has text "Schematic of the Autonomic Nervous System"
+-a widget that has text "photo"
+ a widget that has text "0"
+-a button that has content_desc "0"
+-a textview that has text "Neuroanatomy Netter Flash Cards - Part1 - AnkiWeb"
+-a focused scrollable area that has text "Neuroanatomy Netter Flash Cards - Part1 - AnkiWeb"
++a focused widget that has text "0.jpg (404×511)"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching on the button with text "0", the image displayed on the screen changed to "0.jpg (404×511)" in the current SharedDecks page.

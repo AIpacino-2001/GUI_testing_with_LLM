@@ -1,0 +1,13 @@
+{
+  "tag": "2024-12-10_180529",
+  "event": {
+    "event_type": "intent",
+    "log_lines": null,
+    "intent": "am start com.zhihu.android/com.zhihu.android.app.ui.activity.LauncherActivity"
+  },
+  "start_state": "28846054da7e6a15d5dee47bf63caf24",
+  "stop_state": "2d8daf7a150f6b38dc65faa37175406f",
+  "event_str": "IntentEvent(intent='am start com.zhihu.android/com.zhihu.android.app.ui.activity.LauncherActivity')",
+  "task": null,
+  "view_image_dir": null
+}

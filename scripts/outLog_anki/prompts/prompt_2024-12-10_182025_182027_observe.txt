@@ -1,0 +1,35 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Press "BACK" button to navigate back
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (SharedDecks)
++++ Current (SharedDecks)
+-a button that has content_desc "收起"
+-a button that has text "使用牌组名称搜索"
++a button that has content_desc "转到上一层级"
++a textview that has text "下载牌组"
+ a button that has content_desc "主页"
++a button that has content_desc "牌组搜索"
+ a textview that has text ""I've been using Anki for two years now, and I just wanted to thank you personally for contributing [...]"
+ a textview that has text "— Keldin, via email"
+ a textview that has text "Download Anki"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: Navigating back from the "SharedDecks" screen, the button with the content description "收起" has been replaced by a button with the content description "转到上一层级," and a new button with the content description "牌组搜索" has appeared. Additionally, a textview with the text "下载牌组" is now displayed on the screen.

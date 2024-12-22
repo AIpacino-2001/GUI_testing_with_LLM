@@ -1,0 +1,16 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a button that has text "编辑卡片"
+
+Past interactions on the widget:
+- result of touch: Upon touching the "编辑卡片" button, the screen transitioned from managing note types to the card template editor screen. The screen now displays options to save, preview, and access more settings for editing card templates, including toggling between front and back sides of the card. (page changed from ManageNotetypes to CardTemplateEditor)
+- result of touch: By touching the "编辑卡片" button, the screen transitions to the CardTemplateEditor page where you can now edit the content and style of a card template, with options to save, preview, and access more settings. (page changed from ManageNotetypes to CardTemplateEditor)
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget "编辑卡片" transitions the user to the CardTemplateEditor page where they can edit card templates, toggle between front and back sides, save, preview, and access more settings.

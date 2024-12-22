@@ -1,0 +1,38 @@
+{
+  "tag": "2024-12-10_181830",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 18,
+      "view_str": "21595a1e034e0d4485fb923cede552f5",
+      "widget_type": "WebView",
+      "class": "android.webkit.WebView",
+      "text": "Anki - powerful, intelligent flashcards",
+      "state": [
+        "focused"
+      ],
+      "possible_action_types": [
+        "scroll"
+      ],
+      "bounds": [
+        [
+          0,
+          231
+        ],
+        [
+          1084,
+          2213
+        ]
+      ]
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "491f237f45752695c7e5c6e63f7ebbbf",
+  "stop_state": "491f237f45752695c7e5c6e63f7ebbbf",
+  "event_str": "ScrollEvent(state=491f237f45752695c7e5c6e63f7ebbbf, view=21595a1e034e0d4485fb923cede552f5(SharedDecksActivity/WebView-Anki - pow), direction=DOWN)",
+  "task": "Explore the \"ModelFieldEditor\" page to customize card fields for a personalized AnkiDroid experience.",
+  "view_image_dir": "./outLog\\views/view_21595a1e034e0d4485fb923cede552f5.png"
+}
