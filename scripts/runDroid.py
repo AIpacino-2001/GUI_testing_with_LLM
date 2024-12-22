@@ -1,15 +1,14 @@
-import logging
-import androguard.core.axml
-import androguard.core.apk
-import time
-import os
 import json
+import logging
+import os
+import time
 from collections import OrderedDict
-from droidbot.device import Device
-from droidbot.app import App
-from droidbot.input_event import KeyEvent
+
 from GTestAgent import TaskBasedAgent
 from device_manager import DeviceManager, ExternalAction, recover_activity_stack, is_loading_state
+from droidbot.app import App
+from droidbot.device import Device
+from droidbot.input_event import KeyEvent
 from scripts.targets import initial_knowledge_map
 
 # 设置所有androguard相关模块的日志级别
