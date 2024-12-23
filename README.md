@@ -178,16 +178,19 @@ ps:这里使用的key是小爱API，项目中附带的key余额还有0.86元，�
 
 ## 项目运行
 
-```
-$ cd scripts
-$ python runDroid.py --app [APP_NAME] --output_dir [OUTPUT_DIR] --goal[GOAL]
-```
+运行/GUI_testing_with_LLM/scripts/下的runDroid.py即可启动程序：
 
-其中：
+![image-20241223184643220](assets/image-20241223184643220.png)
 
-```
-[APP_NAME]：待测试apk的文件名
-[OUTPUT_DIR]：测试输出路径
-[GOAL]：测试软件的目标
-```
+其中项目的app_name、输出文件夹、个人信息文件在如下位置进行修改：
+
+![image-20241223184855688](assets/image-20241223184855688.png)
+
+此外项目的运行目标在这里进行修改：
+
+![image-20241223184929004](assets/image-20241223184929004.png)
+
+
+
+ps：项目测试使用的软件下载地址：[AnkiDroid.apk](https://1drv.ms/u/c/63912adee6b98e6d/EfDJnewTKedEq2asicCKWf8BarXrlvS5nU1DSkMcyYoOHw?e=hERkL8)
 
