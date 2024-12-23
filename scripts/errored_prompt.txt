@@ -16,7 +16,7 @@ fufu's ultimate goal is to visit as many pages as possible while trying their co
 - AnkiDroid app has following pages: [ManageSpace, Drawing, IntentHandler, DeckPicker, StudyOptions, CardBrowser, ManageNotetypes, Permissions, ModelFieldEditor, Reviewer, MyAccount, Multimedia, Preferences, FilteredDeckOptions, Info, IntentHandler2, SingleFragment, CardViewer, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, SharedDecks, Login, Introduction, DeckPickerWidgetConfig, CardAnalysisWidgetConfig, InstantNoteEditor] (Note that the pages are listed in random order)
 - Currently, fufu has visited the following pages with the following number of times: {}
 - Currently, fufu is on the NexusLauncher page.
-- Pages never visited yet: [ManageSpace, StudyOptions, Introduction, ModelFieldEditor, CardTemplateEditor, Login, InstantNoteEditor, Drawing, IntentHandler, ManageNotetypes, IntentHandler2, Reviewer, FilteredDeckOptions, DeckPicker, CardAnalysisWidgetConfig, CardTemplateBrowserAppearanceEditor, Preferences, MyAccount, SingleFragment, CardViewer, Multimedia, DeckPickerWidgetConfig, SharedDecks, CardBrowser, Permissions, Info] 
+- Pages never visited yet: [Preferences, Drawing, ManageNotetypes, Multimedia, Login, CardViewer, Permissions, CardAnalysisWidgetConfig, ManageSpace, SingleFragment, Introduction, InstantNoteEditor, CardBrowser, StudyOptions, IntentHandler, Reviewer, CardTemplateBrowserAppearanceEditor, Info, MyAccount, ModelFieldEditor, CardTemplateEditor, SharedDecks, IntentHandler2, FilteredDeckOptions, DeckPickerWidgetConfig, DeckPicker] 
 
 fufu is not familiar with the app and does not fully know how to navigate to each page and what fufu can do on each page.
 To effectively explore the app for their goal, fufu needs a new task that aligns with the following desirable properties:
@@ -30,8 +30,8 @@ Plan fufu's next task based on the following information.
 
 fufu's prior knowledge and history of previous tasks so far (listed in chronological order):
 ===
-2024-12-17 16:59:22: [INITIAL_KNOWLEDGE] fufu owns an existing account on AnkiWeb
-2024-12-17 16:59:23: [INITIAL_KNOWLEDGE] fufu started the AnkiDroid app
+2024-12-23 15:31:57: [INITIAL_KNOWLEDGE] fufu owns an existing account on AnkiWeb
+2024-12-23 15:31:58: [INITIAL_KNOWLEDGE] fufu started the AnkiDroid app
 ===
 
 fufu's learnt knowledge from previous tasks (which may be relevant to the current context):
@@ -46,79 +46,27 @@ Current page (organized in a hierarchical structure):
   children: [
     {
       ID: 6,
-      widget_type: ScrollView,
-      resource_id: workspace,
+      widget_type: View,
+      content_description: Apps list,
       possible_action_types: [
-        scroll
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 10,
+      widget_type: FrameLayout,
+      resource_id: search_container_workspace,
+      possible_action_types: [
+        touch,
+        long_touch
       ],
       num_prev_actions: 0,
       children: [
         {
-          ID: 11,
-          widget_type: ViewPager,
-          content_description: 资讯一览,
-          resource_id: smartspace_card_pager,
-          possible_action_types: [
-            long_touch
-          ],
-          num_prev_actions: 0,
-          children: [
-            {
-              ID: 12,
-              widget_type: ViewGroup,
-              resource_id: base_template_card_with_date,
-              possible_action_types: [
-                touch
-              ],
-              num_prev_actions: 0,
-              children: [
-                {
-                  ID: 14,
-                  widget_type: TextView,
-                  text: 12月17日周二,
-                  possible_action_types: [
-                    touch
-                  ],
-                  num_prev_actions: 0
-                }
-              ]
-            }
-          ]
-        },
-        {
-          ID: 16,
+          ID: 12,
           widget_type: TextView,
-          text: Play 商店,
-          possible_action_types: [
-            touch,
-            long_touch
-          ],
-          num_prev_actions: 0
-        },
-        {
-          ID: 17,
-          widget_type: TextView,
-          text: Gmail,
-          possible_action_types: [
-            touch,
-            long_touch
-          ],
-          num_prev_actions: 0
-        },
-        {
-          ID: 18,
-          widget_type: TextView,
-          text: 相册,
-          possible_action_types: [
-            touch,
-            long_touch
-          ],
-          num_prev_actions: 0
-        },
-        {
-          ID: 19,
-          widget_type: TextView,
-          text: YouTube,
+          text: Monday, Dec 23,
           possible_action_types: [
             touch,
             long_touch
@@ -128,9 +76,9 @@ Current page (organized in a hierarchical structure):
       ]
     },
     {
-      ID: 24,
+      ID: 17,
       widget_type: TextView,
-      text: 电话,
+      text: Phone,
       possible_action_types: [
         touch,
         long_touch
@@ -138,9 +86,9 @@ Current page (organized in a hierarchical structure):
       num_prev_actions: 0
     },
     {
-      ID: 25,
+      ID: 18,
       widget_type: TextView,
-      text: 信息,
+      text: Messages,
       possible_action_types: [
         touch,
         long_touch
@@ -148,7 +96,7 @@ Current page (organized in a hierarchical structure):
       num_prev_actions: 0
     },
     {
-      ID: 26,
+      ID: 19,
       widget_type: TextView,
       text: Chrome,
       possible_action_types: [
@@ -158,19 +106,9 @@ Current page (organized in a hierarchical structure):
       num_prev_actions: 0
     },
     {
-      ID: 27,
-      widget_type: TextView,
-      text: AnkiDroid,
-      possible_action_types: [
-        touch,
-        long_touch
-      ],
-      num_prev_actions: 0
-    },
-    {
-      ID: 28,
+      ID: 20,
       widget_type: FrameLayout,
-      content_description: Google 搜索,
+      content_description: Search,
       resource_id: search_container_hotseat,
       possible_action_types: [
         touch,
@@ -179,30 +117,10 @@ Current page (organized in a hierarchical structure):
       num_prev_actions: 0,
       children: [
         {
-          ID: 29,
-          widget_type: ImageView,
-          content_description: Google 应用,
-          resource_id: g_icon,
-          possible_action_types: [
-            touch
-          ],
-          num_prev_actions: 0
-        },
-        {
-          ID: 31,
-          widget_type: ImageView,
-          content_description: 语音搜索,
+          ID: 23,
+          widget_type: View,
+          content_description: Voice search,
           resource_id: mic_icon,
-          possible_action_types: [
-            touch
-          ],
-          num_prev_actions: 0
-        },
-        {
-          ID: 32,
-          widget_type: ImageButton,
-          content_description: Google 智能镜头,
-          resource_id: lens_icon,
           possible_action_types: [
             touch
           ],

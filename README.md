@@ -149,12 +149,13 @@ $ pip install -r requirements.txt # 安装依赖
 $ pip install -e . # 安装droidagent
 ```
 
-### OpenAI-Key
+### API-Key
 
 在/droidagent/env下配置：
 
 ```
-OPENAI_API_KEY = [自己的OpenAI-Key]
+OPENAI_API_KEY = [自己的API-Key]
+ps:这里使用的key是小爱API，项目中附带的key余额还有0.86元，可从淘宝购买
 ```
 
 ### 待测试APP

@@ -31,7 +31,7 @@ logging.getLogger('androguard').setLevel(logging.WARNING)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PERSONA_PATH = os.path.join(BASE_DIR, '..', 'resources/personas')
 WAIT_TIME = 1
-MAX_ACTIONS = 8000
+MAX_ACTIONS = 800000
 
 
 def read_persona_file(profile_name):
@@ -56,13 +56,16 @@ def read_persona_file(profile_name):
 def execute_test(test_device, test_app, test_persona, debug_mode=False):
     test_start = time.time()
     print("\n[系统] 初始化测试环境...")
+    test_device.uninstall_app(test_app)
+    test_device.install_app(test_app)
+    test_device.start_app(test_app)
+    time.sleep(10)
 
     test_agent = TaskBasedAgent(output_path, app=test_app, persona=test_persona, debug_mode=debug_mode)
     print(f"[系统] 测试代理初始化完成: {test_app.package_name}")
 
     device_ctrl = DeviceManager(test_device, test_app, output_dir=output_path)
     test_agent.set_current_gui_state(device_ctrl.current_state)
-
     need_update = False
     print("[系统] 开始执行自动化测试...\n")
 
