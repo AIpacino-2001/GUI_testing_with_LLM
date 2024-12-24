@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110142",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 18,
+      "view_str": "48393a00e1d522e37f5e0216f2502aea",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "Replace",
+      "resource_id": "button1",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          966,
+          1559
+        ],
+        [
+          1190,
+          1703
+        ]
+      ]
+    }
+  },
+  "start_state": "e195add74e69e2dfc66fc2db34ce49b3",
+  "stop_state": "7c64a59524505a9fec92762da4acfb94",
+  "event_str": "TouchEvent(state=e195add74e69e2dfc66fc2db34ce49b3, view=48393a00e1d522e37f5e0216f2502aea(DeckPicker/Button-Replace))",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_48393a00e1d522e37f5e0216f2502aea.png"
+}

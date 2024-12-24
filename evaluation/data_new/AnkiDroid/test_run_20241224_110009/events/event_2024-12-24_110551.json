@@ -1,0 +1,41 @@
+{
+  "tag": "2024-12-24_110551",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 14,
+      "view_str": "9a949738edb3c511066c00563db5a830",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "Search using deck name",
+      "resource_id": "search_src_text",
+      "state": [
+        "focused"
+      ],
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          192,
+          114
+        ],
+        [
+          1176,
+          222
+        ]
+      ]
+    },
+    "text": "Computer Science Flashcards"
+  },
+  "start_state": "441bc7381626ca650384b9b0c7840583",
+  "stop_state": "ee46299e2e91ee54b4fa73821ee92ad6",
+  "event_str": "SetTextEvent(state=441bc7381626ca650384b9b0c7840583, view=9a949738edb3c511066c00563db5a830(SharedDecksActivity/EditText-Search usi), text=Computer Science Flashcards)",
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_9a949738edb3c511066c00563db5a830.png"
+}

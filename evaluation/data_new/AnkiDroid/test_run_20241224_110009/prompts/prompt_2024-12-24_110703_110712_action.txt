@@ -1,0 +1,159 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Explore the DeckPicker page to understand available deck options. (The task is known to be completed when fufu has interacted with different deck options on the DeckPicker page)
+
+I'm currently on the SharedDecks page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has content_desc "Home"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "Deck Search"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Fill a focused textfield that has text "Search using deck name" with "Computer Science Flashcards"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "Clear query"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Scroll down on a focused scrollable area
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "The actions taken by fufu so far seem okay in exploring the DeckPicker page, but there hasn't been direct interaction with different deck options yet. fufu needs to explore the available deck options by interacting with them directly on the DeckPicker page to understand the variety of decks offered." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Scroll down on a focused scrollable area
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "Collapse"
+
+*** User:
+I performed the action, and as a result, the button with content_desc "Collapse" has been replaced by a button with content_desc "Navigate up" in the current screen, along with the addition of a "Download deck" textview. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: Navigate up,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 2
+    },
+    {
+      widget_type: TextView,
+      text: Download deck
+    },
+    {
+      ID: 12,
+      widget_type: Button,
+      content_description: Home,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 14,
+      widget_role_inference: The widget Home button focuses on a scrollable area in the SharedDecks screen.
+    },
+    {
+      ID: 13,
+      widget_type: Button,
+      content_description: Deck Search,
+      resource_id: search,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 8,
+      widget_role_inference: The widget Deck Search activates the search functionality by displaying a text field for searching by deck name and replaces itself with a Collapse button in the SharedDecks interface.
+    },
+    {
+      ID: 15,
+      widget_type: WebView,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 8
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Explore the DeckPicker page to understand available deck options.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+1. Summary of my previous interactions for the task: I have interacted with the "Navigate up" button, "Download deck" textview, "Home" button, "Deck Search" button, and scrolled on a focused scrollable area.
+
+2. Description of the current app state: The current screen displays a "Navigate up" button, a "Download deck" textview, a "Home" button focusing on a scrollable area, a "Deck Search" button that activates the search functionality, and a focused scrollable WebView.
+
+3. Inference on the remaining steps needed to complete the task: To explore the DeckPicker page and interact with different deck options, I need to navigate to the DeckPicker page and select individual deck options to understand the variety offered.
+
+4. Reasoning for the next action: Touching on the "Navigate up" button can lead to navigating to the higher-level page, possibly the DeckPicker page, where different deck options can be explored.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'chatcmpl-T8JG0jY07QuLwULoe4W3lgdClW6kQ', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":9}'}}

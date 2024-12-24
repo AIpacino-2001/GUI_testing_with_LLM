@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110728",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 22,
+      "view_str": "bef554dfd789a3fd6d25ae9d9a7db614",
+      "widget_type": "RelativeLayout",
+      "class": "android.widget.RelativeLayout",
+      "resource_id": "DeckPickerHoriz",
+      "possible_action_types": [
+        "touch",
+        "long_touch"
+      ],
+      "bounds": [
+        [
+          0,
+          264
+        ],
+        [
+          1344,
+          408
+        ]
+      ]
+    }
+  },
+  "start_state": "c4daa5f88135a64657d5e331dcc8303e",
+  "stop_state": "da093767fb25c1203f649e410cf8a3ac",
+  "event_str": "TouchEvent(state=c4daa5f88135a64657d5e331dcc8303e, view=bef554dfd789a3fd6d25ae9d9a7db614(DeckPicker/RelativeLayout-))",
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_bef554dfd789a3fd6d25ae9d9a7db614.png"
+}

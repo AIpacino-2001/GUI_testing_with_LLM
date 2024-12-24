@@ -1,0 +1,41 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "Log in"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (Login)
++++ Current (DeckPicker)
+-a button that has content_desc "Navigate up"
+-a textview that has text "AnkiWeb account"
+-a textfield that has text "2797195863@qq.com"
+-a button that has content_desc "Clear text"
+-a focused password textfield that has text "20080808"
+-a button that has content_desc "Show password"
+-a button that has text "Log in"
+-a button that has text "Reset password"
+-a textview that has text "Note: AnkiWeb is not affiliated with AnkiDroid"
+-a button that has text "Privacy"
+-a button that has text "Forgot Email?"
++a textview that has text "The system WebView is outdated. Some features won’t work correctly. Please update it.
++
++Installed ver[...]"
++a button that has text "Learn More"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: After touching the "Log in" button, the screen has transitioned from the Login page to the DeckPicker page, where a message about the outdated system WebView is displayed along with an option to "Learn More."

@@ -1,0 +1,667 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Sync data from AnkiWeb to AnkiDroid (The task is known to be completed when the data from AnkiWeb is successfully synced to AnkiDroid)
+
+I'm currently on the Introduction page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has text "Sync from AnkiWeb"
+
+*** User:
+I performed the action you suggested. The page changed from Introduction to Login. What should be the next action?
+
+*** Assistant:
+Fill a textfield that has text "Email address" with "2797195863@qq.com"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Fill a password textfield that has text "Password" with "20080808"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Log in"
+
+*** User:
+I performed the action you suggested. The page changed from Login to DeckPicker. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Learn More"
+
+*** User:
+I performed the action you suggested. However, I got the following critique for my actions so far: 
+> Criticizer: "<The actions taken so far seem okay.>. <none>." 
+Considering the critique, what should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Replace"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has text "Learn More"
+
+*** User:
+I performed the action, and as a result, by touching the "Learn More" button on the DeckPicker screen, the screen transitioned to the CustomTab screen where the button text changed to "Skip to content" and additional navigation buttons and widgets were added. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: CustomTab,
+  children: [
+    {
+      ID: 8,
+      widget_type: WebView,
+      text: WebView Detection and Package Updates · ankidroid/Anki-Android Wiki · GitHub,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 0,
+      children: [
+        {
+          ID: 11,
+          widget_type: View,
+          text: Skip to content,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: Navigation Menu
+        },
+        {
+          ID: 18,
+          widget_type: Button,
+          text: Toggle navigation,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 19,
+          widget_type: View,
+          text: Homepage,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 21,
+          widget_type: View,
+          text: Sign in,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 26,
+          widget_type: View,
+          text: ankidroid,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: /
+        },
+        {
+          ID: 29,
+          widget_type: View,
+          text: Anki-Android,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: Public
+        },
+        {
+          widget_type: View,
+          text: Repository,
+          children: [
+            {
+              ID: 36,
+              widget_type: View,
+              text: Code,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 38,
+              widget_type: View,
+              text: Issues 264,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 40,
+              widget_type: View,
+              text: Pull requests 33,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 42,
+              widget_type: View,
+              text: Actions,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 44,
+              widget_type: View,
+              text: Projects 0,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 46,
+              widget_type: View,
+              text: Wiki,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 48,
+              widget_type: View,
+              text: Security ,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 50,
+              widget_type: View,
+              text: Insights,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            }
+          ]
+        },
+        {
+          widget_type: View,
+          text: WebView Detection and Package Updates
+        },
+        {
+          ID: 56,
+          widget_type: View,
+          text: Jump to bottom,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 57,
+          widget_type: View,
+          text: Edit,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 58,
+          widget_type: View,
+          text: New page,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: aayush-tripathi edited this page 
+        },
+        {
+          widget_type: View,
+          text: Mar 20, 2024
+        },
+        {
+          widget_type: View,
+          text:  · 
+        },
+        {
+          ID: 63,
+          widget_type: View,
+          text: 2 revisions,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: This wiki page delves into the process of detecting the Android System WebView version on a users d[...]
+        },
+        {
+          widget_type: View,
+          text: What is WebView?
+        },
+        {
+          ID: 71,
+          widget_type: View,
+          text: Permalink: What is WebView?,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: A WebView is a view component in the Android development framework that lets your app render web con[...]
+        },
+        {
+          widget_type: View,
+          text: The Android System WebView is a system component that is necessary for WebView to work properly.
+        },
+        {
+          widget_type: View,
+          text: Possible Issues:
+        },
+        {
+          ID: 77,
+          widget_type: View,
+          text: Permalink: Possible Issues:,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: Missing WebView:
+        },
+        {
+          ID: 82,
+          widget_type: View,
+          text: Permalink: Missing WebView:,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: In this case, the android device has neither com.android.webview (Android System WebView on older de[...]
+        },
+        {
+          widget_type: View,
+          text: To fix this: You must Install the latest version of 
+        },
+        {
+          ID: 86,
+          widget_type: View,
+          text: Android System WebView,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: .
+        },
+        {
+          widget_type: View,
+          text: Outdated WebView:
+        },
+        {
+          ID: 91,
+          widget_type: View,
+          text: Permalink: Outdated WebView:,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: Your device has the correct Android System WebView however lacks the minimum requirement (>=77) for [...]
+        },
+        {
+          widget_type: View,
+          text: Again, you can fix this by updating to the latest version of 
+        },
+        {
+          ID: 95,
+          widget_type: View,
+          text: Android System WebView,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: .
+        },
+        {
+          widget_type: View,
+          text: Outdated Android Native WebView:
+        },
+        {
+          ID: 100,
+          widget_type: View,
+          text: Permalink: Outdated Android Native WebView:,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: This error is only applicable to older Android (<=7) devices. If you have received this message, you[...]
+        },
+        {
+          widget_type: View,
+          text: Disable the older System WebView on your device
+        },
+        {
+          ID: 106,
+          widget_type: View,
+          text: Permalink: Disable the older System WebView on your device,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: To do this,
+        },
+        {
+          widget_type: View,
+          text: 1. 
+        },
+        {
+          widget_type: View,
+          text: Open the Settings app on your device.
+        },
+        {
+          widget_type: View,
+          text: 2. 
+        },
+        {
+          widget_type: View,
+          text: Choose Apps section within the settings and tap More.
+        },
+        {
+          widget_type: View,
+          text: 3. 
+        },
+        {
+          widget_type: View,
+          text: Tap Show System.
+        },
+        {
+          widget_type: View,
+          text: 4. 
+        },
+        {
+          widget_type: View,
+          text: Tap Android System WebView and then tap Disable.
+        },
+        {
+          widget_type: View,
+          text: Install the Latest Version of Android System WebView.,
+          children: [
+            {
+              widget_type: View,
+              text: 2. 
+            },
+            {
+              widget_type: View,
+              text: Install the Latest Version of 
+            },
+            {
+              ID: 126,
+              widget_type: View,
+              text: Android System WebView,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0
+            },
+            {
+              widget_type: View,
+              text: .
+            }
+          ]
+        },
+        {
+          ID: 128,
+          widget_type: View,
+          text: Permalink: Install the Latest Version of Android System WebView.,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          ID: 131,
+          widget_type: View,
+          text:  Add a custom footer,
+          possible_action_types: [
+            touch
+          ],
+          num_prev_actions: 0
+        },
+        {
+          widget_type: View,
+          text: Toggle table of contents Pages 41,
+          children: [
+            {
+              widget_type: View,
+              text: Toggle table of contents Pages 41,
+              children: [
+                {
+                  ID: 134,
+                  widget_type: Button,
+                  text: Toggle table of contents,
+                  possible_action_types: [
+                    touch
+                  ],
+                  num_prev_actions: 0
+                },
+                {
+                  widget_type: View,
+                  text: Pages 
+                },
+                {
+                  widget_type: View,
+                  text: 41
+                }
+              ]
+            },
+            {
+              ID: 138,
+              widget_type: EditText,
+              resource_id: wiki-pages-filter,
+              possible_action_types: [
+                touch,
+                set_text
+              ],
+              num_prev_actions: 0
+            },
+            {
+              ID: 143,
+              widget_type: View,
+              text: Home,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0,
+              children: [
+                {
+                  ID: 145,
+                  widget_type: View,
+                  text: Home,
+                  possible_action_types: [
+                    touch
+                  ],
+                  num_prev_actions: 0
+                }
+              ]
+            },
+            {
+              ID: 148,
+              widget_type: View,
+              text: Absence of voice control feature,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0,
+              children: [
+                {
+                  ID: 150,
+                  widget_type: View,
+                  text: Absence of voice control feature,
+                  possible_action_types: [
+                    touch
+                  ],
+                  num_prev_actions: 0
+                }
+              ]
+            },
+            {
+              ID: 153,
+              widget_type: View,
+              text: Accessing the collection,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0,
+              children: [
+                {
+                  ID: 155,
+                  widget_type: View,
+                  text: Accessing the collection,
+                  possible_action_types: [
+                    touch
+                  ],
+                  num_prev_actions: 0
+                }
+              ]
+            },
+            {
+              ID: 158,
+              widget_type: View,
+              text: Adding string resources,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0,
+              children: [
+                {
+                  ID: 160,
+                  widget_type: View,
+                  text: Adding string resources,
+                  possible_action_types: [
+                    touch
+                  ],
+                  num_prev_actions: 0
+                }
+              ]
+            },
+            {
+              ID: 163,
+              widget_type: View,
+              text: Advanced formatting,
+              possible_action_types: [
+                touch
+              ],
+              num_prev_actions: 0,
+              children: [
+                {
+                  ID: 165,
+                  widget_type: View,
+                  text: Advanced formatting,
+  [...truncated...]
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Sync data from AnkiWeb to AnkiDroid
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+1. Summary of my previous interactions for the task: I have navigated to the CustomTab screen by touching the "Learn More" button on the DeckPicker screen.
+
+2. Description of the current app state: The current page is the CustomTab screen with a WebView displaying information about WebView Detection and Package Updates on GitHub. There are navigation buttons and widgets available on the screen.
+
+3. Inference on the remaining steps needed to complete the task: Since the task is to sync data from AnkiWeb to AnkiDroid, the current content on the CustomTab screen seems unrelated to the synchronization process. It might be necessary to navigate to a different section related to syncing data.
+
+4. Reasoning for the next action: It is recommended to explore a new widget or button related to syncing data or AnkiWeb integration to progress towards completing the synchronization task.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'chatcmpl-nK9Uuls2NqwZDua1SwnXLmRUFSv9m', 'type': 'function', 'function': {'name': 'go_back', 'arguments': '{}'}}

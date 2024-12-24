@@ -1,0 +1,48 @@
+{
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "task_end_condition": "The task is known to be completed when fufu has interacted with different deck options on the DeckPicker page.",
+  "working_memory": [
+    {
+      "description": "Touch on a button that has content_desc \"Home\"",
+      "type": "ACTION",
+      "timestamp": "11:05:27",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "Touch on a button that has content_desc \"Deck Search\"",
+      "type": "ACTION",
+      "timestamp": "11:05:35",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "By touching the \"Deck Search\" button, the \"Deck Search\" button is replaced with a \"Collapse\" button, and a textfield for searching using deck name is now focused on the screen in the SharedDecks interface.",
+      "type": "OBSERVATION",
+      "timestamp": "11:05:40",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "Fill a focused textfield that has text \"Search using deck name\" with \"Computer Science Flashcards\"",
+      "type": "ACTION",
+      "timestamp": "11:05:47",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "The text in the focused textfield on the SharedDecks screen has been changed from \"Search using deck name\" to \"Computer Science Flashcards\" after filling it with the new search query. Additionally, a new button with the content description \"Clear query\" has appeared on the screen.",
+      "type": "OBSERVATION",
+      "timestamp": "11:05:52",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "Touch on a button that has content_desc \"Clear query\"",
+      "type": "ACTION",
+      "timestamp": "11:06:01",
+      "page": "SharedDecks"
+    },
+    {
+      "description": "By touching the \"Clear query\" button, the text in the focused text field changed from \"Computer Science Flashcards\" to \"Search using deck name,\" allowing the user to easily input a new search query.",
+      "type": "OBSERVATION",
+      "timestamp": "11:06:05",
+      "page": "SharedDecks"
+    }
+  ]
+}

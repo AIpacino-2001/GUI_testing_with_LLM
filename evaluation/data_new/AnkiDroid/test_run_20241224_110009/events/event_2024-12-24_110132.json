@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110132",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 13,
+      "view_str": "c5b3ef4c1df8fe03fbdf87c39fffed16",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "Learn More",
+      "resource_id": "button1",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          902,
+          1563
+        ],
+        [
+          1190,
+          1707
+        ]
+      ]
+    }
+  },
+  "start_state": "7c64a59524505a9fec92762da4acfb94",
+  "stop_state": "e195add74e69e2dfc66fc2db34ce49b3",
+  "event_str": "TouchEvent(state=7c64a59524505a9fec92762da4acfb94, view=c5b3ef4c1df8fe03fbdf87c39fffed16(DeckPicker/Button-Learn More))",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_c5b3ef4c1df8fe03fbdf87c39fffed16.png"
+}

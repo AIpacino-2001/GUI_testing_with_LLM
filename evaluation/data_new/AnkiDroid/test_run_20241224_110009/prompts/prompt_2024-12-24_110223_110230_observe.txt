@@ -1,0 +1,50 @@
+
+*** System:
+You are a helpful assistant who can interpret two consecutive Android GUI screens before and after a user's action and explain the result of the action to the user.
+
+*** User:
+Describe the result of the performed GUI action regarding the changes between previous and current screens. 
+
+Guidelines:
+- To describe a widget, use only one important property of the widget. 
+- If previous action is expanding a collapsed widget or opening a navigation drawer, describe the widget that is expanded or opened. 
+- Do not judge fail/pass of the action.
+- There is at least one difference between the previous and current screens. Do NOT say like "there is no visible change."
+
+- Performed GUI Action: Touch on a button that has text "Get shared decks"
+
+- Changes of widgets from the previous page to the current page:
+"""
+--- Previous (DeckPicker)
++++ Current (SharedDecks)
+-a button that has content_desc "Open drawer"
+-a textview that has text "AnkiDroid"
+-a button that has resource_id "button"
+-a button that has content_desc "More options"
+-a textview that has text "Computer Science Flashcards"
+-a textview that has text "0"
+-a textview that has text "0"
+-a textview that has text "0"
+-a button that has content_desc "Open the deck overview page containing the number of cards to see today."
+-a button that has resource_id "DeckPickerHoriz"
+-a textview that has text "Studied ⁨0⁩ cards ⁨in ⁨0⁩ seconds⁩ today (⁨0⁩s/card)"
+-a button that has resource_id "fabBGLayout"
+-a button that has text "Get shared decks"
+-a button that has resource_id "add_shared_action"
+-a button that has text "Create filtered deck"
+-a button that has resource_id "add_filtered_deck_action"
+-a button that has text "Create deck"
+-a button that has resource_id "add_deck_action"
+-a button that has text "Add"
+-a button that has resource_id "fab_main"
++a button that has content_desc "Navigate up"
++a textview that has text "Download deck"
++a button that has content_desc "Home"
++a button that has content_desc "Deck Search"
+"""
+
+=== Below is the template for your answer ===
+Action result summary: <Describe in 1~2 sentences.>
+
+*** Assistant:
+Action result summary: By touching the "Get shared decks" button, the screen transitioned from the DeckPicker to the SharedDecks screen, where the button "Navigate up" is now visible along with options related to downloading decks.

@@ -1,0 +1,39 @@
+{
+  "tag": "2024-12-24_110104",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 24,
+      "view_str": "7754d917c75968c2ec90c0a77abf8cae",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "Password",
+      "resource_id": "password",
+      "is_password": true,
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          69,
+          1314
+        ],
+        [
+          1275,
+          1488
+        ]
+      ]
+    },
+    "text": "20080808"
+  },
+  "start_state": "bca7550556c3aa09c02ccfd0b6602a51",
+  "stop_state": "749ce2f0e074f4175ce62fe6a038bc96",
+  "event_str": "SetTextEvent(state=bca7550556c3aa09c02ccfd0b6602a51, view=7754d917c75968c2ec90c0a77abf8cae(LoginActivity/EditText-Password), text=20080808)",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_7754d917c75968c2ec90c0a77abf8cae.png"
+}

@@ -1,0 +1,37 @@
+{
+  "tag": "2024-12-24_110625",
+  "event": {
+    "event_type": "scroll",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 18,
+      "view_str": "57da0770818aba429dab4834ea5481a0",
+      "widget_type": "WebView",
+      "class": "android.webkit.WebView",
+      "state": [
+        "focused"
+      ],
+      "possible_action_types": [
+        "scroll"
+      ],
+      "bounds": [
+        [
+          0,
+          264
+        ],
+        [
+          1344,
+          2848
+        ]
+      ]
+    },
+    "direction": "DOWN"
+  },
+  "start_state": "441bc7381626ca650384b9b0c7840583",
+  "stop_state": "441bc7381626ca650384b9b0c7840583",
+  "event_str": "ScrollEvent(state=441bc7381626ca650384b9b0c7840583, view=57da0770818aba429dab4834ea5481a0(SharedDecksActivity/WebView-), direction=DOWN)",
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_57da0770818aba429dab4834ea5481a0.png"
+}

@@ -1,0 +1,12 @@
+{
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "task_end_condition": "The task is known to be completed when fufu has interacted with different deck options on the DeckPicker page.",
+  "working_memory": [
+    {
+      "description": "Touch on a button that has content_desc \"Home\"",
+      "type": "ACTION",
+      "timestamp": "11:05:27",
+      "page": "SharedDecks"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+
+*** System:
+You are a helpful assistant to guide a user named fufu to select an appropriate GUI action to accomplish a task on an Android mobile application named AnkiDroid.
+
+The profile of fufu is as follows:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+or end the task if the task is already completed.
+
+*** User:
+My name is fufu and I am using an application named AnkiDroid to accomplish the following task: 
+* Task: Explore the DeckPicker page to understand available deck options. (The task is known to be completed when fufu has interacted with different deck options on the DeckPicker page)
+
+I'm currently on the SharedDecks page. I plan to touch the "Home" button to view and select different decks on the DeckPicker page. What should be the first action?
+
+*** Assistant:
+Touch on a button that has content_desc "Home"
+
+*** User:
+I performed the action you suggested. What should be the next action?
+
+*** Assistant:
+Touch on a button that has content_desc "Deck Search"
+
+*** User:
+I performed the action, and as a result, by touching the "Deck Search" button, the "Deck Search" button is replaced with a "Collapse" button, and a textfield for searching using deck name is now focused on the screen in the SharedDecks interface. What should be the next action?
+
+This time, I'll give you the full content of the current page as follows (I organized the page content as a hierarchical structure):
+```json
+{
+  page_name: SharedDecks,
+  children: [
+    {
+      ID: 9,
+      widget_type: ImageButton,
+      content_description: Collapse,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 4,
+      widget_role_inference: The widget allows users to collapse the current view and switch to a different view with a Navigate up button and a Download deck textview.
+    },
+    {
+      ID: 14,
+      widget_type: EditText,
+      text: Search using deck name,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        touch,
+        long_touch,
+        set_text
+      ],
+      num_prev_actions: 4
+    },
+    {
+      ID: 16,
+      widget_type: Button,
+      content_description: Home,
+      resource_id: home,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 14,
+      widget_role_inference: The widget Home button focuses on a scrollable area in the SharedDecks screen.
+    },
+    {
+      ID: 18,
+      widget_type: WebView,
+      state: [
+        focused
+      ],
+      possible_action_types: [
+        scroll
+      ],
+      num_prev_actions: 4
+    }
+  ]
+}
+```
+
+Guideline for selecting the next action:
+- Note that `num_prev_actions` property means the number of times the widget has been interacted with so far.
+- Note that `widget_role_inference` property means the role of the widget inferred by previous actions. Use this property to infer what the widget is used for. If the widget has not been interacted yet, `widget_role_inference` property is not included in the widget dictionary.
+- When I am stuck, you might guide me to explore a new widget that has not been used and I don't know its role yet.
+- I don't want to do the same actions repeatedly except it is clearly needed for the task (e.g., navigating back to the first page of the app), so guide me to perform effective actions to complete the task.
+
+Recall that my current task is: Explore the DeckPicker page to understand available deck options.
+Select the next suitable action to perform, or end the task if the task is already completed.
+
+This time, I am going to provide a template for your output to let you think about my next action step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+1. Summary of my previous interactions for the task: <1~2 sentences according to the task execution history and current app state. Reflect criticizer's feedback if I mentioned any. Be careful not to include any actions that haven't been performed yet>
+2. Description of the current app state: <1~2 sentences, briefly describe in one line according to the hierarchical structure I provided above>
+3. Inference on the remaining steps needed to complete the task: <1~2 sentences according to the task execution history and current app state. Do not immediately judge the next action here>
+4. Reasoning for the next action: <1 sentence reasoning the most logical action to take next on the current state (or justification for ending the task). Refer to the guideline above>
+
+*** Assistant:
+1. Summary of my previous interactions for the task: I touched the "Home" button and then interacted with the "Deck Search" button to focus on the search textfield in the SharedDecks interface.
+
+2. Description of the current app state: The "Collapse" button is displayed, the search textfield is focused for deck name search, and the Home button is available to navigate to different decks in the SharedDecks screen.
+
+3. Inference on the remaining steps needed to complete the task: Since you have focused on the search textfield, the next step may involve searching for specific decks or exploring the available deck options by interacting with the search functionality.
+
+4. Reasoning for the next action: The next logical action would be to input a deck name in the search textfield to explore specific deck options or search for decks of interest.
+
+*** User:
+Based on your reasoning, select the next action or end the task by calling one of the given function that corresponds to a specific action.
+
+*** Assistant:
+{'id': 'chatcmpl-UMmoQxW7LyvzrZbj3vpnxClLriGlU', 'type': 'function', 'function': {'name': 'set_text', 'arguments': '{"target_widget_ID":14}'}}
+
+*** User:
+{'tool_call_id': 'chatcmpl-UMmoQxW7LyvzrZbj3vpnxClLriGlU', 'name': 'set_text', 'return_value': '{"follow_up_question": "Good. From now on, act as you are fufu and provide the text to be inputted in the selected textfield (Widget ID: 14). \\n\\nThe properties and children (if any) of the selected textfield are as follows:\\n{\\n  \\"ID\\": 14,\\n  \\"widget_type\\": \\"EditText\\",\\n  \\"text\\": \\"Search using deck name\\",\\n  \\"state\\": [\\n    \\"focused\\"\\n  ],\\n  \\"possible_action_types\\": [\\n    \\"touch\\",\\n    \\"long_touch\\",\\n    \\"set_text\\"\\n  ]\\n}\\n\\nYou need to generate concrete text content to be filled in the textfield by inferring the content based on my profile.\\n\\nI am going to provide a template for your output step by step.\\n=== Below is the template for your answer ===\\nRole of the textfield: <1~2 sentences>\\nReasoning for generating fufu\'s text: <1~2 sentences>\\nText: <generated text content>\\n\\n=== Below is the example of a valid answer format ===\\nRole of the textfield: The textfield is for inputting the user\'s full name.\\nReasoning for generating proper text: fufu should input their own name in the textfield.\\nText: fufu"}'}
+
+*** Assistant:
+Role of the textfield: The textfield is for searching using deck names in the AnkiDroid application.
+
+Reasoning for generating fufu's text: fufu should input a specific deck name to search for or explore deck options.
+
+Text: Computer Science Flashcards

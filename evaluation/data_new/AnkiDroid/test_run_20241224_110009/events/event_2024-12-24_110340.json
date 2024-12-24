@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110340",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 13,
+      "view_str": "2c0d6fd81194bd73ff7b3db2ef808bf6",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "content_description": "Deck Search",
+      "resource_id": "search",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          1200,
+          96
+        ],
+        [
+          1344,
+          240
+        ]
+      ]
+    }
+  },
+  "start_state": "2ab1dc95adce9d49c6db0a3ca7604155",
+  "stop_state": "441bc7381626ca650384b9b0c7840583",
+  "event_str": "TouchEvent(state=2ab1dc95adce9d49c6db0a3ca7604155, view=2c0d6fd81194bd73ff7b3db2ef808bf6(SharedDecksActivity/Button-))",
+  "task": "Navigate to the DeckPicker page.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_2c0d6fd81194bd73ff7b3db2ef808bf6.png"
+}

@@ -1,0 +1,1385 @@
+Activity Resolver Table:
+  Full MIME Types:
+      text/comma-separated-values:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      image/jpeg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/tiff:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/webp:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/gif:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/ico:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/jpg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/png:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      image/svg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      application/vnd.anki:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      application/apkg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      */*:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        99e780f com.ichi2.anki/leakcanary.internal.activity.LeakActivity filter af4fd22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\..*\.hprof}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      application/colpkg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      text/plain:
+        ba7e09c com.ichi2.anki/.CardBrowserContextMenuAction filter 60d7a35
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2b7b58
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        1925aa5 com.ichi2.anki/.AnkiCardContextMenuAction filter b949d96
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        38d0e7a com.ichi2.anki/.instantnoteeditor.InstantNoteEditorActivity filter d0fbaed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+      application/x-apkg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      application/octet-stream:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      application/x-colpkg:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+      text/tab-separated-values:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+
+  Base MIME Types:
+      text:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        ba7e09c com.ichi2.anki/.CardBrowserContextMenuAction filter 60d7a35
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2b7b58
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        1925aa5 com.ichi2.anki/.AnkiCardContextMenuAction filter b949d96
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        38d0e7a com.ichi2.anki/.instantnoteeditor.InstantNoteEditorActivity filter d0fbaed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+      image:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+      application:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+
+  Wild MIME Types:
+      *:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        99e780f com.ichi2.anki/leakcanary.internal.activity.LeakActivity filter af4fd22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\..*\.hprof}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Schemes:
+      anki:
+        9d4862b com.ichi2.anki/.CardBrowser filter 544846c
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "anki"
+          Authority: "x-callback-url": -1
+          Path: "PatternMatcher{LITERAL: /browser}"
+      file:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        99e780f com.ichi2.anki/leakcanary.internal.activity.LeakActivity filter af4fd22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\..*\.hprof}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      http:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      https:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      content:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        99e780f com.ichi2.anki/leakcanary.internal.activity.LeakActivity filter af4fd22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\..*\.hprof}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 9c6f3c3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.MULTIWINDOW_LAUNCHER"
+        a06a88 com.ichi2.anki/leakcanary.internal.activity.LeakLauncherActivity filter 9bc53b3
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          Category: "android.intent.category.LEANBACK_LAUNCHER"
+      android.intent.action.VIEW:
+        1f2fc21 com.ichi2.anki/.Reviewer filter 8f75eca
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+      android.appwidget.action.APPWIDGET_CONFIGURE:
+        fcd9846 com.ichi2.anki/com.ichi2.widget.deckpicker.DeckPickerWidgetConfig filter e4efd17
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+        b135a07 com.ichi2.anki/com.ichi2.widget.cardanalysis.CardAnalysisWidgetConfig filter f88f504
+          Action: "android.appwidget.action.APPWIDGET_CONFIGURE"
+      com.ichi2.anki.DO_SYNC:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1b091f
+          Action: "com.ichi2.anki.DO_SYNC"
+          Category: "android.intent.category.DEFAULT"
+      org.openintents.action.CREATE_FLASHCARD:
+        509c96e com.ichi2.anki/.IntentHandler2 filter a71183b
+          Action: "org.openintents.action.CREATE_FLASHCARD"
+          Category: "android.intent.category.DEFAULT"
+
+  MIME Typed Actions:
+      android.intent.action.SEND:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2b7b58
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        38d0e7a com.ichi2.anki/.instantnoteeditor.InstantNoteEditorActivity filter d0fbaed
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+      android.intent.action.VIEW:
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 3cd6440
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "http"
+          Scheme: "https"
+          Scheme: "content"
+          Scheme: "file"
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.apkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.colpkg}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.tsv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Path: "PatternMatcher{GLOB: .*\.csv}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+        9ba18e9 com.ichi2.anki/.IntentHandler filter c7f5f79
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "application/apkg"
+          Type: "application/colpkg"
+          Type: "application/vnd.anki"
+          Type: "application/x-apkg"
+          Type: "application/x-colpkg"
+          Type: "application/octet-stream"
+          Type: "text/tab-separated-values"
+          Type: "text/comma-separated-values"
+        9ba18e9 com.ichi2.anki/.IntentHandler filter 1e8b4be
+          Action: "android.intent.action.VIEW"
+          Action: "android.intent.action.SEND"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        509c96e com.ichi2.anki/.IntentHandler2 filter 2884b1
+          Action: "android.intent.action.SEND"
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Type: "image/jpg"
+          Type: "image/jpeg"
+          Type: "image/png"
+          Type: "image/ico"
+          Type: "image/webp"
+          Type: "image/tiff"
+          Type: "image/gif"
+          Type: "image/svg"
+        99e780f com.ichi2.anki/leakcanary.internal.activity.LeakActivity filter af4fd22
+          Action: "android.intent.action.VIEW"
+          Category: "android.intent.category.DEFAULT"
+          Category: "android.intent.category.BROWSABLE"
+          Scheme: "file"
+          Scheme: "content"
+          Authority: "": -1 WILD
+          Path: "PatternMatcher{GLOB: .*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\.hprof}"
+          Path: "PatternMatcher{GLOB: .*\..*\..*\..*\..*\..*\..*\.hprof}"
+          Type: "*"
+          mPriority=0, mOrder=0, mHasPartialTypes=true
+      android.intent.action.PROCESS_TEXT:
+        ba7e09c com.ichi2.anki/.CardBrowserContextMenuAction filter 60d7a35
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+        1925aa5 com.ichi2.anki/.AnkiCardContextMenuAction filter b949d96
+          Action: "android.intent.action.PROCESS_TEXT"
+          Category: "android.intent.category.DEFAULT"
+          Type: "text/plain"
+
+Receiver Resolver Table:
+  Schemes:
+      file:
+        515a734 com.ichi2.anki/.receiver.SdCardReceiver filter fd6e209
+          Action: "android.intent.action.MEDIA_MOUNTED"
+          Scheme: "file"
+        515a734 com.ichi2.anki/.receiver.SdCardReceiver filter 3532c0e
+          Action: "android.intent.action.MEDIA_EJECT"
+          Scheme: "file"
+
+  Non-Data Actions:
+      android.intent.action.BATTERY_OKAY:
+        962395d com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 80295c5
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.ACTION_POWER_DISCONNECTED:
+        73af2d2 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 655943c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      androidx.profileinstaller.action.SAVE_PROFILE:
+        a818fa3 com.ichi2.anki/androidx.profileinstaller.ProfileInstallReceiver filter bfab87d
+          Action: "androidx.profileinstaller.action.SAVE_PROFILE"
+      android.intent.action.DEVICE_STORAGE_LOW:
+        e0002a0 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter e19fb1a
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      android.net.conn.CONNECTIVITY_CHANGE:
+        e8e0e59 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy filter bae064b
+          Action: "android.net.conn.CONNECTIVITY_CHANGE"
+      android.intent.action.DEVICE_STORAGE_OK:
+        e0002a0 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy filter e19fb1a
+          Action: "android.intent.action.DEVICE_STORAGE_LOW"
+          Action: "android.intent.action.DEVICE_STORAGE_OK"
+      com.ichi2.widget.UPDATE_WIDGET:
+        cb16a1e com.ichi2.anki/com.ichi2.widget.WidgetPermissionReceiver filter 43e1710
+          Action: "com.ichi2.widget.UPDATE_WIDGET"
+      androidx.profileinstaller.action.INSTALL_PROFILE:
+        a818fa3 com.ichi2.anki/androidx.profileinstaller.ProfileInstallReceiver filter 1d4bc27
+          Action: "androidx.profileinstaller.action.INSTALL_PROFILE"
+      android.intent.action.BATTERY_LOW:
+        962395d com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy filter 80295c5
+          Action: "android.intent.action.BATTERY_OKAY"
+          Action: "android.intent.action.BATTERY_LOW"
+      android.intent.action.TIMEZONE_CHANGED:
+        71382ff com.ichi2.anki/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 805b828
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.TIME_SET:
+        71382ff com.ichi2.anki/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 805b828
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      androidx.profileinstaller.action.SKIP_FILE:
+        a818fa3 com.ichi2.anki/androidx.profileinstaller.ProfileInstallReceiver filter 6122ed4
+          Action: "androidx.profileinstaller.action.SKIP_FILE"
+      androidx.profileinstaller.action.BENCHMARK_OPERATION:
+        a818fa3 com.ichi2.anki/androidx.profileinstaller.ProfileInstallReceiver filter ba4d372
+          Action: "androidx.profileinstaller.action.BENCHMARK_OPERATION"
+      android.intent.action.BOOT_COMPLETED:
+        572a8cc com.ichi2.anki/.services.BootService filter 2aa362f
+          Action: "android.intent.action.BOOT_COMPLETED"
+        71382ff com.ichi2.anki/androidx.work.impl.background.systemalarm.RescheduleReceiver filter 805b828
+          Action: "android.intent.action.BOOT_COMPLETED"
+          Action: "android.intent.action.TIME_SET"
+          Action: "android.intent.action.TIMEZONE_CHANGED"
+      android.intent.action.ACTION_POWER_CONNECTED:
+        73af2d2 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy filter 655943c
+          Action: "android.intent.action.ACTION_POWER_CONNECTED"
+          Action: "android.intent.action.ACTION_POWER_DISCONNECTED"
+      android.appwidget.action.APPWIDGET_UPDATE:
+        b083715 com.ichi2.anki/com.ichi2.widget.AnkiDroidWidgetSmall filter c1e54a4
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        2860a2a com.ichi2.anki/com.ichi2.widget.AddNoteWidget filter 18c320d
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        a7501b com.ichi2.anki/com.ichi2.widget.deckpicker.DeckPickerWidget filter 2ff75c2
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+        18785b8 com.ichi2.anki/com.ichi2.widget.cardanalysis.CardAnalysisWidget filter 2b26fd3
+          Action: "android.appwidget.action.APPWIDGET_UPDATE"
+      androidx.work.diagnostics.REQUEST_DIAGNOSTICS:
+        5c22f91 com.ichi2.anki/androidx.work.impl.diagnostics.DiagnosticsReceiver filter 84caee6
+          Action: "androidx.work.diagnostics.REQUEST_DIAGNOSTICS"
+      androidx.work.impl.background.systemalarm.UpdateProxies:
+        9529ef6 com.ichi2.anki/androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver filter f7bc941
+          Action: "androidx.work.impl.background.systemalarm.UpdateProxies"
+
+Permissions:
+  Permission [com.ichi2.anki.permission.READ_WRITE_DATABASE] (ce0d2f7):
+    sourcePackage=com.ichi2.anki
+    uid=10099 gids=null type=0 prot=dangerous
+    perm=Permission{e0b4564 com.ichi2.anki.permission.READ_WRITE_DATABASE}
+    packageSetting=PackageSetting{94933cd com.ichi2.anki/10099}
+
+Permissions:
+  Permission [com.ichi2.anki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION] (f81b482):
+    sourcePackage=com.ichi2.anki
+    uid=10099 gids=null type=0 prot=signature
+    perm=Permission{dc5a793 com.ichi2.anki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION}
+    packageSetting=PackageSetting{94933cd com.ichi2.anki/10099}
+
+Registered ContentProviders:
+  com.ichi2.anki/org.acra.attachment.AcraContentProvider:
+    Provider{4e953d0 com.ichi2.anki/org.acra.attachment.AcraContentProvider}
+  com.ichi2.anki/androidx.core.content.FileProvider:
+    Provider{1c23fc9 com.ichi2.anki/androidx.core.content.FileProvider}
+  com.ichi2.anki/leakcanary.internal.PlumberInstaller:
+    Provider{d9a96ce com.ichi2.anki/leakcanary.internal.PlumberInstaller}
+  com.ichi2.anki/leakcanary.internal.MainProcessAppWatcherInstaller:
+    Provider{61929ef com.ichi2.anki/leakcanary.internal.MainProcessAppWatcherInstaller}
+  com.ichi2.anki/.provider.CardContentProvider:
+    Provider{157dcfc com.ichi2.anki/.provider.CardContentProvider}
+  com.ichi2.anki/com.canhub.cropper.CropFileProvider:
+    Provider{ea60f85 com.ichi2.anki/com.canhub.cropper.CropFileProvider}
+  com.ichi2.anki/leakcanary.internal.LeakCanaryFileProvider:
+    Provider{b4d51da com.ichi2.anki/leakcanary.internal.LeakCanaryFileProvider}
+
+ContentProvider Authorities:
+  [com.ichi2.anki.acra]:
+    Provider{4e953d0 com.ichi2.anki/org.acra.attachment.AcraContentProvider}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.ichi2.anki.leakcanary-installer]:
+    Provider{61929ef com.ichi2.anki/leakcanary.internal.MainProcessAppWatcherInstaller}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.ichi2.anki.flashcards]:
+    Provider{157dcfc com.ichi2.anki/.provider.CardContentProvider}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.ichi2.anki.cropper.fileprovider]:
+    Provider{ea60f85 com.ichi2.anki/com.canhub.cropper.CropFileProvider}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.squareup.leakcanary.fileprovider.com.ichi2.anki]:
+    Provider{b4d51da com.ichi2.anki/leakcanary.internal.LeakCanaryFileProvider}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.ichi2.anki.plumber-installer]:
+    Provider{d9a96ce com.ichi2.anki/leakcanary.internal.PlumberInstaller}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+  [com.ichi2.anki.apkgfileprovider]:
+    Provider{1c23fc9 com.ichi2.anki/androidx.core.content.FileProvider}
+      applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+
+Key Set Manager:
+  [com.ichi2.anki]
+      Signing KeySets: 36
+
+Packages:
+  Package [com.ichi2.anki] (94933cd):
+    userId=10099
+    pkg=Package{9c3cce8 com.ichi2.anki}
+    codePath=/data/app/com.ichi2.anki-2YckyCILi1NheV-KWPFTBQ==
+    resourcePath=/data/app/com.ichi2.anki-2YckyCILi1NheV-KWPFTBQ==
+    legacyNativeLibraryDir=/data/app/com.ichi2.anki-2YckyCILi1NheV-KWPFTBQ==/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=22000300 minSdk=24 targetSdk=34
+    versionName=2.20.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{778760b com.ichi2.anki}
+    flags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    privateFlags=[ PRIVATE_FLAG_ACTIVITIES_RESIZE_MODE_RESIZEABLE HAS_DOMAIN_URLS PARTIALLY_DIRECT_BOOT_AWARE ]
+    dataDir=/data/user/0/com.ichi2.anki
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    usesOptionalLibraries:
+      com.sec.android.app.multiwindow
+      androidx.window.extensions
+      androidx.window.sidecar
+    timeStamp=2024-12-24 03:00:15
+    firstInstallTime=2024-12-24 03:00:16
+    lastUpdateTime=2024-12-24 03:00:16
+    signatures=PackageSignatures{43d1f01 version:2, signatures:[bdffd21c], past signatures:[]}
+    installPermissionsFixed=true
+    pkgFlags=[ HAS_CODE ALLOW_CLEAR_USER_DATA ALLOW_BACKUP LARGE_HEAP ]
+    declared permissions:
+      com.ichi2.anki.permission.READ_WRITE_DATABASE: prot=dangerous, INSTALLED
+      com.ichi2.anki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: prot=signature, INSTALLED
+    requested permissions:
+      android.permission.WRITE_EXTERNAL_STORAGE
+      android.permission.VIBRATE
+      android.permission.INTERNET
+      android.permission.ACCESS_NETWORK_STATE
+      android.permission.RECORD_AUDIO
+      android.permission.WAKE_LOCK
+      android.permission.RECEIVE_BOOT_COMPLETED
+      android.permission.FOREGROUND_SERVICE
+      android.permission.FOREGROUND_SERVICE_DATA_SYNC
+      android.permission.POST_NOTIFICATIONS
+      android.permission.MANAGE_EXTERNAL_STORAGE
+      com.ichi2.anki.permission.READ_WRITE_DATABASE
+      com.ichi2.anki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+      android.permission.READ_EXTERNAL_STORAGE
+    install permissions:
+      android.permission.FOREGROUND_SERVICE: granted=true
+      android.permission.RECEIVE_BOOT_COMPLETED: granted=true
+      android.permission.INTERNET: granted=true
+      android.permission.ACCESS_NETWORK_STATE: granted=true
+      com.ichi2.anki.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION: granted=true
+      android.permission.VIBRATE: granted=true
+      android.permission.WAKE_LOCK: granted=true
+    User 0: ceDataInode=-4294844163 installed=true hidden=false suspended=false stopped=true notLaunched=true enabled=0 instant=false virtual=false
+      gids=[3003]
+      runtime permissions:
+
+Package Changes:
+  Sequence number=456
+  User 0:
+    seq=0, package=com.google.android.apps.inputmethod.hindi
+    seq=1, package=com.google.android.inputmethod.pinyin
+    seq=2, package=com.google.android.webview
+    seq=4, package=com.android.systemui
+    seq=6, package=com.google.android.inputmethod.latin
+    seq=94, package=com.google.android.apps.nexuslauncher
+    seq=95, package=com.google.android.sdksetup
+    seq=99, package=com.google.android.apps.restore
+    seq=106, package=com.google.android.youtube
+    seq=107, package=com.google.android.partnersetup
+    seq=117, package=com.google.android.apps.messaging
+    seq=247, package=com.android.settings
+    seq=262, package=com.google.android.gsf
+    seq=264, package=com.google.android.calendar
+    seq=284, package=com.android.camera2
+    seq=289, package=com.android.nfc
+    seq=400, package=com.google.android.gm
+    seq=408, package=com.google.android.setupwizard
+    seq=410, package=com.google.android.videos
+    seq=411, package=com.google.android.gms
+    seq=412, package=com.google.android.googlequicksearchbox
+    seq=436, package=com.android.chrome
+    seq=453, package=com.ichi2.anki
+    seq=455, package=io.github.ylimit.droidbotapp
+
+
+Dexopt state:
+  [com.ichi2.anki]
+    path: /data/app/com.ichi2.anki-2YckyCILi1NheV-KWPFTBQ==/base.apk
+      x86: [status=run-from-apk] [reason=unknown]
+
+
+Compiler stats:
+  [com.ichi2.anki]
+     base.apk - 1460

@@ -1,0 +1,38 @@
+{
+  "tag": "2024-12-24_110759",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 12,
+      "view_str": "69b4af4895fa5170a965c77daedd47e6",
+      "widget_type": "CheckedTextView",
+      "class": "android.widget.CheckedTextView",
+      "text": "Decks",
+      "resource_id": "design_menu_item_text",
+      "state": [
+        "checked"
+      ],
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          84,
+          486
+        ],
+        [
+          756,
+          606
+        ]
+      ]
+    }
+  },
+  "start_state": "1035b4470f077d3525f86aeada1e9f9f",
+  "stop_state": "c4daa5f88135a64657d5e331dcc8303e",
+  "event_str": "TouchEvent(state=1035b4470f077d3525f86aeada1e9f9f, view=69b4af4895fa5170a965c77daedd47e6(DeckPicker/CheckedTextView-Decks))",
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_69b4af4895fa5170a965c77daedd47e6.png"
+}

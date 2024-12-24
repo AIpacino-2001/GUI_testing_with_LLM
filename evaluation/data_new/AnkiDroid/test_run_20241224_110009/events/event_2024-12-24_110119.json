@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110119",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 30,
+      "view_str": "a207a0989fee44833a243dda6dfc32d6",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "Log in",
+      "resource_id": "login_button",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          372,
+          1573
+        ],
+        [
+          972,
+          1717
+        ]
+      ]
+    }
+  },
+  "start_state": "749ce2f0e074f4175ce62fe6a038bc96",
+  "stop_state": "7c64a59524505a9fec92762da4acfb94",
+  "event_str": "TouchEvent(state=749ce2f0e074f4175ce62fe6a038bc96, view=a207a0989fee44833a243dda6dfc32d6(LoginActivity/Button-Log in))",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_a207a0989fee44833a243dda6dfc32d6.png"
+}

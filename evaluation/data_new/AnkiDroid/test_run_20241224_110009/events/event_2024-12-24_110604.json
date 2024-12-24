@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110604",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 15,
+      "view_str": "13f7c5d8aae72b58c99fec64b44eb52d",
+      "widget_type": "ImageView",
+      "class": "android.widget.ImageView",
+      "content_description": "Clear query",
+      "resource_id": "search_close_btn",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          1056,
+          96
+        ],
+        [
+          1176,
+          240
+        ]
+      ]
+    }
+  },
+  "start_state": "ee46299e2e91ee54b4fa73821ee92ad6",
+  "stop_state": "441bc7381626ca650384b9b0c7840583",
+  "event_str": "TouchEvent(state=ee46299e2e91ee54b4fa73821ee92ad6, view=13f7c5d8aae72b58c99fec64b44eb52d(SharedDecksActivity/ImageView-))",
+  "task": "Explore the DeckPicker page to understand available deck options.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_13f7c5d8aae72b58c99fec64b44eb52d.png"
+}

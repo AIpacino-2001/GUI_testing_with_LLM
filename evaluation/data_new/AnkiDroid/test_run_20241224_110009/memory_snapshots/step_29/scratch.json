@@ -1,0 +1,12 @@
+{
+  "task": "Navigate to the DeckPicker page.",
+  "task_end_condition": "The task is known to be completed when fufu successfully lands on the DeckPicker page.",
+  "working_memory": [
+    {
+      "description": "Touch on a button that has content_desc \"Deck Search\"",
+      "type": "ACTION",
+      "timestamp": "11:03:06",
+      "page": "SharedDecks"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a focused password textfield that has text "20080808"
+
+Past interactions on the widget:
+- result of set_text 20080808: The password textfield on the login screen has been successfully filled with the new password "20080808", replacing the previous placeholder text "Password".
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget serves as a password textfield on the login screen, allowing users to enter their password, with the current text displayed being "20080808".

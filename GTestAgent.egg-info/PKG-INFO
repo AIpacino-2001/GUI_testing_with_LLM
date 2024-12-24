@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: GTestAgent
+Version: 1.0
+Summary: A GTestAgent module for better GUI testing
+Author: greenmon
+Author-email: greenmon@kaist.ac.kr
+Requires-Dist: openai

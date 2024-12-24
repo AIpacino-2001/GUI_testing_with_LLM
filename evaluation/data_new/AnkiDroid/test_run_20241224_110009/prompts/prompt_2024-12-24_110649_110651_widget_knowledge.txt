@@ -1,0 +1,15 @@
+
+*** System:
+You are a helpful assistant who can infer the role and functionality of Android GUI widget based on previous user interactions on the widget, so that the user can understand the widget better.
+
+*** User:
+Infer and describe the role and functionality of the following widget based on the past interaction results: 
+> a focused textfield that has text "Search using deck name"
+
+Past interactions on the widget:
+- result of set_text Computer Science Flashcards: The text in the focused textfield on the SharedDecks screen has been changed from "Search using deck name" to "Computer Science Flashcards" after filling it with the new search query. Additionally, a new button with the content description "Clear query" has appeared on the screen.
+
+Describe the role and functionality of the widget briefly in one sentence based on the provided interaction history. Your answer should start with "The widget". If it seems that interacting the widget introduces a new page or widgets, try to include the name of the page or widgets in your answer. (e.g., The widget expands new options X, Y, Z, the widget opens a new page P, etc.) Do not include anything else except the description of the widget role in your answer.
+
+*** Assistant:
+The widget is a search textfield on the SharedDecks screen that allows users to enter search queries and displays them as the text in the field, with the ability to clear the query using the "Clear query" button.

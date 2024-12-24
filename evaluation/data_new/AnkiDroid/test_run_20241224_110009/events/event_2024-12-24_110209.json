@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-24_110209",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 20,
+      "view_str": "46c7e57b6dccd05af1b523826a25fa74",
+      "widget_type": "ImageButton",
+      "class": "android.widget.ImageButton",
+      "resource_id": "fab_main",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          1080,
+          2582
+        ],
+        [
+          1248,
+          2750
+        ]
+      ]
+    }
+  },
+  "start_state": "c4daa5f88135a64657d5e331dcc8303e",
+  "stop_state": "8f845b29936daeb7c56852bd615456e4",
+  "event_str": "TouchEvent(state=c4daa5f88135a64657d5e331dcc8303e, view=46c7e57b6dccd05af1b523826a25fa74(DeckPicker/ImageButton-))",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_46c7e57b6dccd05af1b523826a25fa74.png"
+}

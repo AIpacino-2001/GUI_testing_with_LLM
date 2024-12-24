@@ -1,0 +1,38 @@
+{
+  "tag": "2024-12-24_110052",
+  "event": {
+    "event_type": "set_text",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 16,
+      "view_str": "c99b26867f546fa32e5075e2c319b92b",
+      "widget_type": "EditText",
+      "class": "android.widget.EditText",
+      "text": "Email address",
+      "resource_id": "username",
+      "possible_action_types": [
+        "touch",
+        "long_touch",
+        "set_text"
+      ],
+      "bounds": [
+        [
+          69,
+          1063
+        ],
+        [
+          1275,
+          1237
+        ]
+      ]
+    },
+    "text": "2797195863@qq.com"
+  },
+  "start_state": "5ca95f8526da20fd75a594ea3d8ba0cf",
+  "stop_state": "bca7550556c3aa09c02ccfd0b6602a51",
+  "event_str": "SetTextEvent(state=5ca95f8526da20fd75a594ea3d8ba0cf, view=c99b26867f546fa32e5075e2c319b92b(LoginActivity/EditText-Email addr), text=2797195863@qq.com)",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_c99b26867f546fa32e5075e2c319b92b.png"
+}

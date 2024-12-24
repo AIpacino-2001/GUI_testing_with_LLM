@@ -1,0 +1,807 @@
+{
+  "tag": "2024-12-24_110132",
+  "state_str": "e195add74e69e2dfc66fc2db34ce49b3",
+  "state_str_content_free": "6e1890d237770ae5912608a7e7cccf2e",
+  "foreground_activity": "com.ichi2.anki/.DeckPicker",
+  "activity_stack": [
+    "com.ichi2.anki/.DeckPicker"
+  ],
+  "background_services": [
+    "com.ichi2.anki/org.chromium.content.app.SandboxedProcessService0",
+    "com.google.android.apps.messaging/com.google.android.ims.service.JibeService",
+    "com.google.android.gms/.deviceconnection.service.DeviceConnectionWatcherService",
+    "com.google.android.gms/com.google.android.location.places.service.PlaceDetectionAsyncService",
+    "com.android.systemui/.keyguard.KeyguardService",
+    "com.android.systemui/.ImageWallpaper",
+    "com.google.android.gms/com.google.android.location.geocode.GeocodeService",
+    "com.google.android.gms/.auth.setup.devicesignals.LockScreenService",
+    "com.google.android.gms/.gcm.GcmService",
+    "com.google.android.gms/.auth.proximity.firstparty.SystemMemoryCacheService",
+    "com.google.android.gms/.clearcut.debug.ClearcutDebugDumpService",
+    "com.google.android.gms/.chimera.PersistentApiService",
+    "com.android.phone/com.android.internal.telephony.CellularNetworkService",
+    "com.google.android.gms/.chimera.PersistentBoundBrokerService",
+    "com.google.android.ims/.services.WakeLockService",
+    "com.google.android.gms/.chimera.GmsApiService",
+    "com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService",
+    "io.github.ylimit.droidbotapp/.DroidBotIME",
+    "com.google.android.gms/com.google.android.location.fused.FusedLocationService",
+    "com.google.android.gms/.phenotype.service.sync.PhenotypeConfigurator",
+    "com.google.android.gms/.gcm.nts.SchedulerService",
+    "com.google.android.gms/.checkin.CheckinService",
+    "io.github.ylimit.droidbotapp/io.github.privacystreams.accessibility.PSAccessibilityService",
+    "com.google.android.gms/com.google.android.location.geofencer.service.GeofenceProviderService",
+    "com.google.android.gms/.thunderbird.EmergencyPersistentService",
+    "com.android.chrome/org.chromium.content.app.SandboxedProcessService0",
+    "com.android.systemui/.SystemUIService",
+    "com.google.android.gms/.nearby.exposurenotification.service.ExposureMatchingService",
+    "com.android.chrome/org.chromium.content.app.PrivilegedProcessService0",
+    "android/.hardware.location.GeofenceHardwareService",
+    "com.android.se/.SecureElementService",
+    "com.google.android.ims/.services.RcsService",
+    "com.google.android.gms/.chimera.GmsIntentOperationService",
+    "com.google.android.gms/.chimera.PersistentDirectBootAwareApiService",
+    "com.google.android.gms/.chimera.PersistentIntentOperationService",
+    "com.google.android.ext.services/android.ext.services.notification.Assistant",
+    "com.google.android.gms/.location.persistent.LocationPersistentService",
+    "com.google.android.gms/com.google.android.location.internal.PendingIntentCallbackService",
+    "com.google.android.apps.photos/com.google.android.libraries.social.async.BackgroundTaskJobService",
+    "com.google.android.gms/com.google.android.location.internal.server.GoogleLocationService",
+    "com.google.android.gms/com.google.android.contextmanager.service.ContextManagerService",
+    "com.google.android.gms/com.google.android.location.network.NetworkLocationService",
+    "com.google.android.gms/com.google.android.location.internal.GoogleLocationManagerService",
+    "com.google.android.apps.messaging/com.google.firebase.iid.FirebaseInstanceIdService",
+    "com.android.phone/com.android.internal.telephony.dataconnection.CellularDataService",
+    "com.android.server.telecom/.components.TelecomService",
+    "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabsConnectionService",
+    "com.google.android.googlequicksearchbox/com.google.android.voiceinteraction.GsaVoiceInteractionService",
+    "com.android.smspush/.WapPushManager",
+    "com.android.phone/.vvm.RemoteVvmTaskManager",
+    "android/com.android.server.content.SyncJobService",
+    "com.google.android.gms/.common.stats.GmsCoreStatsService",
+    "com.google.android.gms/com.google.android.location.internal.server.HardwareArProviderService",
+    "com.google.android.gm/com.google.firebase.iid.FirebaseInstanceIdService",
+    "com.android.phone/.TelephonyDebugService",
+    "com.google.android.videos/.service.pinning.TransferService",
+    "com.google.android.apps.nexuslauncher/com.android.quickstep.TouchInteractionService",
+    "com.google.android.ims/.services.NetworkConnectionsService"
+  ],
+  "width": 1344,
+  "height": 2992,
+  "views": [
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        1
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          34,
+          1126
+        ],
+        [
+          1310,
+          1793
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": -1,
+      "temp_id": 0,
+      "size": "1276*667",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9fc7e8dc3ac748b6549563705909cbef",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        2
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 0,
+      "temp_id": 1,
+      "size": "1180*571",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "cfd77b8e50d5ed441e4b6273ae1e7a83",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        3
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 1,
+      "temp_id": 2,
+      "size": "1180*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "e27852d35f4b9efd324802cdf7bdda77",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]None"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        4
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/action_bar_root",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 2,
+      "temp_id": 3,
+      "size": "1180*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.ichi2.anki:id/action_bar_root[text]None[enabled,,]",
+      "view_str": "76dccb622b258249881371d260f6b32b",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.ichi2.anki:id/action_bar_root"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        5
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": "android:id/content",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 3,
+      "temp_id": 4,
+      "size": "1180*571",
+      "signature": "[class]android.widget.FrameLayout[resource_id]android:id/content[text]None[enabled,,]",
+      "view_str": "74eb18b71d238fd41f912c467345d159",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]android:id/content"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 3,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        6,
+        11,
+        15
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/parentPanel",
+      "checked": false,
+      "text": null,
+      "class": "androidx.appcompat.widget.LinearLayoutCompat",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 4,
+      "temp_id": 5,
+      "size": "1180*571",
+      "signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.ichi2.anki:id/parentPanel[text]None[enabled,,]",
+      "view_str": "c3d796ae55cd289536a81446ecfa0459",
+      "content_free_signature": "[class]androidx.appcompat.widget.LinearLayoutCompat[resource_id]com.ichi2.anki:id/parentPanel"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        7,
+        10
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1373
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/topPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 6,
+      "size": "1180*199",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.ichi2.anki:id/topPanel[text]None[enabled,,]",
+      "view_str": "67ae8de185eed77c8611cf3ea4930fd4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.ichi2.anki:id/topPanel"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        8,
+        9
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1174
+        ],
+        [
+          1262,
+          1325
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/title_template",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 7,
+      "size": "1180*151",
+      "signature": "[class]android.widget.LinearLayout[resource_id]com.ichi2.anki:id/title_template[text]None[enabled,,]",
+      "view_str": "4c3ee801693264518d34c294ef9f8f05",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]com.ichi2.anki:id/title_template"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          154,
+          1240
+        ],
+        [
+          226,
+          1312
+        ]
+      ],
+      "resource_id": "android:id/icon",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ImageView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 8,
+      "size": "72*72",
+      "signature": "[class]android.widget.ImageView[resource_id]android:id/icon[text]None[enabled,,]",
+      "view_str": "254a43cdbf8d5cd2fc2f7ed70409aa20",
+      "content_free_signature": "[class]android.widget.ImageView[resource_id]android:id/icon"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          274,
+          1228
+        ],
+        [
+          861,
+          1325
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/alertTitle",
+      "checked": false,
+      "text": "Replace collection",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 7,
+      "temp_id": 9,
+      "size": "587*97",
+      "signature": "[class]android.widget.TextView[resource_id]com.ichi2.anki:id/alertTitle[text]Replace collection[enabled,,]",
+      "view_str": "848646bd3c957e3ca4399301dcd9f733",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]com.ichi2.anki:id/alertTitle"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1325
+        ],
+        [
+          1262,
+          1373
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/titleDividerNoCustom",
+      "checked": false,
+      "text": null,
+      "class": "android.view.View",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 6,
+      "temp_id": 10,
+      "size": "1180*48",
+      "signature": "[class]android.view.View[resource_id]com.ichi2.anki:id/titleDividerNoCustom[text]None[enabled,,]",
+      "view_str": "e91fb6fe14e5ce0bd67e912119b70375",
+      "content_free_signature": "[class]android.view.View[resource_id]com.ichi2.anki:id/titleDividerNoCustom"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        12
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1373
+        ],
+        [
+          1262,
+          1517
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/contentPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.FrameLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 11,
+      "size": "1180*144",
+      "signature": "[class]android.widget.FrameLayout[resource_id]com.ichi2.anki:id/contentPanel[text]None[enabled,,]",
+      "view_str": "1473dd0fee1b4764e9a47304cc912325",
+      "content_free_signature": "[class]android.widget.FrameLayout[resource_id]com.ichi2.anki:id/contentPanel"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        13
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1373
+        ],
+        [
+          1262,
+          1490
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/scrollView",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 11,
+      "temp_id": 12,
+      "size": "1180*117",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.ichi2.anki:id/scrollView[text]None[enabled,,]",
+      "view_str": "102d1c089623487b63c6f3d6db9f1bd0",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.ichi2.anki:id/scrollView"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        14
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1373
+        ],
+        [
+          1262,
+          1490
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 12,
+      "temp_id": 13,
+      "size": "1180*117",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "9b062212a5d0f91a0ce4143ed1db33d4",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1373
+        ],
+        [
+          1262,
+          1490
+        ]
+      ],
+      "resource_id": "android:id/message",
+      "checked": false,
+      "text": "Replace your collection on AnkiWeb with your collection from AnkiDroid?",
+      "class": "android.widget.TextView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 13,
+      "temp_id": 14,
+      "size": "1180*117",
+      "signature": "[class]android.widget.TextView[resource_id]android:id/message[text]None[enabled,,]",
+      "view_str": "9102b6e1efe07859e57a10963bd6e734",
+      "content_free_signature": "[class]android.widget.TextView[resource_id]android:id/message"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 1,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        16
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1517
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": "com.ichi2.anki:id/buttonPanel",
+      "checked": false,
+      "text": null,
+      "class": "android.widget.ScrollView",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 5,
+      "temp_id": 15,
+      "size": "1180*228",
+      "signature": "[class]android.widget.ScrollView[resource_id]com.ichi2.anki:id/buttonPanel[text]None[enabled,,]",
+      "view_str": "6e61ace90f95360d8518656809bd4ce7",
+      "content_free_signature": "[class]android.widget.ScrollView[resource_id]com.ichi2.anki:id/buttonPanel"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 2,
+      "editable": false,
+      "clickable": false,
+      "is_password": false,
+      "focusable": false,
+      "enabled": true,
+      "content_description": null,
+      "children": [
+        17,
+        18
+      ],
+      "focused": false,
+      "bounds": [
+        [
+          82,
+          1517
+        ],
+        [
+          1262,
+          1745
+        ]
+      ],
+      "resource_id": null,
+      "checked": false,
+      "text": null,
+      "class": "android.widget.LinearLayout",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 15,
+      "temp_id": 16,
+      "size": "1180*228",
+      "signature": "[class]android.widget.LinearLayout[resource_id]None[text]None[enabled,,]",
+      "view_str": "1d3e733127dfec907d24171c8b1e16c5",
+      "content_free_signature": "[class]android.widget.LinearLayout[resource_id]None"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          741,
+          1559
+        ],
+        [
+          942,
+          1703
+        ]
+      ],
+      "resource_id": "android:id/button2",
+      "checked": false,
+      "text": "Cancel",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 17,
+      "size": "201*144",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button2[text]Cancel[enabled,,]",
+      "view_str": "98be20b9155951264e73ef1929026f89",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button2"
+    },
+    {
+      "package": "com.ichi2.anki",
+      "visible": true,
+      "checkable": false,
+      "child_count": 0,
+      "editable": false,
+      "clickable": true,
+      "is_password": false,
+      "focusable": true,
+      "enabled": true,
+      "content_description": null,
+      "children": [],
+      "focused": false,
+      "bounds": [
+        [
+          966,
+          1559
+        ],
+        [
+          1190,
+          1703
+        ]
+      ],
+      "resource_id": "android:id/button1",
+      "checked": false,
+      "text": "Replace",
+      "class": "android.widget.Button",
+      "scrollable": false,
+      "selected": false,
+      "long_clickable": false,
+      "parent": 16,
+      "temp_id": 18,
+      "size": "224*144",
+      "signature": "[class]android.widget.Button[resource_id]android:id/button1[text]Replace[enabled,,]",
+      "view_str": "48393a00e1d522e37f5e0216f2502aea",
+      "content_free_signature": "[class]android.widget.Button[resource_id]android:id/button1"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-24_110507",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 9,
+      "view_str": "fcf0b44516686479beda20d4c6d84224",
+      "widget_type": "ImageButton",
+      "class": "android.widget.ImageButton",
+      "content_description": "Collapse",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          168,
+          252
+        ]
+      ]
+    }
+  },
+  "start_state": "441bc7381626ca650384b9b0c7840583",
+  "stop_state": "2ab1dc95adce9d49c6db0a3ca7604155",
+  "event_str": "TouchEvent(state=441bc7381626ca650384b9b0c7840583, view=fcf0b44516686479beda20d4c6d84224(SharedDecksActivity/ImageButton-))",
+  "task": "Navigate to the DeckPicker page.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_fcf0b44516686479beda20d4c6d84224.png"
+}

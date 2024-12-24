@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_110224",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 35,
+      "view_str": "79a8d1a0115001f7c06b8a763424cf28",
+      "widget_type": "TextView",
+      "class": "android.widget.TextView",
+      "text": "Get shared decks",
+      "resource_id": "add_shared_label",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          675,
+          2009
+        ],
+        [
+          1059,
+          2096
+        ]
+      ]
+    }
+  },
+  "start_state": "8f845b29936daeb7c56852bd615456e4",
+  "stop_state": "1eb00a39140d25e1574a081ca6dd4c83",
+  "event_str": "TouchEvent(state=8f845b29936daeb7c56852bd615456e4, view=79a8d1a0115001f7c06b8a763424cf28(DeckPicker/TextView-Get shared))",
+  "task": "Sync data from AnkiWeb to AnkiDroid",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_110009\\views/view_79a8d1a0115001f7c06b8a763424cf28.png"
+}
