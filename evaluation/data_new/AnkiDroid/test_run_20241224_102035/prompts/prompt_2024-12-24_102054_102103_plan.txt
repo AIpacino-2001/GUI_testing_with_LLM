@@ -1,0 +1,110 @@
+
+*** System:
+You are a helpful task planner for using an Android mobile application named AnkiDroid. You are planning for a person named "fufu" with the following profile:
+(The username and password is what fufu generally uses for their accounts.)
+- name: fufu
+- phone: 18939657663
+- email: 2797195863@qq.com
+- username: fufu
+- password: 20080808
+- date_of_birth: 1997-10-29
+- age: 25
+- self_introduction: I am a 25-year-old graduate student studying computer science.
+
+fufu's ultimate goal is to visit as many pages as possible while trying their core functionalities. 
+
+- AnkiDroid app has following pages: [ManageSpace, Drawing, IntentHandler, DeckPicker, StudyOptions, CardBrowser, ManageNotetypes, Permissions, ModelFieldEditor, Reviewer, MyAccount, Multimedia, Preferences, FilteredDeckOptions, Info, IntentHandler2, SingleFragment, CardViewer, CardTemplateEditor, CardTemplateBrowserAppearanceEditor, SharedDecks, Login, Introduction, DeckPickerWidgetConfig, CardAnalysisWidgetConfig, InstantNoteEditor] (Note that the pages are listed in random order)
+- Currently, fufu has visited the following pages with the following number of times: {Introduction: 1}
+- Currently, fufu is on the Introduction page.
+- Pages never visited yet: [CardBrowser, CardViewer, DeckPicker, InstantNoteEditor, SharedDecks, Info, CardTemplateBrowserAppearanceEditor, Login, ModelFieldEditor, CardTemplateEditor, Reviewer, CardAnalysisWidgetConfig, ManageNotetypes, SingleFragment, Drawing, FilteredDeckOptions, Permissions, IntentHandler2, MyAccount, Preferences, IntentHandler, Multimedia, DeckPickerWidgetConfig, StudyOptions, ManageSpace] 
+
+fufu is not familiar with the app and does not fully know how to navigate to each page and what fufu can do on each page.
+To effectively explore the app for their goal, fufu needs a new task that aligns with the following desirable properties:
+- (Realism) The task should corresponds to a realistic usage scenario of AnkiDroid app, and reflect user's intent for actually making use of the app's functionality. Do NOT plan vague tasks like "Navigate to X" or "Explore X". Instead, plan a realistic task so that it naturally leads to discover new widgets or pages. For example, "Add X to cart" is more preferred than "Navigate to the cart page" ot "Explore the cart page".
+- (Importance) Prioritize important tasks that make use of core and basic functions of the app. Do not stay on the same page for too long while having unvisited pages. After visiting all the pages, plan more advanced tasks based on fufu's own preferences.
+- (Diversity) You need to plan diverse tasks that are different from the tasks that fufu has performed before. If a previous task has failed despite multiple attempts, the task might be too hard or impossible. Postpone the task and plan a different task. Pay attention to the number of previous actions performed on a specific widget, and consider a task that involves an widget that has never been interacted with yet.
+- (Difficulty) The task should not be too hard since fufu may not have learned enough knowledge about the app to complete it yet. Plan a task that is highly likely to succeed in a few steps from the current state. However, the task should correspond to a meaningful function unit of the app. For example, "Attach a photo to a message" is more preferred than "Touch a photo button".
+
+*** User:
+Plan fufu's next task based on the following information.
+
+fufu's prior knowledge and history of previous tasks so far (listed in chronological order):
+===
+2024-12-24 10:20:53: [INITIAL_KNOWLEDGE] fufu owns an existing account on AnkiWeb
+2024-12-24 10:20:53: [INITIAL_KNOWLEDGE] fufu started the AnkiDroid app
+===
+
+fufu's learnt knowledge from previous tasks (which may be relevant to the current context):
+===
+
+===
+
+Current page (organized in a hierarchical structure):
+```json
+{
+  page_name: Introduction,
+  children: [
+    {
+      widget_type: TextView,
+      text: Study less
+    },
+    {
+      widget_type: TextView,
+      text: Remember more
+    },
+    {
+      widget_type: TextView,
+      text: Ankis card scheduler saves time by strengthening your weakest memories and preserving your stronges[...]
+    },
+    {
+      ID: 14,
+      widget_type: Button,
+      text: Get Started,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    },
+    {
+      ID: 15,
+      widget_type: Button,
+      text: Sync from AnkiWeb,
+      possible_action_types: [
+        touch
+      ],
+      num_prev_actions: 0
+    }
+  ]
+}
+```
+Note that `num_prev_actions` means the number of times the widget has been interacted with during the previous tasks. If `num_prev_actions` property is not included in the widget dictionary, fufu has never performed any action on the widget yet.
+
+fufu can perform the following types of actions:
+- Scroll on a scrollable widget
+- Touch on a clickable widget
+- Long touch on a long-clickable widget
+- Fill in an editable widget
+- Navigate back by pressing the back button
+
+I am going to provide a template for your output to reason about your next task step by step. Fill out the <...> parts in the template with your own words. Do not include anything else in your answer except the text to fill out the template. Preserve the formatting and overall template.
+
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: <1~2 sentences in one line. Use the aforementioned four properties: realism, importance, diversity and difficulty to reason about the next task>
+fufu's next task: <1 sentence, start with a verb>
+End condition of fufu's next task: <1 sentence, start with "The task is known to be completed when">
+Reasoning of the first action of the fufu's next task: <reasoning and description of the first action initiating the task>
+Rough plan for the task in fufu's perspective: <1 sentence, start with "I plan to"; pretend that you are fufu>
+
+*** Assistant:
+=== Below is the template for your answer ===
+Reasoning about fufu's new task: The task should focus on diversity by exploring a new page that fufu has not visited yet, ensuring realism by aligning with the user's goal of exploring core functionalities, and maintaining a moderate difficulty level for fufu's current knowledge level.
+fufu's next task: Visit the CardBrowser page.
+End condition of fufu's next task: The task is known to be completed when fufu successfully navigates to the CardBrowser page.
+Reasoning of the first action of the fufu's next task: fufu should touch the "Get Started" button on the Introduction page to progress towards exploring the CardBrowser page.
+Rough plan for the task in fufu's perspective: I plan to touch the "Get Started" button on the Introduction page to navigate to the CardBrowser page.
+
+*** User:
+Good. Now, based on your previous answer, execute the first action (by calling a function) to start the task. Pay attention to the possible action types specified in the target widget.
+
+*** Assistant:
+{'id': 'chatcmpl-eO0pOdXlnTRbee29IKfp88rRbb9tZ', 'type': 'function', 'function': {'name': 'touch', 'arguments': '{"target_widget_ID":14}'}}

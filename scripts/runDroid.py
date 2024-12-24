@@ -31,7 +31,7 @@ logging.getLogger('androguard').setLevel(logging.WARNING)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PERSONA_PATH = os.path.join(BASE_DIR, '..', 'resources/personas')
 WAIT_TIME = 1
-MAX_ACTIONS = 800000
+MAX_ACTIONS = 80
 
 
 def read_persona_file(profile_name):
@@ -178,4 +178,21 @@ if __name__ == "__main__":
         }, f, indent=2, ensure_ascii=False)
 
     print("\n[系统] 开始执行测试...")
-    execute_test(android_device, target_app, role_config)
+    try:
+        execute_test(android_device, target_app, role_config)
+    except (KeyboardInterrupt, TimeoutError) as e:
+        print("Ending the exploration due to a user request or timeout.")
+        print(e)
+        android_device.uninstall_app(target_app)
+        android_device.disconnect()
+        android_device.tear_down()
+        exit(0)
+
+    except Exception as e:
+        print("Ending the exploration due to an unexpected error.")
+        print(e)
+        android_device.uninstall_app(target_app)
+        android_device.disconnect()
+        android_device.tear_down()
+
+        raise e

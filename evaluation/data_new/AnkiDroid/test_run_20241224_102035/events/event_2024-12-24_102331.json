@@ -1,0 +1,34 @@
+{
+  "tag": "2024-12-24_102331",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 9,
+      "view_str": "93e73b00c41b535d743fefbfcc6bfed3",
+      "widget_type": "ImageButton",
+      "class": "android.widget.ImageButton",
+      "content_description": "Open drawer",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          0,
+          84
+        ],
+        [
+          168,
+          252
+        ]
+      ]
+    }
+  },
+  "start_state": "c4daa5f88135a64657d5e331dcc8303e",
+  "stop_state": "1035b4470f077d3525f86aeada1e9f9f",
+  "event_str": "TouchEvent(state=c4daa5f88135a64657d5e331dcc8303e, view=93e73b00c41b535d743fefbfcc6bfed3(DeckPicker/ImageButton-))",
+  "task": "Visit the CardBrowser page.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_102035\\views/view_93e73b00c41b535d743fefbfcc6bfed3.png"
+}

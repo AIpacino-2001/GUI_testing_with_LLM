@@ -1,0 +1,35 @@
+{
+  "tag": "2024-12-24_102106",
+  "event": {
+    "event_type": "touch",
+    "log_lines": null,
+    "x": null,
+    "y": null,
+    "view": {
+      "ID": 14,
+      "view_str": "6b87cba695140e03b9e786091f80906a",
+      "widget_type": "Button",
+      "class": "android.widget.Button",
+      "text": "Get Started",
+      "resource_id": "get_started",
+      "possible_action_types": [
+        "touch"
+      ],
+      "bounds": [
+        [
+          372,
+          2338
+        ],
+        [
+          972,
+          2482
+        ]
+      ]
+    }
+  },
+  "start_state": "cc8a2cc2f0ee1899487ca48e613352fc",
+  "stop_state": "41d8ad69f1ce70121bf28fcbcdd64903",
+  "event_str": "TouchEvent(state=cc8a2cc2f0ee1899487ca48e613352fc, view=6b87cba695140e03b9e786091f80906a(IntroductionActivity/Button-Get Starte))",
+  "task": "Visit the CardBrowser page.",
+  "view_image_dir": "C:\\Users\\27971\\Desktop\\try\\GUI_testing_with_LLM\\scripts\\../evaluation/data_new/AnkiDroid\\test_run_20241224_102035\\views/view_6b87cba695140e03b9e786091f80906a.png"
+}
