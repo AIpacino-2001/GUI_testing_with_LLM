@@ -74,7 +74,8 @@ LLM对于User的回答是：
 actor做完后，reflector会做总结
 ![image-20241223142248911](assets/image-20241223142248911.png)
 
-
+## 演示视频
+https://www.bilibili.com/video/BV1RGCzYJENb/?vd_source=f1a0f7ae4f26fe1814461f9d94d1c9a0
 
 ## 项目配置
 
